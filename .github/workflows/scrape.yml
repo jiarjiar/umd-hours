@@ -17,16 +17,24 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  scrape:
+  scrape-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
       - run: pip install --quiet requests beautifulsoup4
+
       - run: python scrape.py
-      - name: Commit data if changed
+
+      - name: Push updated data.json
         run: |
           git config user.name "UMD Hours Bot"
           git config user.email "bot@umd-hours.github.io"
@@ -38,18 +46,11 @@ jobs:
             git push
           fi
 
-  deploy:
-    needs: scrape
-    if: always()
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
-    steps:
-      - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+
       - uses: actions/upload-pages-artifact@v4
         with:
           path: '.'
+
       - id: deploy
         uses: actions/deploy-pages@v4
