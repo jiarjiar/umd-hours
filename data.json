@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-13T18:52:40.146973",
-  "generated_at_readable": "2026-07-13 18:52:40 ",
+  "generated_at": "2026-07-13T18:57:08.936344",
+  "generated_at_readable": "2026-07-13 18:57:08 ",
   "week_dates": [
     {
       "date": "2026-07-13",
@@ -33,7 +33,7 @@
   ],
   "natatorium": {
     "source": "https://recwell.umd.edu/facility-alerts",
-    "last_updated": "2026-07-13T18:52:40.408811",
+    "last_updated": "2026-07-13T18:57:09.101755",
     "alerts": [
       "The Eppley Recreation Center Natatorium and Outdoor Aquatic Center hours of operations are modified between Thursday, July 9, and Monday, July 20, due to various special events. Please review the tables below for specific dates and times."
     ],
@@ -96,7 +96,7 @@
   "dining_halls": {
     "source": "UMD Dining Halls",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
-    "last_updated": "2026-07-13T18:52:41.198127",
+    "last_updated": "2026-07-13T18:57:09.936724",
     "week_of": "2026-07-13 - 2026-07-19",
     "venues": [
       {
@@ -200,7 +200,7 @@
   "cafes": {
     "source": "UMD Cafes",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
-    "last_updated": "2026-07-13T18:52:41.786571",
+    "last_updated": "2026-07-13T18:57:10.552651",
     "week_of": "2026-07-13 - 2026-07-19",
     "venues": [
       {
@@ -368,6 +368,112 @@
             "Fri": "10am-6pm",
             "Sat": "TBD",
             "Sun": "TBD"
+          }
+        }
+      }
+    ]
+  },
+  "stamp": {
+    "source": "UMD Stamp Dining",
+    "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=57096019",
+    "last_updated": "2026-07-13T18:57:11.185272",
+    "week_of": "2026-07-13 - 2026-07-19",
+    "venues": [
+      {
+        "name": "Chick-fil-A",
+        "schedule": {
+          "": {
+            "Mon": "8:30am-7pm",
+            "Tue": "8:30am-7pm",
+            "Wed": "8:30am-7pm",
+            "Thu": "8:30am-7pm",
+            "Fri": "8:30am-4:30pm",
+            "Sat": "Closed",
+            "Sun": "Closed"
+          }
+        }
+      },
+      {
+        "name": "The Coffee Bar",
+        "schedule": {
+          "": {
+            "Mon": "8am-3pm",
+            "Tue": "8am-3pm",
+            "Wed": "8am-3pm",
+            "Thu": "8am-3pm",
+            "Fri": "8am-3pm",
+            "Sat": "Closed",
+            "Sun": "Closed"
+          }
+        }
+      },
+      {
+        "name": "Maryland Dairy",
+        "schedule": {
+          "": {
+            "Mon": "12pm-4:30pm",
+            "Tue": "12pm-4:30pm",
+            "Wed": "12pm-4:30pm",
+            "Thu": "12pm-4:30pm",
+            "Fri": "12pm-4:30pm",
+            "Sat": "Closed",
+            "Sun": "Closed"
+          }
+        }
+      },
+      {
+        "name": "Panera Bread",
+        "schedule": {
+          "": {
+            "Mon": "8:30am-2pm",
+            "Tue": "8:30am-2pm",
+            "Wed": "8:30am-2pm",
+            "Thu": "8:30am-2pm",
+            "Fri": "8:30am-2pm",
+            "Sat": "Closed",
+            "Sun": "Closed"
+          }
+        }
+      },
+      {
+        "name": "Subway",
+        "schedule": {
+          "": {
+            "Mon": "Closed",
+            "Tue": "11am-4pm",
+            "Wed": "11am-4pm",
+            "Thu": "11am-4pm",
+            "Fri": "11am-4pm",
+            "Sat": "11am-4pm",
+            "Sun": "Closed"
+          }
+        }
+      },
+      {
+        "name": "Qdoba",
+        "schedule": {
+          "": {
+            "Mon": "11am-4pm",
+            "Tue": "11am-4pm",
+            "Wed": "11am-4pm",
+            "Thu": "11am-4pm",
+            "Fri": "11am-4pm",
+            "Sat": "Closed",
+            "Sun": "Closed"
+          }
+        }
+      },
+      {
+        "name": "Union Pizza",
+        "schedule": {
+          "": {
+            "Mon": "11am-4pm",
+            "Tue": "11am-4pm",
+            "Wed": "11am-4pm",
+            "Thu": "11am-4pm",
+            "Fri": "Closed",
+            "Sat": "Closed",
+            "Sun": "11am-4pm"
           }
         }
       }
