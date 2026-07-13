@@ -59,7 +59,7 @@ body {
   background: var(--card-bg);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
-  margin-bottom: 16px;
+  margin-bottom: 12px;
   font-size: 0.85rem;
   color: var(--text-secondary);
 }
@@ -71,6 +71,43 @@ body {
   font-weight: 600;
   font-size: 0.8rem;
 }
+
+/* ─── Tabs ─── */
+.tabs {
+  display: flex;
+  gap: 0;
+  margin-bottom: 16px;
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.tab {
+  flex: 1;
+  padding: 10px 8px 8px;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  border-bottom: 3px solid transparent;
+  text-align: center;
+}
+.tab small {
+  font-weight: 400;
+  font-size: 0.7rem;
+  opacity: 0.7;
+}
+.tab:hover { background: #f0f0f0; color: var(--text); }
+.tab.active {
+  color: var(--primary);
+  border-bottom-color: var(--primary);
+  background: var(--primary-light);
+}
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
 
 /* ─── Cards ─── */
 .card {
@@ -303,4 +340,6 @@ body {
   .meal-grid { grid-template-columns: 1fr; }
   .meta { flex-direction: column; text-align: center; }
   .compact-grid { grid-template-columns: 1fr; }
+  .tab { font-size: 0.75rem; padding: 8px 4px 6px; }
+  .tab small { font-size: 0.65rem; }
 }

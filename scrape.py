@@ -132,17 +132,13 @@ def scrape_natatorium() -> dict:
     return result
 
 
-# ─── 2. Dining Halls / Cafes (Google Sheets) ──────────────────────────────
+# ─── 2. Dining Halls / Cafes / Stamp (Google Sheets) ────────────────────
 
-DINING_SHEET_URL = (
-    "https://docs.google.com/spreadsheets/d/"
-    "1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338"
-)
+BASE_SHEET = "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid="
 
-CAFES_SHEET_URL = (
-    "https://docs.google.com/spreadsheets/d/"
-    "1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491"
-)
+DINING_SHEET_URL = BASE_SHEET + "479022338"
+CAFES_SHEET_URL  = BASE_SHEET + "2021515491"
+STAMP_SHEET_URL  = BASE_SHEET + "57096019"
 
 
 def scrape_sheet(url: str, name: str) -> dict:
@@ -215,6 +211,9 @@ def main():
     print("🔄 Fetching Cafe hours...")
     output["cafes"] = scrape_sheet(CAFES_SHEET_URL, "UMD Cafes")
 
+    print("🔄 Fetching Stamp hours...")
+    output["stamp"] = scrape_sheet(STAMP_SHEET_URL, "UMD Stamp Dining")
+
     # Save
     out_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data.json")
     with open(out_path, "w", encoding="utf-8") as f:
@@ -227,6 +226,7 @@ def main():
     print(f"   Natatorium: {nat_tables} table(s)")
     print(f"   Dining Halls: {dh_venues} venues")
     print(f"   Cafes: {cafe_venues} venues")
+    print(f"   Stamp: {len(output['stamp'].get('venues', []))} venues")
 
 
 if __name__ == "__main__":
