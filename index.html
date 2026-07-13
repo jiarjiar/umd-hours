@@ -19,22 +19,22 @@
   <!-- Meta -->
   <div class="meta" id="meta"></div>
 
-  <!-- Tabs -->
+  <!-- Tabs: 食堂 → 游泳馆 → 咖啡厅 → Stamp -->
   <nav class="tabs" id="tabs">
-    <button class="tab active" data-tab="natatorium">🏊 游泳馆<br><small>Natatorium</small></button>
-    <button class="tab" data-tab="dining">🍽️ 食堂<br><small>Dining Halls</small></button>
+    <button class="tab active" data-tab="dining">🍽️ 食堂<br><small>Dining Halls</small></button>
+    <button class="tab" data-tab="natatorium">🏊 游泳馆<br><small>Natatorium</small></button>
     <button class="tab" data-tab="cafes">☕ 咖啡厅<br><small>Cafes</small></button>
     <button class="tab" data-tab="stamp">🏛️ Stamp<br><small>Stamp Dining</small></button>
   </nav>
 
-  <!-- ═══ Tab: Natatorium ═══ -->
-  <section class="tab-panel active" id="panel-natatorium">
-    <div id="natatorium-content"></div>
+  <!-- ═══ Tab: Dining Halls ═══ -->
+  <section class="tab-panel active" id="panel-dining">
+    <div id="dining-content"></div>
   </section>
 
-  <!-- ═══ Tab: Dining Halls ═══ -->
-  <section class="tab-panel" id="panel-dining">
-    <div id="dining-content"></div>
+  <!-- ═══ Tab: Natatorium ═══ -->
+  <section class="tab-panel" id="panel-natatorium">
+    <div id="natatorium-content"></div>
   </section>
 
   <!-- ═══ Tab: Cafes ═══ -->
@@ -50,8 +50,8 @@
   <!-- Footer -->
   <footer class="footer">
     <p>📡 数据来源 Sources:
-      <a href="https://recwell.umd.edu/facility-alerts" target="_blank">RecWell</a> ·
       <a href="https://dining.umd.edu/hours-locations/dining-halls" target="_blank">Dining</a> ·
+      <a href="https://recwell.umd.edu/facility-alerts" target="_blank">RecWell</a> ·
       <a href="https://dining.umd.edu/hours-locations/dining-stamp" target="_blank">Stamp</a>
     </p>
     <p>🤖 每 12h 自动更新 · <a href="https://github.com/jiarjiar/umd-hours" target="_blank">GitHub</a></p>
@@ -86,130 +86,155 @@ function render(data) {
      <span class="week-badge">📅 ${data.week_dates?.[0]?.date || ''} ~ ${data.week_dates?.[6]?.date || ''}</span>`;
 
   renderNatatorium(data.natatorium);
-  renderVenueList('dining-content', '🍽️ 食堂 · Dining Halls', data.dining_halls, {
-    'South Campus': 'South Campus 南校区食堂',
-    'Yahentamitsi': 'Yahentamitsi 原住民文化食堂',
-    '251 North': '251 North 北校区食堂',
-  });
-  renderVenueList('cafes-content', '☕ 咖啡厅 · Cafes', data.cafes, {
-    'IDEA Central': '⭐ IDEA Central · IDEA Factory',
-  });
-  renderVenueList('stamp-content', '🏛️ Stamp 学生中心 · Stamp Dining', data.stamp, {
-  }, ['Chick-fil-A', 'The Coffee Bar', 'Maryland Dairy', 'Panera Bread', 'Subway', 'Qdoba', 'Union Pizza']);
+  renderDining(data.dining_halls);
+  renderCafes(data.cafes);
+  renderStamp(data.stamp);
 }
 
-// ─── Natatorium ───
+// ─── Natatorium: weekly view ───
 function renderNatatorium(nat) {
-  if (!nat) return;
   const el = document.getElementById('natatorium-content');
+  if (!nat) { el.innerHTML = ''; return; }
+
   let html = '<div class="card"><h2>🏊 Natatorium 游泳馆 / Outdoor Aquatic Center</h2>';
 
   if (nat.alerts?.length)
     html += nat.alerts.map(a => `<div class="alert-banner">⚠️ ${a}</div>`).join('');
 
-  if (nat.tables?.length) {
-    html += nat.tables.map(table => {
-      const days = table.headers.slice(1);
-      return `<div class="table-wrapper">
-        <table class="hours-table">
-          <thead><tr>
-            <th>设施 Facility</th>
-            ${days.map(d => `<th>${d.replace('July','7月')}</th>`).join('')}
-          </tr></thead>
-          <tbody>
-            ${table.rows.map(row => {
-              const fac = row.facility.includes('Natatorium') ? '🏊 Natatorium (含桑拿/蒸汽)' :
-                          row.facility.includes('Outdoor') ? '🏖️ 室外水上中心' : row.facility;
-              return `<tr><td class="facility-name">${fac}</td>
-                ${days.map(d => {
-                  const v = row[d] || '—';
-                  const c = v.toLowerCase() === 'closed' ? 'td-closed' : 'td-open';
-                  const icon = v.toLowerCase() === 'closed' ? '❌' : '✅';
-                  return `<td class="${c}">${icon} ${v}</td>`;
-                }).join('')}
-              </tr>`;
-            }).join('')}
-          </tbody>
-        </table>
-      </div>`;
-    }).join('');
-  }
-
-  html += '<p class="note-text">💡 特殊调整 7/9-7/20 · 常规 6am-8pm<br>Special hours 7/9-7/20 · Regular 6am-8pm</p>';
-  html += '</div>';
-  el.innerHTML = html;
-}
-
-// ─── Generic venue list (dining halls / cafes / stamp) ───
-function renderVenueList(containerId, title, data, nameMap, highlightList) {
-  const el = document.getElementById(containerId);
-  if (!data) { el.innerHTML = '<div class="card"><p>数据不可用</p></div>'; return; }
-
-  let html = `<div class="card"><h2>${title}</h2>
-    <div class="week-label">📅 ${data.week_of || ''}</div>`;
-
-  const venues = (highlightList) ? data.venues?.filter(v => highlightList.includes(v.name)) : data.venues;
-  const rest = (highlightList) ? data.venues?.filter(v => !highlightList.includes(v.name)) : [];
-
-  if (venues) {
-    venues.forEach(v => {
-      const cn = nameMap[v.name] || v.name;
-      const cls = nameMap[v.name]?.startsWith('⭐') ? 'venue featured' : 'venue';
-      html += `<div class="${cls}"><h3>${cn}</h3>`;
-      html += renderMealSchedule(v.schedule);
-      html += '</div>';
+  if (nat.weekly_hours?.length) {
+    html += `<div class="week-label">📅 本周开放 · This Week</div>
+      <div class="table-wrapper">
+      <table class="hours-table weekly">
+        <thead><tr>
+          <th>日期 Day</th>
+          <th>🏊 Natatorium<br><small>游泳馆</small></th>
+          <th>🏖️ Outdoor Aquatic Center<br><small>室外水上中心</small></th>
+        </tr></thead>
+        <tbody>`;
+    const dayCN = {Mon:'周一',Tue:'周二',Wed:'周三',Thu:'周四',Fri:'周五',Sat:'周六',Sun:'周日'};
+    nat.weekly_hours.forEach(d => {
+      const natC = d.natatorium.toLowerCase() === 'closed' ? 'td-closed' : 'td-open';
+      const oacC = d.outdoor_aquatic.toLowerCase() === 'closed' ? 'td-closed' : 'td-open';
+      const natI = d.natatorium.toLowerCase() === 'closed' ? '❌' : '✅';
+      const oacI = d.outdoor_aquatic.toLowerCase() === 'closed' ? '❌' : '✅';
+      html += `<tr>
+        <td class="facility-name">${dayCN[d.day] || d.day}<br><small>${d.date}</small></td>
+        <td class="${natC}">${natI} ${d.natatorium}</td>
+        <td class="${oacC}">${oacI} ${d.outdoor_aquatic}</td>
+      </tr>`;
     });
+    html += '</tbody></table></div>';
   }
 
-  // Other venues (for cafes tab)
-  if (rest.length) {
-    html += `<details class="other-venues">
-      <summary>查看更多 · More venues (${rest.length})</summary>
-      <div class="compact-grid">`;
-    rest.forEach(v => {
-      html += `<div class="compact-venue"><h4>${v.name}</h4>`;
-      Object.entries(v.schedule).forEach(([meal, days]) => {
-        const firstVal = Object.values(days)[0];
-        const allSame = Object.values(days).every(d => d === firstVal);
-        if (allSame) {
-          const isClosed = !firstVal || firstVal.toLowerCase() === 'closed';
-          html += `<span class="badge ${isClosed ? 'closed' : 'open'}">${isClosed ? '❌ 本周全关' : '✅ 每日 ' + firstVal}</span>`;
-        } else {
-          html += Object.entries(days).map(([day, val]) => {
-            const dayCN = {Mon:'周一',Tue:'周二',Wed:'周三',Thu:'周四',Fri:'周五',Sat:'周六',Sun:'周日'}[day]||day;
-            const isClosed = !val || val.toLowerCase() === 'closed';
-            return `<span class="badge ${isClosed?'closed':'open'}">${dayCN}: ${isClosed?'❌':'✅'+val}</span> `;
-          }).join('');
-        }
-      });
-      html += '</div>';
-    });
-    html += '</div></details>';
-  }
+  if (nat.regular_hours_note)
+    html += `<p class="note-text">💡 ${nat.regular_hours_note}</p>`;
 
   html += '</div>';
   el.innerHTML = html;
 }
 
-function renderMealSchedule(schedule) {
-  const meals = Object.entries(schedule);
-  return `<div class="meal-grid">${meals.map(([meal, days]) => {
-    const mealCN = {'Breakfast':'🌅 早餐','Lunch':'☀️ 午餐','Dinner':'🌙 晚餐'}[meal] ||
-                   {'Morning':'🌅 上午','Afternoon':'☀️ 下午','Evening':'🌙 晚上'}[meal] || meal;
-    return `<div class="meal-card">
-      <div class="meal-title">${mealCN}</div>
+// ─── Dining ───
+function renderDining(dh) {
+  const el = document.getElementById('dining-content');
+  if (!dh) { el.innerHTML = ''; return; }
+  const nameCN = {
+    'South Campus': 'South Campus 南校区食堂',
+    'Yahentamitsi': 'Yahentamitsi 原住民文化食堂',
+    '251 North': '251 North 北校区食堂',
+  };
+  el.innerHTML = `<div class="card"><h2>🍽️ 食堂 · Dining Halls</h2>
+    <div class="week-label">📅 ${dh.week_of || ''}</div>
+    ${dh.venues?.map(v => `
+      <div class="venue"><h3>${nameCN[v.name] || v.name}</h3>
+        ${renderSchedule(v.schedule)}
+      </div>`).join('')}
+    </div>`;
+}
+
+// ─── Cafes — IDEA Central first ───
+function renderCafes(cf) {
+  const el = document.getElementById('cafes-content');
+  if (!cf) { el.innerHTML = ''; return; }
+
+  // Sort: IDEA Central first, then others alphabetically
+  const sorted = [...(cf.venues || [])].sort((a, b) => {
+    if (a.name.includes('IDEA')) return -1;
+    if (b.name.includes('IDEA')) return 1;
+    return a.name.localeCompare(b.name);
+  });
+
+  let html = `<div class="card"><h2>☕ 咖啡厅 · Cafes</h2>
+    <div class="week-label">📅 ${cf.week_of || ''}</div>`;
+
+  sorted.forEach((v, i) => {
+    const featured = v.name.includes('IDEA');
+    html += `<div class="${featured ? 'venue featured' : 'venue'}">
+      <h3>${featured ? '⭐ ' : ''}${v.name}</h3>`;
+    const sched = v.schedule?.hours || v.schedule?.[''] || v.schedule;
+
+    if (featured) {
+      // Full meal-grid style for IDEA
+      html += renderSchedule({ '营业 Hours': sched || {} });
+    } else if (i > 2) {
+      // Compact for others after first 3
+      const firstVal = Object.values(sched || {})[0];
+      const allSame = Object.values(sched || {}).every(d => d === firstVal);
+      if (allSame) {
+        const isClosed = !firstVal || firstVal.toLowerCase() === 'closed';
+        html += `<span class="badge ${isClosed ? 'closed' : 'open'}">${isClosed ? '❌ 本周全关' : '✅ 每日 ' + firstVal}</span>`;
+      } else {
+        const dayCN = {Mon:'周一',Tue:'周二',Wed:'周三',Thu:'周四',Fri:'周五',Sat:'周六',Sun:'周日'};
+        html += Object.entries(sched || {}).map(([day, val]) => {
+          const isClosed = !val || val.toLowerCase() === 'closed';
+          return `<span class="badge ${isClosed ? 'closed' : 'open'}">${dayCN[day]||day}: ${isClosed ? '❌' : '✅ '+val}</span> `;
+        }).join('');
+      }
+    } else {
+      html += renderSchedule({ '营业 Hours': sched || {} });
+    }
+    html += '</div>';
+  });
+
+  html += '</div>';
+  el.innerHTML = html;
+}
+
+// ─── Stamp ───
+function renderStamp(st) {
+  const el = document.getElementById('stamp-content');
+  if (!st) { el.innerHTML = ''; return; }
+  el.innerHTML = `<div class="card"><h2>🏛️ Stamp 学生中心 · Stamp Dining</h2>
+    <div class="week-label">📅 ${st.week_of || ''}</div>
+    ${st.venues?.map(v => `
+      <div class="venue"><h3>${v.name}</h3>
+        ${renderSchedule({ '营业 Hours': v.schedule?.hours || v.schedule?.[''] || v.schedule })}
+      </div>`).join('')}
+    </div>`;
+}
+
+// ─── Shared schedule renderer ───
+function renderSchedule(schedule) {
+  const meals = Object.entries(schedule || {});
+  if (!meals.length) return '<p class="muted">暂无数据</p>';
+  const mealCN = {
+    'Breakfast': '🌅 早餐', 'Lunch': '☀️ 午餐', 'Dinner': '🌙 晚餐',
+    '营业 Hours': '🕐 营业时间', 'hours': '🕐 营业时间',
+    'Morning': '🌅 上午', 'Afternoon': '☀️ 下午', 'Evening': '🌙 晚上',
+  };
+  const dayCN = {Mon:'周一',Tue:'周二',Wed:'周三',Thu:'周四',Fri:'周五',Sat:'周六',Sun:'周日'};
+  return `<div class="meal-grid">${meals.map(([meal, days]) => `
+    <div class="meal-card">
+      <div class="meal-title">${mealCN[meal] || meal}</div>
       <div class="meal-days">
         ${Object.entries(days).map(([day, val]) => {
           const isClosed = !val || val.toLowerCase() === 'closed';
-          const dayCN = {Mon:'周一',Tue:'周二',Wed:'周三',Thu:'周四',Fri:'周五',Sat:'周六',Sun:'周日'}[day]||day;
           return `<div class="day-row">
-            <span class="day-label">${dayCN}</span>
-            <span class="badge ${isClosed?'closed':'open'}">${isClosed?'❌ Closed':'✅ '+val}</span>
+            <span class="day-label">${dayCN[day] || day}</span>
+            <span class="badge ${isClosed ? 'closed' : 'open'}">${isClosed ? '❌ Closed' : '✅ ' + val}</span>
           </div>`;
         }).join('')}
       </div>
-    </div>`;
-  }).join('')}</div>`;
+    </div>`).join('')}</div>`;
 }
 
 loadData();
