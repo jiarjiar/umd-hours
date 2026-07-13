@@ -1,0 +1,42 @@
+name: 🏊 Scrape UMD Hours (Every 12h)
+
+on:
+  schedule:
+    # Every 12 hours: 02:00 UTC (10pm ET / 7pm PT) and 14:00 UTC (10am ET / 7am PT)
+    - cron: '0 2,14 * * *'
+  workflow_dispatch:  # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install --quiet requests beautifulsoup4
+
+      - name: Run scraper
+        run: python scrape.py
+
+      - name: Commit and push if data changed
+        run: |
+          git config user.name "UMD Hours Bot"
+          git config user.email "bot@umd-hours.github.io"
+          git add data.json
+          if git diff --cached --quiet; then
+            echo "No changes to data.json"
+          else
+            git commit -m "📊 Auto-update hours data [$(date -u +'%Y-%m-%d %H:%M UTC')]"
+            git push
+          fi

@@ -1,0 +1,376 @@
+{
+  "generated_at": "2026-07-13T14:31:55.438117",
+  "generated_at_readable": "2026-07-13 14:31:55 ",
+  "week_dates": [
+    {
+      "date": "2026-07-13",
+      "day": "Mon"
+    },
+    {
+      "date": "2026-07-14",
+      "day": "Tue"
+    },
+    {
+      "date": "2026-07-15",
+      "day": "Wed"
+    },
+    {
+      "date": "2026-07-16",
+      "day": "Thu"
+    },
+    {
+      "date": "2026-07-17",
+      "day": "Fri"
+    },
+    {
+      "date": "2026-07-18",
+      "day": "Sat"
+    },
+    {
+      "date": "2026-07-19",
+      "day": "Sun"
+    }
+  ],
+  "natatorium": {
+    "source": "https://recwell.umd.edu/facility-alerts",
+    "last_updated": "2026-07-13T14:31:55.617058",
+    "alerts": [
+      "The Eppley Recreation Center Natatorium and Outdoor Aquatic Center hours of operations are modified between Thursday, July 9, and Monday, July 20, due to various special events. Please review the tables below for specific dates and times."
+    ],
+    "tables": [
+      {
+        "headers": [
+          "Facility",
+          "July 9",
+          "July 10",
+          "July 11",
+          "July 12"
+        ],
+        "rows": [
+          {
+            "facility": "Natatorium (including sauna & steam room)",
+            "July 9": "CLOSED",
+            "July 10": "CLOSED",
+            "July 11": "CLOSED",
+            "July 12": "CLOSED"
+          },
+          {
+            "facility": "Outdoor Aquatic Center",
+            "July 9": "10am to 8pm",
+            "July 10": "10am to 8pm",
+            "July 11": "10am to 7:30pm",
+            "July 12": "10am to 7:30pm"
+          }
+        ]
+      },
+      {
+        "headers": [
+          "Facility",
+          "July 16",
+          "July 17",
+          "July 18",
+          "July 19",
+          "July 20"
+        ],
+        "rows": [
+          {
+            "facility": "Natatorium (including sauna & steam room)",
+            "July 16": "CLOSED",
+            "July 17": "CLOSED",
+            "July 18": "8am to 7:30pm (50M pool remains closed)",
+            "July 19": "CLOSED",
+            "July 20": "CLOSED"
+          },
+          {
+            "facility": "Outdoor Aquatic Center",
+            "July 16": "10am to 8pm",
+            "July 17": "10am to 8pm",
+            "July 18": "12pm to 8pm",
+            "July 19": "10am to 7:30pm",
+            "July 20": "10am to 8pm"
+          }
+        ]
+      }
+    ]
+  },
+  "dining_halls": {
+    "source": "UMD Dining Halls",
+    "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
+    "last_updated": "2026-07-13T14:31:57.226159",
+    "week_of": "2026-07-13 - 2026-07-19",
+    "venues": [
+      {
+        "name": "South Campus",
+        "schedule": {
+          "Breakfast": {
+            "Mon": "7am-9am",
+            "Tue": "7am-9am",
+            "Wed": "7am-9am",
+            "Thu": "7am-9am",
+            "Fri": "7am-9am",
+            "Sat": "Closed",
+            "Sun": "Closed"
+          },
+          "Lunch": {
+            "Mon": "11am-1:30pm",
+            "Tue": "11am-1:30pm",
+            "Wed": "11am-1:30pm",
+            "Thu": "11am-1:30pm",
+            "Fri": "11am-1:30pm",
+            "Sat": "Closed",
+            "Sun": "Closed"
+          },
+          "Dinner": {
+            "Mon": "5:30pm-7pm",
+            "Tue": "6pm-7pm",
+            "Wed": "5:30pm-7pm",
+            "Thu": "6pm-7pm",
+            "Fri": "Closed",
+            "Sat": "Closed",
+            "Sun": "Closed"
+          }
+        }
+      },
+      {
+        "name": "Yahentamitsi",
+        "schedule": {
+          "Breakfast": {
+            "Mon": "7:30am-9am",
+            "Tue": "8am-9am",
+            "Wed": "7:30am-9am",
+            "Thu": "7:30am-9am",
+            "Fri": "8am-9am",
+            "Sat": "7:30am-9am",
+            "Sun": "7:30am-9am"
+          },
+          "Lunch": {
+            "Mon": "12pm-1:30pm",
+            "Tue": "12pm-1:30pm",
+            "Wed": "11:30am-1:30pm",
+            "Thu": "12pm-1:30pm",
+            "Fri": "12pm-1:30pm",
+            "Sat": "12pm-1pm",
+            "Sun": "11:30am-1:30pm"
+          },
+          "Dinner": {
+            "Mon": "6pm-7pm",
+            "Tue": "4:30pm-7pm",
+            "Wed": "4:30pm-7pm",
+            "Thu": "5pm-7pm",
+            "Fri": "6pm-7pm",
+            "Sat": "5pm-7pm",
+            "Sun": "4:30pm-7pm"
+          }
+        }
+      },
+      {
+        "name": "251 North",
+        "schedule": {
+          "Breakfast": {
+            "Mon": "Closed",
+            "Tue": "Closed",
+            "Wed": "Closed",
+            "Thu": "Closed",
+            "Fri": "Closed",
+            "Sat": "Closed",
+            "Sun": "Closed"
+          },
+          "Lunch": {
+            "Mon": "Closed",
+            "Tue": "Closed",
+            "Wed": "Closed",
+            "Thu": "Closed",
+            "Fri": "Closed",
+            "Sat": "Closed",
+            "Sun": "Closed"
+          },
+          "Dinner": {
+            "Mon": "Closed",
+            "Tue": "Closed",
+            "Wed": "Closed",
+            "Thu": "Closed",
+            "Fri": "Closed",
+            "Sat": "Closed",
+            "Sun": "Closed"
+          }
+        }
+      }
+    ]
+  },
+  "cafes": {
+    "source": "UMD Cafes",
+    "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
+    "last_updated": "2026-07-13T14:31:57.867375",
+    "week_of": "2026-07-13 - 2026-07-19",
+    "venues": [
+      {
+        "name": "Applause",
+        "schedule": {
+          "": {
+            "Mon": "8am-2pm",
+            "Tue": "8am-2pm",
+            "Wed": "8am-2pm",
+            "Thu": "8am-2pm",
+            "Fri": "8am-2pm",
+            "Sat": "Closed",
+            "Sun": "Closed"
+          }
+        }
+      },
+      {
+        "name": "Breakpoint",
+        "schedule": {
+          "": {
+            "Mon": "8am-2pm",
+            "Tue": "8am-2pm",
+            "Wed": "8am-2pm",
+            "Thu": "8am-2pm",
+            "Fri": "8am-2pm",
+            "Sat": "Closed",
+            "Sun": "Closed"
+          }
+        }
+      },
+      {
+        "name": "The Coffee Bar",
+        "schedule": {
+          "": {
+            "Mon": "8am-3pm",
+            "Tue": "8am-3pm",
+            "Wed": "8am-3pm",
+            "Thu": "8am-3pm",
+            "Fri": "8am-3pm",
+            "Sat": "Closed",
+            "Sun": "Closed"
+          }
+        }
+      },
+      {
+        "name": "Creative Commons",
+        "schedule": {
+          "": {
+            "Mon": "Closed",
+            "Tue": "Closed",
+            "Wed": "Closed",
+            "Thu": "Closed",
+            "Fri": "Closed",
+            "Sat": "Closed",
+            "Sun": "Closed"
+          }
+        }
+      },
+      {
+        "name": "IDEA Central",
+        "schedule": {
+          "": {
+            "Mon": "8am-2pm",
+            "Tue": "8am-2pm",
+            "Wed": "8am-2pm",
+            "Thu": "8am-2pm",
+            "Fri": "8am-2pm",
+            "Sat": "Closed",
+            "Sun": "Closed"
+          }
+        }
+      },
+      {
+        "name": "E+M Cafe",
+        "schedule": {
+          "": {
+            "Mon": "Closed",
+            "Tue": "Closed",
+            "Wed": "Closed",
+            "Thu": "Closed",
+            "Fri": "Closed",
+            "Sat": "Closed",
+            "Sun": "Closed"
+          }
+        }
+      },
+      {
+        "name": "Food for Thought",
+        "schedule": {
+          "": {
+            "Mon": "Closed",
+            "Tue": "Closed",
+            "Wed": "Closed",
+            "Thu": "Closed",
+            "Fri": "Closed",
+            "Sat": "Closed",
+            "Sun": "Closed"
+          }
+        }
+      },
+      {
+        "name": "Footnotes",
+        "schedule": {
+          "": {
+            "Mon": "8am-2pm",
+            "Tue": "8am-2pm",
+            "Wed": "8am-2pm",
+            "Thu": "8am-2pm",
+            "Fri": "8am-2pm",
+            "Sat": "Closed",
+            "Sun": "Closed"
+          }
+        }
+      },
+      {
+        "name": "Quantum",
+        "schedule": {
+          "": {
+            "Mon": "8am-2pm",
+            "Tue": "8am-2pm",
+            "Wed": "8am-2pm",
+            "Thu": "8am-2pm",
+            "Fri": "8am-2pm",
+            "Sat": "Closed",
+            "Sun": "Closed"
+          }
+        }
+      },
+      {
+        "name": "Rudy’s",
+        "schedule": {
+          "": {
+            "Mon": "8am-2pm",
+            "Tue": "8am-2pm",
+            "Wed": "8am-2pm",
+            "Thu": "8am-2pm",
+            "Fri": "8am-2pm",
+            "Sat": "Closed",
+            "Sun": "Closed"
+          }
+        }
+      },
+      {
+        "name": "Samovar",
+        "schedule": {
+          "": {
+            "Mon": "Closed",
+            "Tue": "Closed",
+            "Wed": "Closed",
+            "Thu": "Closed",
+            "Fri": "Closed",
+            "Sat": "Closed",
+            "Sun": "Closed"
+          }
+        }
+      },
+      {
+        "name": "Sneaker’s",
+        "schedule": {
+          "": {
+            "Mon": "10am-6pm",
+            "Tue": "10am-6pm",
+            "Wed": "10am-6pm",
+            "Thu": "10am-6pm",
+            "Fri": "10am-6pm",
+            "Sat": "TBD",
+            "Sun": "TBD"
+          }
+        }
+      }
+    ]
+  }
+}
