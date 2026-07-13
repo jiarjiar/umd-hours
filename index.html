@@ -111,7 +111,7 @@ function renderNatatorium(nat) {
           <th>🏖️ Outdoor Aquatic Center<br><small>室外水上中心</small></th>
         </tr></thead>
         <tbody>`;
-    const dayCN = {Mon:'周一',Tue:'周二',Wed:'周三',Thu:'周四',Fri:'周五',Sat:'周六',Sun:'周日'};
+    const dayCN = {Mon:'周一 Mon',Tue:'周二 Tue',Wed:'周三 Wed',Thu:'周四 Thu',Fri:'周五 Fri',Sat:'周六 Sat',Sun:'周日 Sun'};
     nat.weekly_hours.forEach(d => {
       const natC = d.natatorium.toLowerCase() === 'closed' ? 'td-closed' : 'td-open';
       const oacC = d.outdoor_aquatic.toLowerCase() === 'closed' ? 'td-closed' : 'td-open';
@@ -183,7 +183,7 @@ function renderCafes(cf) {
         const isClosed = !firstVal || firstVal.toLowerCase() === 'closed';
         html += `<span class="badge ${isClosed ? 'closed' : 'open'}">${isClosed ? '❌ 本周全关' : '✅ 每日 ' + firstVal}</span>`;
       } else {
-        const dayCN = {Mon:'周一',Tue:'周二',Wed:'周三',Thu:'周四',Fri:'周五',Sat:'周六',Sun:'周日'};
+        const dayCN = {Mon:'周一 Mon',Tue:'周二 Tue',Wed:'周三 Wed',Thu:'周四 Thu',Fri:'周五 Fri',Sat:'周六 Sat',Sun:'周日 Sun'};
         html += Object.entries(sched || {}).map(([day, val]) => {
           const isClosed = !val || val.toLowerCase() === 'closed';
           return `<span class="badge ${isClosed ? 'closed' : 'open'}">${dayCN[day]||day}: ${isClosed ? '❌' : '✅ '+val}</span> `;
@@ -221,7 +221,7 @@ function renderSchedule(schedule) {
     '营业 Hours': '🕐 营业时间', 'hours': '🕐 营业时间',
     'Morning': '🌅 上午', 'Afternoon': '☀️ 下午', 'Evening': '🌙 晚上',
   };
-  const dayCN = {Mon:'周一',Tue:'周二',Wed:'周三',Thu:'周四',Fri:'周五',Sat:'周六',Sun:'周日'};
+  const dayCN = {Mon:'周一 Mon',Tue:'周二 Tue',Wed:'周三 Wed',Thu:'周四 Thu',Fri:'周五 Fri',Sat:'周六 Sat',Sun:'周日 Sun'};
   return `<div class="meal-grid">${meals.map(([meal, days]) => `
     <div class="meal-card">
       <div class="meal-title">${mealCN[meal] || meal}</div>

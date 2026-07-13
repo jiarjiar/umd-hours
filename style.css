@@ -248,7 +248,7 @@ body {
 }
 .day-label {
   font-weight: 500;
-  min-width: 40px;
+  min-width: 80px;
 }
 
 /* ─── Badges ─── */
