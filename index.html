@@ -72,7 +72,7 @@ document.getElementById('tabs').addEventListener('click', e => {
 // ─── Data loading ───
 async function loadData() {
   try {
-    const resp = await fetch('data.json');
+    const resp = await fetch('data.json?v=' + Date.now());
     const data = await resp.json();
     render(data);
   } catch (e) {
