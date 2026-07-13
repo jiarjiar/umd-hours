@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-13T19:00:37.958516",
-  "generated_at_readable": "2026-07-13 19:00:37 ",
+  "generated_at": "2026-07-13T15:09:04.465488",
+  "generated_at_readable": "2026-07-13 15:09:04 ",
   "week_dates": [
     {
       "date": "2026-07-13",
@@ -33,7 +33,7 @@
   ],
   "natatorium": {
     "source": "https://recwell.umd.edu/facility-alerts",
-    "last_updated": "2026-07-13T19:00:38.233660",
+    "last_updated": "2026-07-13T15:09:04.639562",
     "alerts": [
       "The Eppley Recreation Center Natatorium and Outdoor Aquatic Center hours of operations are modified between Thursday, July 9, and Monday, July 20, due to various special events. Please review the tables below for specific dates and times."
     ],
@@ -91,12 +91,57 @@
           }
         ]
       }
-    ]
+    ],
+    "weekly_hours": [
+      {
+        "date": "2026-07-13",
+        "day": "Mon",
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-07-14",
+        "day": "Tue",
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-07-15",
+        "day": "Wed",
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-07-16",
+        "day": "Thu",
+        "natatorium": "CLOSED",
+        "outdoor_aquatic": "10am to 8pm"
+      },
+      {
+        "date": "2026-07-17",
+        "day": "Fri",
+        "natatorium": "CLOSED",
+        "outdoor_aquatic": "10am to 8pm"
+      },
+      {
+        "date": "2026-07-18",
+        "day": "Sat",
+        "natatorium": "8am to 7:30pm (50M pool remains closed)",
+        "outdoor_aquatic": "12pm to 8pm"
+      },
+      {
+        "date": "2026-07-19",
+        "day": "Sun",
+        "natatorium": "CLOSED",
+        "outdoor_aquatic": "10am to 7:30pm"
+      }
+    ],
+    "regular_hours_note": "常规时间 Regular: Natatorium 6am-8pm · Outdoor Aquatic Center 10am-8pm"
   },
   "dining_halls": {
     "source": "UMD Dining Halls",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
-    "last_updated": "2026-07-13T19:00:38.985086",
+    "last_updated": "2026-07-13T15:09:05.221243",
     "week_of": "2026-07-13 - 2026-07-19",
     "venues": [
       {
@@ -200,13 +245,13 @@
   "cafes": {
     "source": "UMD Cafes",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
-    "last_updated": "2026-07-13T19:00:39.773084",
+    "last_updated": "2026-07-13T15:09:05.876384",
     "week_of": "2026-07-13 - 2026-07-19",
     "venues": [
       {
         "name": "Applause",
         "schedule": {
-          "": {
+          "hours": {
             "Mon": "8am-2pm",
             "Tue": "8am-2pm",
             "Wed": "8am-2pm",
@@ -220,7 +265,7 @@
       {
         "name": "Breakpoint",
         "schedule": {
-          "": {
+          "hours": {
             "Mon": "8am-2pm",
             "Tue": "8am-2pm",
             "Wed": "8am-2pm",
@@ -234,7 +279,7 @@
       {
         "name": "The Coffee Bar",
         "schedule": {
-          "": {
+          "hours": {
             "Mon": "8am-3pm",
             "Tue": "8am-3pm",
             "Wed": "8am-3pm",
@@ -248,7 +293,7 @@
       {
         "name": "Creative Commons",
         "schedule": {
-          "": {
+          "hours": {
             "Mon": "Closed",
             "Tue": "Closed",
             "Wed": "Closed",
@@ -262,7 +307,7 @@
       {
         "name": "IDEA Central",
         "schedule": {
-          "": {
+          "hours": {
             "Mon": "8am-2pm",
             "Tue": "8am-2pm",
             "Wed": "8am-2pm",
@@ -276,7 +321,7 @@
       {
         "name": "E+M Cafe",
         "schedule": {
-          "": {
+          "hours": {
             "Mon": "Closed",
             "Tue": "Closed",
             "Wed": "Closed",
@@ -290,7 +335,7 @@
       {
         "name": "Food for Thought",
         "schedule": {
-          "": {
+          "hours": {
             "Mon": "Closed",
             "Tue": "Closed",
             "Wed": "Closed",
@@ -304,7 +349,7 @@
       {
         "name": "Footnotes",
         "schedule": {
-          "": {
+          "hours": {
             "Mon": "8am-2pm",
             "Tue": "8am-2pm",
             "Wed": "8am-2pm",
@@ -318,7 +363,7 @@
       {
         "name": "Quantum",
         "schedule": {
-          "": {
+          "hours": {
             "Mon": "8am-2pm",
             "Tue": "8am-2pm",
             "Wed": "8am-2pm",
@@ -332,7 +377,7 @@
       {
         "name": "Rudy’s",
         "schedule": {
-          "": {
+          "hours": {
             "Mon": "8am-2pm",
             "Tue": "8am-2pm",
             "Wed": "8am-2pm",
@@ -346,7 +391,7 @@
       {
         "name": "Samovar",
         "schedule": {
-          "": {
+          "hours": {
             "Mon": "Closed",
             "Tue": "Closed",
             "Wed": "Closed",
@@ -360,7 +405,7 @@
       {
         "name": "Sneaker’s",
         "schedule": {
-          "": {
+          "hours": {
             "Mon": "10am-6pm",
             "Tue": "10am-6pm",
             "Wed": "10am-6pm",
@@ -376,13 +421,13 @@
   "stamp": {
     "source": "UMD Stamp Dining",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=57096019",
-    "last_updated": "2026-07-13T19:00:40.428440",
+    "last_updated": "2026-07-13T15:09:06.456111",
     "week_of": "2026-07-13 - 2026-07-19",
     "venues": [
       {
         "name": "Chick-fil-A",
         "schedule": {
-          "": {
+          "hours": {
             "Mon": "8:30am-7pm",
             "Tue": "8:30am-7pm",
             "Wed": "8:30am-7pm",
@@ -396,7 +441,7 @@
       {
         "name": "The Coffee Bar",
         "schedule": {
-          "": {
+          "hours": {
             "Mon": "8am-3pm",
             "Tue": "8am-3pm",
             "Wed": "8am-3pm",
@@ -410,7 +455,7 @@
       {
         "name": "Maryland Dairy",
         "schedule": {
-          "": {
+          "hours": {
             "Mon": "12pm-4:30pm",
             "Tue": "12pm-4:30pm",
             "Wed": "12pm-4:30pm",
@@ -424,7 +469,7 @@
       {
         "name": "Panera Bread",
         "schedule": {
-          "": {
+          "hours": {
             "Mon": "8:30am-2pm",
             "Tue": "8:30am-2pm",
             "Wed": "8:30am-2pm",
@@ -438,7 +483,7 @@
       {
         "name": "Subway",
         "schedule": {
-          "": {
+          "hours": {
             "Mon": "Closed",
             "Tue": "11am-4pm",
             "Wed": "11am-4pm",
@@ -452,7 +497,7 @@
       {
         "name": "Qdoba",
         "schedule": {
-          "": {
+          "hours": {
             "Mon": "11am-4pm",
             "Tue": "11am-4pm",
             "Wed": "11am-4pm",
@@ -466,7 +511,7 @@
       {
         "name": "Union Pizza",
         "schedule": {
-          "": {
+          "hours": {
             "Mon": "11am-4pm",
             "Tue": "11am-4pm",
             "Wed": "11am-4pm",
