@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-18T16:00:03.977158",
-  "generated_at_readable": "2026-07-18 16:00:03 ",
+  "generated_at": "2026-07-18T20:00:27.519080",
+  "generated_at_readable": "2026-07-18 20:00:27 ",
   "week_dates": [
     {
       "date": "2026-07-13",
@@ -33,7 +33,7 @@
   ],
   "natatorium": {
     "source": "https://recwell.umd.edu/facility-alerts",
-    "last_updated": "2026-07-18T16:00:04.304014",
+    "last_updated": "2026-07-18T20:00:27.790453",
     "alerts": [
       "The Eppley Recreation Center Natatorium and Outdoor Aquatic Center hours of operations are modified between Thursday, July 9, and Monday, July 20, due to various special events. Please review the tables below for specific dates and times."
     ],
@@ -197,7 +197,7 @@
   "dining_halls": {
     "source": "UMD Dining Halls",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
-    "last_updated": "2026-07-18T16:00:05.029110",
+    "last_updated": "2026-07-18T20:00:28.846594",
     "week_of": "2026-07-13 - 2026-07-19",
     "venues": [
       {
@@ -301,7 +301,7 @@
   "cafes": {
     "source": "UMD Cafes",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
-    "last_updated": "2026-07-18T16:00:05.855744",
+    "last_updated": "2026-07-18T20:00:29.527326",
     "week_of": "2026-07-13 - 2026-07-19",
     "venues": [
       {
@@ -477,7 +477,7 @@
   "stamp": {
     "source": "UMD Stamp Dining",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=57096019",
-    "last_updated": "2026-07-18T16:00:06.759231",
+    "last_updated": "2026-07-18T20:00:30.151253",
     "week_of": "2026-07-13 - 2026-07-19",
     "venues": [
       {
