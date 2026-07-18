@@ -102,28 +102,39 @@ function renderNatatorium(nat) {
     html += nat.alerts.map(a => `<div class="alert-banner">⚠️ ${a}</div>`).join('');
 
   if (nat.weekly_hours?.length) {
-    html += `<div class="week-label">📅 本周开放 · This Week</div>
-      <div class="table-wrapper">
-      <table class="hours-table weekly">
-        <thead><tr>
-          <th>日期 Day</th>
-          <th>🏊 Natatorium<br><small>游泳馆</small></th>
-          <th>🏖️ Outdoor Aquatic Center<br><small>室外水上中心</small></th>
-        </tr></thead>
-        <tbody>`;
+    // Split into weeks
+    const week1 = nat.weekly_hours.filter(d => d.week_number === 1);
+    const week2 = nat.weekly_hours.filter(d => d.week_number === 2);
+
+    const weekLabel = (label, days) => {
+      const start = days[0]?.date.slice(5);
+      const end = days[6]?.date.slice(5);
+      return `<div class="week-label">📅 ${label}: ${start} ~ ${end}</div>`;
+    };
+
     const dayCN = {Mon:'周一 Mon',Tue:'周二 Tue',Wed:'周三 Wed',Thu:'周四 Thu',Fri:'周五 Fri',Sat:'周六 Sat',Sun:'周日 Sun'};
-    nat.weekly_hours.forEach(d => {
+    const tableRows = (days) => days.map(d => {
       const natC = d.natatorium.toLowerCase() === 'closed' ? 'td-closed' : 'td-open';
       const oacC = d.outdoor_aquatic.toLowerCase() === 'closed' ? 'td-closed' : 'td-open';
       const natI = d.natatorium.toLowerCase() === 'closed' ? '❌' : '✅';
       const oacI = d.outdoor_aquatic.toLowerCase() === 'closed' ? '❌' : '✅';
-      html += `<tr>
-        <td class="facility-name">${dayCN[d.day] || d.day}<br><small>${d.date}</small></td>
+      return `<tr>
+        <td class="facility-name">${dayCN[d.day] || d.day}<br><small>${d.date.slice(5)}</small></td>
         <td class="${natC}">${natI} ${d.natatorium}</td>
         <td class="${oacC}">${oacI} ${d.outdoor_aquatic}</td>
       </tr>`;
-    });
-    html += '</tbody></table></div>';
+    }).join('');
+
+    const thead = `<thead><tr>
+      <th>日期 Day</th>
+      <th>🏊 Natatorium<br><small>游泳馆</small></th>
+      <th>🏖️ Outdoor Aquatic Center<br><small>室外水上中心</small></th>
+    </tr></thead>`;
+
+    html += weekLabel('本周 This Week', week1);
+    html += `<div class="table-wrapper"><table class="hours-table weekly">${thead}<tbody>${tableRows(week1)}</tbody></table></div>`;
+    html += weekLabel('下周 Next Week', week2);
+    html += `<div class="table-wrapper"><table class="hours-table weekly">${thead}<tbody>${tableRows(week2)}</tbody></table></div>`;
   }
 
   if (nat.regular_hours_note)

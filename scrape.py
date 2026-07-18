@@ -46,6 +46,13 @@ def get_this_week_dates() -> list[date]:
     return [mon + timedelta(days=i) for i in range(7)]
 
 
+def get_two_week_dates() -> list[date]:
+    """Return 14 dates: this Mon-Sun + next Mon-Sun."""
+    today = date.today()
+    mon = today - timedelta(days=today.weekday())
+    return [mon + timedelta(days=i) for i in range(14)]
+
+
 WEEK_DAY_NAMES = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 
 
@@ -136,10 +143,10 @@ def scrape_natatorium() -> dict:
 
         result["tables"].append({"headers": headers, "rows": table_data})
 
-    # Build this week's schedule
-    week_dates = get_this_week_dates()
+    # Build two-week schedule
+    week_dates = get_two_week_dates()
     weekly = []
-    for wd in week_dates:
+    for i, wd in enumerate(week_dates):
         if wd in nat_hours_lookup:
             nat_val = nat_hours_lookup[wd].get("natatorium", "Closed")
             oac_val = nat_hours_lookup[wd].get("outdoor", "Closed")
@@ -149,6 +156,7 @@ def scrape_natatorium() -> dict:
         weekly.append({
             "date": wd.isoformat(),
             "day": WEEK_DAY_NAMES[wd.weekday()],
+            "week_number": (i // 7) + 1,
             "natatorium": nat_val,
             "outdoor_aquatic": oac_val,
         })
