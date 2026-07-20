@@ -1,39 +1,39 @@
 {
-  "generated_at": "2026-07-19T14:48:18.828085",
-  "generated_at_readable": "2026-07-19 14:48:18 ",
+  "generated_at": "2026-07-20T05:32:49.867809",
+  "generated_at_readable": "2026-07-20 05:32:49 ",
   "week_dates": [
     {
-      "date": "2026-07-13",
+      "date": "2026-07-20",
       "day": "Mon"
     },
     {
-      "date": "2026-07-14",
+      "date": "2026-07-21",
       "day": "Tue"
     },
     {
-      "date": "2026-07-15",
+      "date": "2026-07-22",
       "day": "Wed"
     },
     {
-      "date": "2026-07-16",
+      "date": "2026-07-23",
       "day": "Thu"
     },
     {
-      "date": "2026-07-17",
+      "date": "2026-07-24",
       "day": "Fri"
     },
     {
-      "date": "2026-07-18",
+      "date": "2026-07-25",
       "day": "Sat"
     },
     {
-      "date": "2026-07-19",
+      "date": "2026-07-26",
       "day": "Sun"
     }
   ],
   "natatorium": {
     "source": "https://recwell.umd.edu/facility-alerts",
-    "last_updated": "2026-07-19T14:48:19.109891",
+    "last_updated": "2026-07-20T05:32:50.229591",
     "alerts": [
       "The Eppley Recreation Center Natatorium and Outdoor Aquatic Center hours of operations are modified between Thursday, July 9, and Monday, July 20, due to various special events. Please review the tables below for specific dates and times."
     ],
@@ -94,98 +94,98 @@
     ],
     "weekly_hours": [
       {
-        "date": "2026-07-13",
-        "day": "Mon",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-07-14",
-        "day": "Tue",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-07-15",
-        "day": "Wed",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-07-16",
-        "day": "Thu",
-        "week_number": 1,
-        "natatorium": "CLOSED",
-        "outdoor_aquatic": "10am to 8pm"
-      },
-      {
-        "date": "2026-07-17",
-        "day": "Fri",
-        "week_number": 1,
-        "natatorium": "CLOSED",
-        "outdoor_aquatic": "CLOSED (updated 7/17/26)"
-      },
-      {
-        "date": "2026-07-18",
-        "day": "Sat",
-        "week_number": 1,
-        "natatorium": "8am to 7:30pm (50M pool remains closed)",
-        "outdoor_aquatic": "12pm to 8pm"
-      },
-      {
-        "date": "2026-07-19",
-        "day": "Sun",
-        "week_number": 1,
-        "natatorium": "CLOSED",
-        "outdoor_aquatic": "10am to 7:30pm"
-      },
-      {
         "date": "2026-07-20",
         "day": "Mon",
-        "week_number": 2,
+        "week_number": 1,
         "natatorium": "CLOSED",
         "outdoor_aquatic": "10am to 8pm"
       },
       {
         "date": "2026-07-21",
         "day": "Tue",
-        "week_number": 2,
+        "week_number": 1,
         "natatorium": "6am-8pm",
         "outdoor_aquatic": "10am-8pm"
       },
       {
         "date": "2026-07-22",
         "day": "Wed",
-        "week_number": 2,
+        "week_number": 1,
         "natatorium": "6am-8pm",
         "outdoor_aquatic": "10am-8pm"
       },
       {
         "date": "2026-07-23",
         "day": "Thu",
-        "week_number": 2,
+        "week_number": 1,
         "natatorium": "6am-8pm",
         "outdoor_aquatic": "10am-8pm"
       },
       {
         "date": "2026-07-24",
         "day": "Fri",
-        "week_number": 2,
+        "week_number": 1,
         "natatorium": "6am-8pm",
         "outdoor_aquatic": "10am-8pm"
       },
       {
         "date": "2026-07-25",
         "day": "Sat",
-        "week_number": 2,
+        "week_number": 1,
         "natatorium": "6am-8pm",
         "outdoor_aquatic": "10am-8pm"
       },
       {
         "date": "2026-07-26",
+        "day": "Sun",
+        "week_number": 1,
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-07-27",
+        "day": "Mon",
+        "week_number": 2,
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-07-28",
+        "day": "Tue",
+        "week_number": 2,
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-07-29",
+        "day": "Wed",
+        "week_number": 2,
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-07-30",
+        "day": "Thu",
+        "week_number": 2,
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-07-31",
+        "day": "Fri",
+        "week_number": 2,
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-08-01",
+        "day": "Sat",
+        "week_number": 2,
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-08-02",
         "day": "Sun",
         "week_number": 2,
         "natatorium": "6am-8pm",
@@ -197,8 +197,8 @@
   "dining_halls": {
     "source": "UMD Dining Halls",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
-    "last_updated": "2026-07-19T14:48:20.009284",
-    "week_of": "2026-07-13 - 2026-07-19",
+    "last_updated": "2026-07-20T05:32:50.926101",
+    "week_of": "2026-07-20 - 2026-07-26",
     "venues": [
       {
         "name": "South Campus",
@@ -219,7 +219,7 @@
             "Thu": "11am-1:30pm",
             "Fri": "11am-1:30pm",
             "Sat": "Closed",
-            "Sun": "Closed"
+            "Sun": "12pm-1:30pm"
           },
           "Dinner": {
             "Mon": "5:30pm-7pm",
@@ -228,7 +228,7 @@
             "Thu": "6pm-7pm",
             "Fri": "Closed",
             "Sat": "Closed",
-            "Sun": "Closed"
+            "Sun": "6pm-7:30pm"
           }
         }
       },
@@ -236,29 +236,29 @@
         "name": "Yahentamitsi",
         "schedule": {
           "Breakfast": {
-            "Mon": "7:30am-9am",
-            "Tue": "8am-9am",
-            "Wed": "7:30am-9am",
-            "Thu": "7:30am-9am",
-            "Fri": "8am-9am",
-            "Sat": "7:30am-9am",
-            "Sun": "7:30am-9am"
+            "Mon": "6:30am-9am",
+            "Tue": "6:30am-9am",
+            "Wed": "7am-9am",
+            "Thu": "7am-9am",
+            "Fri": "7am-9am",
+            "Sat": "7:45am-9am",
+            "Sun": "8am-9am"
           },
           "Lunch": {
-            "Mon": "12pm-1:30pm",
+            "Mon": "11:30am-1:30pm",
             "Tue": "12pm-1:30pm",
-            "Wed": "11:30am-1:30pm",
+            "Wed": "12pm-1:30pm",
             "Thu": "12pm-1:30pm",
             "Fri": "12pm-1:30pm",
-            "Sat": "12pm-1pm",
-            "Sun": "11:30am-1:30pm"
+            "Sat": "11:30am-1pm",
+            "Sun": "11am-1:30pm"
           },
           "Dinner": {
-            "Mon": "6pm-7pm",
+            "Mon": "4:30pm-7pm",
             "Tue": "4:30pm-7pm",
             "Wed": "4:30pm-7pm",
-            "Thu": "5pm-7pm",
-            "Fri": "6pm-7pm",
+            "Thu": "4:30pm-7pm",
+            "Fri": "4:30pm-7pm",
             "Sat": "5pm-7pm",
             "Sun": "4:30pm-7pm"
           }
@@ -301,18 +301,18 @@
   "cafes": {
     "source": "UMD Cafes",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
-    "last_updated": "2026-07-19T14:48:20.791924",
-    "week_of": "2026-07-13 - 2026-07-19",
+    "last_updated": "2026-07-20T05:32:51.527621",
+    "week_of": "2026-07-20 - 2026-07-26",
     "venues": [
       {
         "name": "Applause",
         "schedule": {
           "hours": {
-            "Mon": "8am-2pm",
-            "Tue": "8am-2pm",
-            "Wed": "8am-2pm",
-            "Thu": "8am-2pm",
-            "Fri": "8am-2pm",
+            "Mon": "Closed",
+            "Tue": "Closed",
+            "Wed": "Closed",
+            "Thu": "Closed",
+            "Fri": "Closed",
             "Sat": "Closed",
             "Sun": "Closed"
           }
@@ -477,8 +477,8 @@
   "stamp": {
     "source": "UMD Stamp Dining",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=57096019",
-    "last_updated": "2026-07-19T14:48:21.363697",
-    "week_of": "2026-07-13 - 2026-07-19",
+    "last_updated": "2026-07-20T05:32:52.215026",
+    "week_of": "2026-07-20 - 2026-07-26",
     "venues": [
       {
         "name": "Chick-fil-A",
