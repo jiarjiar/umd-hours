@@ -178,12 +178,14 @@ STAMP_SHEET_URL = BASE_SHEET + "57096019"
 def scrape_sheet(url: str, name: str) -> dict:
     try:
         data = parse_gviz(url)
+        rows_data = data["table"]["rows"]
+        if not rows_data:
+            return {"source": name, "url": url, "error": "Empty rows data", "venues": []}
+        headers_data = rows_data[0]["c"]
+        headers = [c["v"] if c else "" for c in headers_data]
     except Exception as e:
-        return {"source": name, "url": url, "error": str(e), "venues": []}
+        return {"source": name, "url": url, "error": f"GViz parse error: {e}", "venues": []}
 
-    rows_data = data["table"]["rows"]
-    headers_data = rows_data[0]["c"]
-    headers = [c["v"] if c else "" for c in headers_data]
     week_dates = get_this_week_dates()
 
     venues = {}
@@ -234,16 +236,28 @@ def main():
     }
 
     print("🔄 Fetching Natatorium hours...")
-    output["natatorium"] = scrape_natatorium()
+    try:
+        output["natatorium"] = scrape_natatorium()
+    except Exception as e:
+        output["natatorium"] = {"error": f"Natatorium scrape failed: {e}", "source": "recwell.umd.edu"}
 
     print("🔄 Fetching Dining Hall hours...")
-    output["dining_halls"] = scrape_sheet(DINING_SHEET_URL, "UMD Dining Halls")
+    try:
+        output["dining_halls"] = scrape_sheet(DINING_SHEET_URL, "UMD Dining Halls")
+    except Exception as e:
+        output["dining_halls"] = {"error": f"Dining Halls scrape failed: {e}", "venues": []}
 
     print("🔄 Fetching Cafe hours...")
-    output["cafes"] = scrape_sheet(CAFES_SHEET_URL, "UMD Cafes")
+    try:
+        output["cafes"] = scrape_sheet(CAFES_SHEET_URL, "UMD Cafes")
+    except Exception as e:
+        output["cafes"] = {"error": f"Cafes scrape failed: {e}", "venues": []}
 
     print("🔄 Fetching Stamp hours...")
-    output["stamp"] = scrape_sheet(STAMP_SHEET_URL, "UMD Stamp Dining")
+    try:
+        output["stamp"] = scrape_sheet(STAMP_SHEET_URL, "UMD Stamp Dining")
+    except Exception as e:
+        output["stamp"] = {"error": f"Stamp scrape failed: {e}", "venues": []}
 
     out_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data.json")
     with open(out_path, "w", encoding="utf-8") as f:
