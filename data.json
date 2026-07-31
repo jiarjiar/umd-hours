@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-31T05:29:18.144161",
-  "generated_at_readable": "2026-07-31 05:29:18 ",
+  "generated_at": "2026-07-31T15:56:50.590105",
+  "generated_at_readable": "2026-07-31 15:56:50 ",
   "week_dates": [
     {
       "date": "2026-07-27",
@@ -33,7 +33,7 @@
   ],
   "natatorium": {
     "source": "https://recwell.umd.edu/facility-alerts",
-    "last_updated": "2026-07-31T05:29:18.510715",
+    "last_updated": "2026-07-31T15:56:50.777736",
     "alerts": [],
     "tables": [],
     "weekly_hours": [
@@ -141,7 +141,7 @@
   "dining_halls": {
     "source": "UMD Dining Halls",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
-    "last_updated": "2026-07-31T05:29:20.091007",
+    "last_updated": "2026-07-31T15:56:51.504702",
     "week_of": "2026-07-27 - 2026-08-02",
     "venues": [
       {
@@ -245,7 +245,7 @@
   "cafes": {
     "source": "UMD Cafes",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
-    "last_updated": "2026-07-31T05:29:21.181776",
+    "last_updated": "2026-07-31T15:56:52.233901",
     "week_of": "2026-07-27 - 2026-08-02",
     "venues": [
       {
@@ -421,7 +421,7 @@
   "stamp": {
     "source": "UMD Stamp Dining",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=57096019",
-    "last_updated": "2026-07-31T05:29:22.058754",
+    "last_updated": "2026-07-31T15:56:52.897683",
     "week_of": "2026-07-27 - 2026-08-02",
     "venues": [
       {
