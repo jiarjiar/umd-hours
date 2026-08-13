@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-13T19:10:06.988787",
-  "generated_at_readable": "2026-08-13 19:10:06 ",
+  "generated_at": "2026-08-13T23:14:07.728211",
+  "generated_at_readable": "2026-08-13 23:14:07 ",
   "week_dates": [
     {
       "date": "2026-08-10",
@@ -33,7 +33,7 @@
   ],
   "natatorium": {
     "source": "https://recwell.umd.edu/facility-alerts",
-    "last_updated": "2026-08-13T19:10:07.163577",
+    "last_updated": "2026-08-13T23:14:07.985427",
     "alerts": [
       "The Natatorium - including the 50M pool, instructional pool, sauna and steam room - is closed Monday, August 17 through Saturday, August 22, for maintenance.",
       "The Outdoor Aquatic Center is open extended hours during this closure.",
@@ -146,7 +146,7 @@
   "dining_halls": {
     "source": "UMD Dining Halls",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
-    "last_updated": "2026-08-13T19:10:08.056855",
+    "last_updated": "2026-08-13T23:14:08.756185",
     "week_of": "8/10 - 8/23",
     "venues": [
       {
@@ -313,7 +313,7 @@
   "cafes": {
     "source": "UMD Cafes",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
-    "last_updated": "2026-08-13T19:10:08.789639",
+    "last_updated": "2026-08-13T23:14:09.378413",
     "week_of": "8/10 - 8/16",
     "venues": [
       {
@@ -489,7 +489,7 @@
   "stamp": {
     "source": "UMD Stamp Dining",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=57096019",
-    "last_updated": "2026-08-13T19:10:09.571991",
+    "last_updated": "2026-08-13T23:14:10.254421",
     "week_of": "8/10 - 8/16",
     "venues": [
       {
