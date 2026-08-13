@@ -175,7 +175,7 @@ CAFES_SHEET_URL = BASE_SHEET + "2021515491"
 STAMP_SHEET_URL = BASE_SHEET + "57096019"
 
 
-def scrape_sheet(url: str, name: str) -> dict:
+def scrape_sheet(url: str, name: str, two_weeks: bool = False) -> dict:
     try:
         data = parse_gviz(url)
         rows_data = data["table"]["rows"]
@@ -186,7 +186,7 @@ def scrape_sheet(url: str, name: str) -> dict:
     except Exception as e:
         return {"source": name, "url": url, "error": f"GViz parse error: {e}", "venues": []}
 
-    week_dates = get_this_week_dates()
+    week_dates = get_two_week_dates() if two_weeks else get_this_week_dates()
 
     venues = {}
     for row_obj in rows_data[1:]:
@@ -209,7 +209,11 @@ def scrape_sheet(url: str, name: str) -> dict:
             if col >= 0 and col < len(cells):
                 val = cells[col]["v"] if cells[col] else ""
                 val = val.strip() if val else ""
-                day_key = WEEK_DAY_NAMES[wi]
+                if two_weeks:
+                    # 14 天里星期重复，key 带上日期，如 "Mon 7/27"
+                    day_key = f"{WEEK_DAY_NAMES[wi % 7]} {wd.month}/{wd.day}"
+                else:
+                    day_key = WEEK_DAY_NAMES[wi]
                 if meal not in venues[venue_short]["schedule"]:
                     venues[venue_short]["schedule"][meal] = {}
                 venues[venue_short]["schedule"][meal][day_key] = val
@@ -218,7 +222,7 @@ def scrape_sheet(url: str, name: str) -> dict:
         "source": name,
         "url": url,
         "last_updated": datetime.now().isoformat(),
-        "week_of": f"{week_dates[0]} - {week_dates[-1]}",
+        "week_of": f"{week_dates[0].month}/{week_dates[0].day} - {week_dates[-1].month}/{week_dates[-1].day}",
         "venues": list(venues.values()),
     }
 
@@ -243,7 +247,10 @@ def main():
 
     print("🔄 Fetching Dining Hall hours...")
     try:
-        output["dining_halls"] = scrape_sheet(DINING_SHEET_URL, "UMD Dining Halls")
+        output["dining_halls"] = scrape_sheet(DINING_SHEET_URL, "UMD Dining Halls", two_weeks=True)
+        # 显示顺序：Yahentamitsi 置顶，其余保持 Sheet 原始顺序（sort 稳定）
+        venues = output["dining_halls"].get("venues", [])
+        venues.sort(key=lambda v: 0 if v.get("name") == "Yahentamitsi" else 1)
     except Exception as e:
         output["dining_halls"] = {"error": f"Dining Halls scrape failed: {e}", "venues": []}
 

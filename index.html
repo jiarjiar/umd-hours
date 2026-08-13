@@ -144,22 +144,78 @@ function renderNatatorium(nat) {
   el.innerHTML = html;
 }
 
-// ─── Dining ───
+// ─── Dining: two-week table view ───
+const DAY_CN = {Mon:'周一', Tue:'周二', Wed:'周三', Thu:'周四', Fri:'周五', Sat:'周六', Sun:'周日'};
+const MEAL_CN = {Breakfast:'🌅 早餐', Lunch:'☀️ 午餐', Dinner:'🌙 晚餐'};
+
+// 解析 "Mon 7/27" → 排序权重 (month*100+day)
+function dayKeySort(k) {
+  const m = k.match(/(\d{1,2})\/(\d{1,2})/);
+  return m ? +m[1] * 100 + +m[2] : 0;
+}
+
 function renderDining(dh) {
   const el = document.getElementById('dining-content');
   if (!dh) { el.innerHTML = ''; return; }
   const nameCN = {
-    'South Campus': 'South Campus 南校区食堂',
-    'Yahentamitsi': 'Yahentamitsi 原住民文化食堂',
-    '251 North': '251 North 北校区食堂',
+    'South Campus': '🏫 South Campus 南校区食堂',
+    'Yahentamitsi': '🪶 Yahentamitsi 原住民文化食堂',
+    '251 North': '🏛️ 251 North 北校区食堂',
   };
   el.innerHTML = `<div class="card"><h2>🍽️ 食堂 · Dining Halls</h2>
-    <div class="week-label">📅 ${dh.week_of || ''}</div>
-    ${dh.venues?.map(v => `
-      <div class="venue"><h3>${nameCN[v.name] || v.name}</h3>
-        ${renderSchedule(v.schedule)}
-      </div>`).join('')}
+    <div class="week-label">📅 两周开放情况 · ${dh.week_of || ''}（14 天）</div>
+    ${dh.venues?.map(v => renderDiningVenue(v, nameCN[v.name] || v.name)).join('')}
+  </div>`;
+}
+
+function renderDiningVenue(v, title) {
+  const sched = v.schedule || {};
+  // 收集全部日期 key，按真实日期排序
+  const dayKeys = new Set();
+  Object.values(sched).forEach(days => Object.keys(days).forEach(k => dayKeys.add(k)));
+  const keys = [...dayKeys].sort((a, b) => dayKeySort(a) - dayKeySort(b));
+  if (!keys.length) return `<div class="venue"><h3>${title}</h3><p class="muted">暂无数据</p></div>`;
+
+  // 按周分组（第 8 个 key 开始是下周）
+  const week1 = keys.slice(0, 7);
+  const week2 = keys.slice(7, 14);
+
+  const fmtDate = k => k.replace(/^\w+\s+/, ''); // "7/27"
+  const todayStr = fmtDate(new Date().toLocaleDateString('en-US', {month:'numeric', day:'numeric'}));
+
+  const mealCols = Object.keys(sched); // Breakfast / Lunch / Dinner
+  const cellFor = (k, meal) => {
+    const val = (sched[meal] || {})[k];
+    const closed = !val || val.toLowerCase() === 'closed';
+    return `<td class="${closed ? 'td-closed' : 'td-open'}">${closed ? '❌ 关闭' : '✅ ' + val}</td>`;
+  };
+
+  const weekTable = (weekKeys, label) => {
+    const head = `<thead><tr>
+      <th>日期 Day</th>${mealCols.map(m => `<th>${MEAL_CN[m] || m}</th>`).join('')}
+    </tr></thead>`;
+    const body = weekKeys.map(k => {
+      const [dayEn] = k.split(' ');
+      const isToday = fmtDate(k) === todayStr;
+      const isWeekend = dayEn === 'Sat' || dayEn === 'Sun';
+      const cls = [isToday ? 'today' : '', isWeekend ? 'weekend' : ''].join(' ');
+      return `<tr class="${cls}">
+        <td class="facility-name">${DAY_CN[dayEn] || dayEn}<br><small>${fmtDate(k)}${isToday ? ' · 今天' : ''}</small></td>
+        ${mealCols.map(m => cellFor(k, m)).join('')}
+      </tr>`;
+    }).join('');
+    return `<div class="week-block">
+      <div class="week-label">${label} · ${fmtDate(weekKeys[0])} ~ ${fmtDate(weekKeys[weekKeys.length-1])}</div>
+      <div class="table-wrapper"><table class="hours-table dining-table">${head}<tbody>${body}</tbody></table></div>
     </div>`;
+  };
+
+  return `<div class="venue dining-venue"><h3>${title}</h3>
+    <div class="two-week">
+      ${weekTable(week1, '📅 本周 This Week')}
+      ${week2.length ? weekTable(week2, '📅 下周 Next Week') : ''}
+    </div>
+  </div>`;
 }
 
 // ─── Cafes — IDEA Central first ───
