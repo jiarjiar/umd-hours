@@ -119,7 +119,7 @@ function renderNatatorium(nat) {
       const natI = d.natatorium.toLowerCase() === 'closed' ? '❌' : '✅';
       const oacI = d.outdoor_aquatic.toLowerCase() === 'closed' ? '❌' : '✅';
       return `<tr>
-        <td class="facility-name">${dayCN[d.day] || d.day}<br><small>${d.date.slice(5)}</small></td>
+        <td class="facility-name">${dayCN[d.day] || d.day} <span class="date-sub">${d.date.slice(5)}</span></td>
         <td class="${natC}">${natI} ${d.natatorium}</td>
         <td class="${oacC}">${oacI} ${d.outdoor_aquatic}</td>
       </tr>`;

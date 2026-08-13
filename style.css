@@ -175,6 +175,12 @@ body {
   font-weight: 600;
   white-space: nowrap;
 }
+.hours-table .date-sub {
+  font-weight: 400;
+  font-size: 0.82em;
+  color: var(--text-secondary);
+  margin-left: 2px;
+}
 .td-closed {
   background: var(--danger-bg);
   color: var(--danger-text);
