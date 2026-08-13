@@ -77,6 +77,20 @@ def parse_special_date(s: str) -> date | None:
     return None
 
 
+# 手动覆盖：RecWell 只发纯文字公告、页面无表格数据时使用。
+# 日期滚出 14 天窗口后自动失效，无需清理。
+# key: date → (natatorium, outdoor_aquatic)
+NAT_MANUAL_OVERRIDES = {
+    # 2026-08-17 ~ 08-22 维护闭馆（50M池/教学池/桑拿/蒸汽房全关，OAC 延长开放）
+    date(2026, 8, 17): ("Closed", "6am-8pm"),
+    date(2026, 8, 18): ("Closed", "6am-8pm"),
+    date(2026, 8, 19): ("Closed", "6am-8pm"),
+    date(2026, 8, 20): ("Closed", "6am-8pm"),
+    date(2026, 8, 21): ("Closed", "6am-8pm"),
+    date(2026, 8, 22): ("Closed", "8am-7:30pm"),
+}
+
+
 def scrape_natatorium() -> dict:
     url = "https://recwell.umd.edu/facility-alerts"
     resp = requests.get(url, timeout=15)
@@ -106,9 +120,16 @@ def scrape_natatorium() -> dict:
         result["error"] = "Text slot not found"
         return result
 
-    desc = text_div.find("p")
-    if desc:
-        result["alerts"].append(desc.get_text(strip=True))
+    # 收集所有公告段落和列表项（纯文字公告没有表格，靠这里展示）
+    for el in text_div.find_all(["p", "ul"]):
+        if el.name == "ul":
+            items = [li.get_text(strip=True) for li in el.find_all("li")]
+            if items:
+                result["alerts"].append(" · ".join(items))
+        else:
+            t = el.get_text(strip=True)
+            if t:
+                result["alerts"].append(t)
 
     # Parse tables and build a date → hours lookup for Natatorium
     nat_hours_lookup = {}  # date → hours string
@@ -147,7 +168,9 @@ def scrape_natatorium() -> dict:
     week_dates = get_two_week_dates()
     weekly = []
     for i, wd in enumerate(week_dates):
-        if wd in nat_hours_lookup:
+        if wd in NAT_MANUAL_OVERRIDES:
+            nat_val, oac_val = NAT_MANUAL_OVERRIDES[wd]
+        elif wd in nat_hours_lookup:
             nat_val = nat_hours_lookup[wd].get("natatorium", "Closed")
             oac_val = nat_hours_lookup[wd].get("outdoor", "Closed")
         else:

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-13T18:57:52.652459",
-  "generated_at_readable": "2026-08-13 18:57:52 ",
+  "generated_at": "2026-08-13T19:10:06.988787",
+  "generated_at_readable": "2026-08-13 19:10:06 ",
   "week_dates": [
     {
       "date": "2026-08-10",
@@ -33,9 +33,12 @@
   ],
   "natatorium": {
     "source": "https://recwell.umd.edu/facility-alerts",
-    "last_updated": "2026-08-13T18:57:52.936259",
+    "last_updated": "2026-08-13T19:10:07.163577",
     "alerts": [
-      "The Natatorium - including the 50M pool, instructional pool, sauna and steam room - is closed Monday, August 17 through Saturday, August 22, for maintenance."
+      "The Natatorium - including the 50M pool, instructional pool, sauna and steam room - is closed Monday, August 17 through Saturday, August 22, for maintenance.",
+      "The Outdoor Aquatic Center is open extended hours during this closure.",
+      "Outdoor Aquatic Center Hours 8/17 to 8/22",
+      "Monday, August 17: 6am to 8pm · Tuesday, August 18: 6am to 8pm · Wednesday, August 19: 6am to 8pm · Thursday, August 20: 6am to 8pm · Friday, August 21: 6am to 8pm · Saturday, August 22: 8am to 7:30pm"
     ],
     "tables": [],
     "weekly_hours": [
@@ -92,43 +95,43 @@
         "date": "2026-08-17",
         "day": "Mon",
         "week_number": 2,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
+        "natatorium": "Closed",
+        "outdoor_aquatic": "6am-8pm"
       },
       {
         "date": "2026-08-18",
         "day": "Tue",
         "week_number": 2,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
+        "natatorium": "Closed",
+        "outdoor_aquatic": "6am-8pm"
       },
       {
         "date": "2026-08-19",
         "day": "Wed",
         "week_number": 2,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
+        "natatorium": "Closed",
+        "outdoor_aquatic": "6am-8pm"
       },
       {
         "date": "2026-08-20",
         "day": "Thu",
         "week_number": 2,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
+        "natatorium": "Closed",
+        "outdoor_aquatic": "6am-8pm"
       },
       {
         "date": "2026-08-21",
         "day": "Fri",
         "week_number": 2,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
+        "natatorium": "Closed",
+        "outdoor_aquatic": "6am-8pm"
       },
       {
         "date": "2026-08-22",
         "day": "Sat",
         "week_number": 2,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
+        "natatorium": "Closed",
+        "outdoor_aquatic": "8am-7:30pm"
       },
       {
         "date": "2026-08-23",
@@ -143,7 +146,7 @@
   "dining_halls": {
     "source": "UMD Dining Halls",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
-    "last_updated": "2026-08-13T18:57:53.659394",
+    "last_updated": "2026-08-13T19:10:08.056855",
     "week_of": "8/10 - 8/23",
     "venues": [
       {
@@ -310,7 +313,7 @@
   "cafes": {
     "source": "UMD Cafes",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
-    "last_updated": "2026-08-13T18:57:54.654796",
+    "last_updated": "2026-08-13T19:10:08.789639",
     "week_of": "8/10 - 8/16",
     "venues": [
       {
@@ -486,7 +489,7 @@
   "stamp": {
     "source": "UMD Stamp Dining",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=57096019",
-    "last_updated": "2026-08-13T18:57:55.369600",
+    "last_updated": "2026-08-13T19:10:09.571991",
     "week_of": "8/10 - 8/16",
     "venues": [
       {
