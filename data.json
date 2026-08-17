@@ -1,39 +1,39 @@
 {
-  "generated_at": "2026-08-16T14:14:31.465554",
-  "generated_at_readable": "2026-08-16 14:14:31 ",
+  "generated_at": "2026-08-17T02:53:11.802752",
+  "generated_at_readable": "2026-08-17 02:53:11 ",
   "week_dates": [
     {
-      "date": "2026-08-10",
+      "date": "2026-08-17",
       "day": "Mon"
     },
     {
-      "date": "2026-08-11",
+      "date": "2026-08-18",
       "day": "Tue"
     },
     {
-      "date": "2026-08-12",
+      "date": "2026-08-19",
       "day": "Wed"
     },
     {
-      "date": "2026-08-13",
+      "date": "2026-08-20",
       "day": "Thu"
     },
     {
-      "date": "2026-08-14",
+      "date": "2026-08-21",
       "day": "Fri"
     },
     {
-      "date": "2026-08-15",
+      "date": "2026-08-22",
       "day": "Sat"
     },
     {
-      "date": "2026-08-16",
+      "date": "2026-08-23",
       "day": "Sun"
     }
   ],
   "natatorium": {
     "source": "https://recwell.umd.edu/facility-alerts",
-    "last_updated": "2026-08-16T14:14:31.712898",
+    "last_updated": "2026-08-17T02:53:12.087684",
     "alerts": [
       "The Natatorium - including the 50M pool, instructional pool, sauna and steam room - is closed Monday, August 17 through Saturday, August 22, for maintenance.",
       "The Outdoor Aquatic Center is open extended hours during this closure.",
@@ -43,98 +43,98 @@
     "tables": [],
     "weekly_hours": [
       {
-        "date": "2026-08-10",
-        "day": "Mon",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-08-11",
-        "day": "Tue",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-08-12",
-        "day": "Wed",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-08-13",
-        "day": "Thu",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-08-14",
-        "day": "Fri",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-08-15",
-        "day": "Sat",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-08-16",
-        "day": "Sun",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
         "date": "2026-08-17",
         "day": "Mon",
-        "week_number": 2,
+        "week_number": 1,
         "natatorium": "Closed",
         "outdoor_aquatic": "6am-8pm"
       },
       {
         "date": "2026-08-18",
         "day": "Tue",
-        "week_number": 2,
+        "week_number": 1,
         "natatorium": "Closed",
         "outdoor_aquatic": "6am-8pm"
       },
       {
         "date": "2026-08-19",
         "day": "Wed",
-        "week_number": 2,
+        "week_number": 1,
         "natatorium": "Closed",
         "outdoor_aquatic": "6am-8pm"
       },
       {
         "date": "2026-08-20",
         "day": "Thu",
-        "week_number": 2,
+        "week_number": 1,
         "natatorium": "Closed",
         "outdoor_aquatic": "6am-8pm"
       },
       {
         "date": "2026-08-21",
         "day": "Fri",
-        "week_number": 2,
+        "week_number": 1,
         "natatorium": "Closed",
         "outdoor_aquatic": "6am-8pm"
       },
       {
         "date": "2026-08-22",
         "day": "Sat",
-        "week_number": 2,
+        "week_number": 1,
         "natatorium": "Closed",
         "outdoor_aquatic": "8am-7:30pm"
       },
       {
         "date": "2026-08-23",
+        "day": "Sun",
+        "week_number": 1,
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-08-24",
+        "day": "Mon",
+        "week_number": 2,
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-08-25",
+        "day": "Tue",
+        "week_number": 2,
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-08-26",
+        "day": "Wed",
+        "week_number": 2,
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-08-27",
+        "day": "Thu",
+        "week_number": 2,
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-08-28",
+        "day": "Fri",
+        "week_number": 2,
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-08-29",
+        "day": "Sat",
+        "week_number": 2,
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-08-30",
         "day": "Sun",
         "week_number": 2,
         "natatorium": "6am-8pm",
@@ -146,59 +146,59 @@
   "dining_halls": {
     "source": "UMD Dining Halls",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
-    "last_updated": "2026-08-16T14:14:32.662030",
-    "week_of": "8/10 - 8/23",
+    "last_updated": "2026-08-17T02:53:12.925770",
+    "week_of": "8/17 - 8/30",
     "venues": [
       {
         "name": "Yahentamitsi",
         "schedule": {
           "Breakfast": {
-            "Mon 8/10": "Closed",
-            "Tue 8/11": "Closed",
-            "Wed 8/12": "Closed",
-            "Thu 8/13": "Closed",
-            "Fri 8/14": "Closed",
-            "Sat 8/15": "Closed",
-            "Sun 8/16": "Closed",
             "Mon 8/17": "Closed",
             "Tue 8/18": "Closed",
             "Wed 8/19": "Closed",
             "Thu 8/20": "Closed",
             "Fri 8/21": "Closed",
             "Sat 8/22": "Closed",
-            "Sun 8/23": "Closed"
+            "Sun 8/23": "Closed",
+            "Mon 8/24": "Closed",
+            "Tue 8/25": "Closed",
+            "Wed 8/26": "Closed",
+            "Thu 8/27": "Closed",
+            "Fri 8/28": "7am-10:30am",
+            "Sat 8/29": "10am-10:30am",
+            "Sun 8/30": "10am-10:30am"
           },
           "Lunch": {
-            "Mon 8/10": "Closed",
-            "Tue 8/11": "Closed",
-            "Wed 8/12": "Closed",
-            "Thu 8/13": "Closed",
-            "Fri 8/14": "Closed",
-            "Sat 8/15": "Closed",
-            "Sun 8/16": "Closed",
             "Mon 8/17": "11am-1:30pm",
             "Tue 8/18": "11am-1:30pm",
             "Wed 8/19": "11am-1:30pm",
             "Thu 8/20": "11am-1:30pm",
             "Fri 8/21": "11am-1:30pm",
             "Sat 8/22": "11am-1:30pm",
-            "Sun 8/23": "11am-1:30pm"
+            "Sun 8/23": "11am-1:30pm",
+            "Mon 8/24": "11am-1:30pm",
+            "Tue 8/25": "11am-1:30pm",
+            "Wed 8/26": "11am-1:30pm",
+            "Thu 8/27": "11am-4pm",
+            "Fri 8/28": "10:30am-4pm",
+            "Sat 8/29": "10:30am-4pm",
+            "Sun 8/30": "10:30am-4pm"
           },
           "Dinner": {
-            "Mon 8/10": "Closed",
-            "Tue 8/11": "Closed",
-            "Wed 8/12": "Closed",
-            "Thu 8/13": "Closed",
-            "Fri 8/14": "Closed",
-            "Sat 8/15": "Closed",
-            "Sun 8/16": "Closed",
             "Mon 8/17": "5pm-6:30pm",
             "Tue 8/18": "5pm-6:30pm",
             "Wed 8/19": "5pm-6:30pm",
             "Thu 8/20": "5pm-6:30pm",
             "Fri 8/21": "5pm-6:30pm",
             "Sat 8/22": "5pm-6:30pm",
-            "Sun 8/23": "5pm-6:30pm"
+            "Sun 8/23": "5pm-6:30pm",
+            "Mon 8/24": "5pm-6:30pm",
+            "Tue 8/25": "5pm-6:30pm",
+            "Wed 8/26": "5pm-6:30pm",
+            "Thu 8/27": "4pm-9pm",
+            "Fri 8/28": "4pm-9pm",
+            "Sat 8/29": "4pm-9pm",
+            "Sun 8/30": "4pm-9pm"
           }
         }
       },
@@ -206,52 +206,52 @@
         "name": "South Campus",
         "schedule": {
           "Breakfast": {
-            "Mon 8/10": "Closed",
-            "Tue 8/11": "Closed",
-            "Wed 8/12": "Closed",
-            "Thu 8/13": "Closed",
-            "Fri 8/14": "Closed",
-            "Sat 8/15": "Closed",
-            "Sun 8/16": "Closed",
             "Mon 8/17": "Closed",
             "Tue 8/18": "Closed",
             "Wed 8/19": "Closed",
             "Thu 8/20": "Closed",
             "Fri 8/21": "Closed",
             "Sat 8/22": "Closed",
-            "Sun 8/23": "Closed"
+            "Sun 8/23": "Closed",
+            "Mon 8/24": "Closed",
+            "Tue 8/25": "Closed",
+            "Wed 8/26": "Closed",
+            "Thu 8/27": "Closed",
+            "Fri 8/28": "7am-10:30am",
+            "Sat 8/29": "10am-10:30am",
+            "Sun 8/30": "10am-10:30am"
           },
           "Lunch": {
-            "Mon 8/10": "Closed",
-            "Tue 8/11": "Closed",
-            "Wed 8/12": "Closed",
-            "Thu 8/13": "Closed",
-            "Fri 8/14": "Closed",
-            "Sat 8/15": "Closed",
-            "Sun 8/16": "Closed",
             "Mon 8/17": "11am-1:30pm",
             "Tue 8/18": "11am-1:30pm",
             "Wed 8/19": "11am-1:30pm",
             "Thu 8/20": "11am-1:30pm",
             "Fri 8/21": "11am-1:30pm",
             "Sat 8/22": "11am-1:30pm",
-            "Sun 8/23": "11am-1:30pm"
+            "Sun 8/23": "11am-1:30pm",
+            "Mon 8/24": "11am-1:30pm",
+            "Tue 8/25": "11am-1:30pm",
+            "Wed 8/26": "11am-1:30pm",
+            "Thu 8/27": "11am-4pm",
+            "Fri 8/28": "10:30am-4pm",
+            "Sat 8/29": "10:30am-4pm",
+            "Sun 8/30": "10:30am-4pm"
           },
           "Dinner": {
-            "Mon 8/10": "Closed",
-            "Tue 8/11": "Closed",
-            "Wed 8/12": "Closed",
-            "Thu 8/13": "Closed",
-            "Fri 8/14": "Closed",
-            "Sat 8/15": "Closed",
-            "Sun 8/16": "Closed",
             "Mon 8/17": "5pm-6:30pm",
             "Tue 8/18": "5pm-6:30pm",
             "Wed 8/19": "5pm-6:30pm",
             "Thu 8/20": "5pm-6:30pm",
             "Fri 8/21": "5pm-6:30pm",
             "Sat 8/22": "5pm-6:30pm",
-            "Sun 8/23": "5pm-6:30pm"
+            "Sun 8/23": "5pm-6:30pm",
+            "Mon 8/24": "5pm-6:30pm",
+            "Tue 8/25": "5pm-6:30pm",
+            "Wed 8/26": "5pm-6:30pm",
+            "Thu 8/27": "4pm-9pm",
+            "Fri 8/28": "4pm-9pm",
+            "Sat 8/29": "4pm-9pm",
+            "Sun 8/30": "4pm-9pm"
           }
         }
       },
@@ -259,52 +259,52 @@
         "name": "251 North",
         "schedule": {
           "Breakfast": {
-            "Mon 8/10": "Closed",
-            "Tue 8/11": "Closed",
-            "Wed 8/12": "Closed",
-            "Thu 8/13": "Closed",
-            "Fri 8/14": "Closed",
-            "Sat 8/15": "Closed",
-            "Sun 8/16": "Closed",
             "Mon 8/17": "Closed",
             "Tue 8/18": "Closed",
             "Wed 8/19": "Closed",
             "Thu 8/20": "Closed",
             "Fri 8/21": "Closed",
             "Sat 8/22": "Closed",
-            "Sun 8/23": "Closed"
+            "Sun 8/23": "Closed",
+            "Mon 8/24": "Closed",
+            "Tue 8/25": "Closed",
+            "Wed 8/26": "Closed",
+            "Thu 8/27": "Closed",
+            "Fri 8/28": "8am-10:30am",
+            "Sat 8/29": "8am-10:30am",
+            "Sun 8/30": "8am-10:30am"
           },
           "Lunch": {
-            "Mon 8/10": "Closed",
-            "Tue 8/11": "Closed",
-            "Wed 8/12": "Closed",
-            "Thu 8/13": "Closed",
-            "Fri 8/14": "Closed",
-            "Sat 8/15": "Closed",
-            "Sun 8/16": "Closed",
             "Mon 8/17": "Closed",
             "Tue 8/18": "Closed",
             "Wed 8/19": "Closed",
             "Thu 8/20": "Closed",
             "Fri 8/21": "Closed",
             "Sat 8/22": "Closed",
-            "Sun 8/23": "Closed"
+            "Sun 8/23": "Closed",
+            "Mon 8/24": "Closed",
+            "Tue 8/25": "Closed",
+            "Wed 8/26": "Closed",
+            "Thu 8/27": "Closed",
+            "Fri 8/28": "10:30am-4pm",
+            "Sat 8/29": "10:30am-4pm",
+            "Sun 8/30": "10:30am-4pm"
           },
           "Dinner": {
-            "Mon 8/10": "Closed",
-            "Tue 8/11": "Closed",
-            "Wed 8/12": "Closed",
-            "Thu 8/13": "Closed",
-            "Fri 8/14": "Closed",
-            "Sat 8/15": "Closed",
-            "Sun 8/16": "Closed",
             "Mon 8/17": "Closed",
             "Tue 8/18": "Closed",
             "Wed 8/19": "Closed",
             "Thu 8/20": "Closed",
             "Fri 8/21": "Closed",
             "Sat 8/22": "Closed",
-            "Sun 8/23": "Closed"
+            "Sun 8/23": "Closed",
+            "Mon 8/24": "Closed",
+            "Tue 8/25": "Closed",
+            "Wed 8/26": "Closed",
+            "Thu 8/27": "4pm-9pm",
+            "Fri 8/28": "4pm-9pm",
+            "Sat 8/29": "4pm-9pm",
+            "Sun 8/30": "4pm-9pm"
           }
         }
       }
@@ -313,8 +313,8 @@
   "cafes": {
     "source": "UMD Cafes",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
-    "last_updated": "2026-08-16T14:14:33.288361",
-    "week_of": "8/10 - 8/16",
+    "last_updated": "2026-08-17T02:53:13.582831",
+    "week_of": "8/17 - 8/23",
     "venues": [
       {
         "name": "Applause",
@@ -354,7 +354,7 @@
             "Thu": "8am-3pm",
             "Fri": "8am-3pm",
             "Sat": "Closed",
-            "Sun": "Closed"
+            "Sun": "TBD"
           }
         }
       },
@@ -489,8 +489,8 @@
   "stamp": {
     "source": "UMD Stamp Dining",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=57096019",
-    "last_updated": "2026-08-16T14:14:33.917085",
-    "week_of": "8/10 - 8/16",
+    "last_updated": "2026-08-17T02:53:14.233659",
+    "week_of": "8/17 - 8/23",
     "venues": [
       {
         "name": "Chick-fil-A",
