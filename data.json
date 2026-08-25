@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-25T02:51:52.443604",
-  "generated_at_readable": "2026-08-25 02:51:52 ",
+  "generated_at": "2026-08-25T14:36:40.997141",
+  "generated_at_readable": "2026-08-25 14:36:40 ",
   "week_dates": [
     {
       "date": "2026-08-24",
@@ -33,14 +33,91 @@
   ],
   "natatorium": {
     "source": "https://recwell.umd.edu/facility-alerts",
-    "last_updated": "2026-08-25T02:51:52.675216",
-    "alerts": [
-      "The Natatorium - including the 50M pool, instructional pool, sauna and steam room - is closed Monday, August 17 through Saturday, August 22, for maintenance.",
-      "The Outdoor Aquatic Center is open extended hours during this closure.",
-      "Outdoor Aquatic Center Hours 8/17 to 8/22",
-      "Monday, August 17: 6am to 8pm · Tuesday, August 18: 6am to 8pm · Wednesday, August 19: 6am to 8pm · Thursday, August 20: 6am to 8pm · Friday, August 21: 6am to 8pm · Saturday, August 22: 8am to 7:30pm"
+    "last_updated": "2026-08-25T14:36:41.243969",
+    "alerts": [],
+    "tables": [
+      {
+        "headers": [
+          "Date/Facility",
+          "August 24 and 25",
+          "August 26",
+          "August 27",
+          "August 28"
+        ],
+        "rows": [
+          {
+            "facility": "Eppley Recreation Center",
+            "August 24 and 25": "6am to 10pm",
+            "August 26": "5pm to 10pm",
+            "August 27": "5pm to 12am",
+            "August 28": "5pm to 12am"
+          },
+          {
+            "facility": "Natatorium",
+            "August 24 and 25": "6am to 8pm",
+            "August 26": "5pm to 9:30pm",
+            "August 27": "5pm to 9:30pm",
+            "August 28": "5pm to 9:30pm"
+          },
+          {
+            "facility": "Ritchie Coliseum",
+            "August 24 and 25": "11am to 7pm",
+            "August 26": "5pm to 10pm",
+            "August 27": "5pm to 12am",
+            "August 28": "5pm to 12am"
+          },
+          {
+            "facility": "Outdoor Aquatic Center",
+            "August 24 and 25": "12pm to 8pm",
+            "August 26": "5pm to 9:30pm",
+            "August 27": "5pm to 10pm",
+            "August 28": "5pm to 10pm"
+          },
+          {
+            "facility": "Bouldering Zone",
+            "August 24 and 25": "5pm to 10pm",
+            "August 26": "5pm to 10pm",
+            "August 27": "5pm to 10pm",
+            "August 28": "5pm to 10pm"
+          },
+          {
+            "facility": "Armory",
+            "August 24 and 25": "Closed",
+            "August 26": "Closed",
+            "August 27": "5pm to 10pm",
+            "August 28": "5pm to 10pm"
+          },
+          {
+            "facility": "SPH 0101 morning",
+            "August 24 and 25": "6am to 9am",
+            "August 26": "Closed",
+            "August 27": "Closed",
+            "August 28": "Closed"
+          },
+          {
+            "facility": "SPH 0101 afternoon",
+            "August 24 and 25": "11:30am to 6:30pm",
+            "August 26": "Closed",
+            "August 27": "5pm to 10pm",
+            "August 28": "5pm to 10pm"
+          },
+          {
+            "facility": "Severn morning",
+            "August 24 and 25": "11am to 1:30pm",
+            "August 26": "11am to 1:30pm",
+            "August 27": "11am to 1:30pm",
+            "August 28": "11am to 1:30pm"
+          },
+          {
+            "facility": "Severn afternoon",
+            "August 24 and 25": "2pm to 6pm",
+            "August 26": "2pm to 6pm",
+            "August 27": "2pm to 6pm",
+            "August 28": "2pm to 6pm"
+          }
+        ]
+      }
     ],
-    "tables": [],
     "weekly_hours": [
       {
         "date": "2026-08-24",
@@ -60,22 +137,22 @@
         "date": "2026-08-26",
         "day": "Wed",
         "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
+        "natatorium": "5pm to 9:30pm",
+        "outdoor_aquatic": "2pm to 6pm"
       },
       {
         "date": "2026-08-27",
         "day": "Thu",
         "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
+        "natatorium": "5pm to 9:30pm",
+        "outdoor_aquatic": "2pm to 6pm"
       },
       {
         "date": "2026-08-28",
         "day": "Fri",
         "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
+        "natatorium": "5pm to 9:30pm",
+        "outdoor_aquatic": "2pm to 6pm"
       },
       {
         "date": "2026-08-29",
@@ -146,7 +223,7 @@
   "dining_halls": {
     "source": "UMD Dining Halls",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
-    "last_updated": "2026-08-25T02:51:53.443741",
+    "last_updated": "2026-08-25T14:36:41.968483",
     "week_of": "8/24 - 9/6",
     "venues": [
       {
@@ -313,7 +390,7 @@
   "cafes": {
     "source": "UMD Cafes",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
-    "last_updated": "2026-08-25T02:51:54.079078",
+    "last_updated": "2026-08-25T14:36:42.646980",
     "week_of": "8/24 - 8/30",
     "venues": [
       {
@@ -489,7 +566,7 @@
   "stamp": {
     "source": "UMD Stamp Dining",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=57096019",
-    "last_updated": "2026-08-25T02:51:54.718234",
+    "last_updated": "2026-08-25T14:36:43.294954",
     "week_of": "8/24 - 8/30",
     "venues": [
       {
