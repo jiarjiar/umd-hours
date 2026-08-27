@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-27T12:12:10.740201",
-  "generated_at_readable": "2026-08-27 12:12:10 ",
+  "generated_at": "2026-08-27T23:24:45.350265",
+  "generated_at_readable": "2026-08-27 23:24:45 ",
   "week_dates": [
     {
       "date": "2026-08-24",
@@ -33,7 +33,7 @@
   ],
   "natatorium": {
     "source": "https://recwell.umd.edu/facility-alerts",
-    "last_updated": "2026-08-27T12:12:11.000605",
+    "last_updated": "2026-08-27T23:24:45.530131",
     "alerts": [],
     "tables": [
       {
@@ -56,8 +56,8 @@
             "facility": "Natatorium",
             "August 24 and 25": "6am to 8pm",
             "August 26": "5pm to 9:30pm",
-            "August 27": "5pm to 9:30pm",
-            "August 28": "5pm to 9:30pm"
+            "August 27": "7pm to 9:30pm",
+            "August 28": "7pm to 9:30pm"
           },
           {
             "facility": "Ritchie Coliseum",
@@ -144,14 +144,14 @@
         "date": "2026-08-27",
         "day": "Thu",
         "week_number": 1,
-        "natatorium": "5pm to 9:30pm",
+        "natatorium": "7pm to 9:30pm",
         "outdoor_aquatic": "2pm to 6pm"
       },
       {
         "date": "2026-08-28",
         "day": "Fri",
         "week_number": 1,
-        "natatorium": "5pm to 9:30pm",
+        "natatorium": "7pm to 9:30pm",
         "outdoor_aquatic": "2pm to 6pm"
       },
       {
@@ -223,7 +223,7 @@
   "dining_halls": {
     "source": "UMD Dining Halls",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
-    "last_updated": "2026-08-27T12:12:11.852279",
+    "last_updated": "2026-08-27T23:24:45.942472",
     "week_of": "8/24 - 9/6",
     "venues": [
       {
@@ -390,7 +390,7 @@
   "cafes": {
     "source": "UMD Cafes",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
-    "last_updated": "2026-08-27T12:12:12.518412",
+    "last_updated": "2026-08-27T23:24:46.370793",
     "week_of": "8/24 - 8/30",
     "venues": [
       {
@@ -566,7 +566,7 @@
   "stamp": {
     "source": "UMD Stamp Dining",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=57096019",
-    "last_updated": "2026-08-27T12:12:13.245538",
+    "last_updated": "2026-08-27T23:24:46.795407",
     "week_of": "8/24 - 8/30",
     "venues": [
       {
