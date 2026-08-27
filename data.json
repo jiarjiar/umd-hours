@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-26T14:36:14.759948",
-  "generated_at_readable": "2026-08-26 14:36:14 ",
+  "generated_at": "2026-08-27T12:12:10.740201",
+  "generated_at_readable": "2026-08-27 12:12:10 ",
   "week_dates": [
     {
       "date": "2026-08-24",
@@ -33,7 +33,7 @@
   ],
   "natatorium": {
     "source": "https://recwell.umd.edu/facility-alerts",
-    "last_updated": "2026-08-26T14:36:14.943790",
+    "last_updated": "2026-08-27T12:12:11.000605",
     "alerts": [],
     "tables": [
       {
@@ -223,7 +223,7 @@
   "dining_halls": {
     "source": "UMD Dining Halls",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
-    "last_updated": "2026-08-26T14:36:15.715374",
+    "last_updated": "2026-08-27T12:12:11.852279",
     "week_of": "8/24 - 9/6",
     "venues": [
       {
@@ -390,7 +390,7 @@
   "cafes": {
     "source": "UMD Cafes",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
-    "last_updated": "2026-08-26T14:36:16.347222",
+    "last_updated": "2026-08-27T12:12:12.518412",
     "week_of": "8/24 - 8/30",
     "venues": [
       {
@@ -425,13 +425,13 @@
         "name": "The Coffee Bar",
         "schedule": {
           "hours": {
-            "Mon": "TBD",
-            "Tue": "TBD",
-            "Wed": "TBD",
-            "Thu": "TBD",
-            "Fri": "TBD",
-            "Sat": "TBD",
-            "Sun": "TBD"
+            "Mon": "8am-3pm",
+            "Tue": "8am-3pm",
+            "Wed": "8am-3pm",
+            "Thu": "8am-5pm",
+            "Fri": "8am-5pm",
+            "Sat": "9am-4pm",
+            "Sun": "Closed"
           }
         }
       },
@@ -566,7 +566,7 @@
   "stamp": {
     "source": "UMD Stamp Dining",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=57096019",
-    "last_updated": "2026-08-26T14:36:16.999821",
+    "last_updated": "2026-08-27T12:12:13.245538",
     "week_of": "8/24 - 8/30",
     "venues": [
       {
