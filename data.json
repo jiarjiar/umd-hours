@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-01T17:30:57.301740",
-  "generated_at_readable": "2026-09-01 17:30:57 ",
+  "generated_at": "2026-09-05T06:33:12.204804",
+  "generated_at_readable": "2026-09-05 06:33:12 ",
   "week_dates": [
     {
       "date": "2026-08-31",
@@ -33,87 +33,40 @@
   ],
   "natatorium": {
     "source": "https://recwell.umd.edu/facility-alerts",
-    "last_updated": "2026-09-01T17:30:57.472064",
-    "alerts": [],
+    "last_updated": "2026-09-05T06:33:12.776619",
+    "alerts": [
+      "RecWell facilities have modified hours of operation on Monday, September 7, due to the Labor Day holiday. All facilities not listed below are closed."
+    ],
     "tables": [
       {
         "headers": [
-          "Date/Facility",
-          "August 24 and 25",
-          "August 26",
-          "August 27",
-          "August 28"
+          "Facility",
+          "Hours"
         ],
         "rows": [
           {
             "facility": "Eppley Recreation Center",
-            "August 24 and 25": "6am to 10pm",
-            "August 26": "5pm to 10pm",
-            "August 27": "5pm to 12am",
-            "August 28": "5pm to 12am"
-          },
-          {
-            "facility": "Natatorium",
-            "August 24 and 25": "6am to 8pm",
-            "August 26": "5pm to 9:30pm",
-            "August 27": "7pm to 9:30pm",
-            "August 28": "7pm to 9:30pm"
-          },
-          {
-            "facility": "Ritchie Coliseum",
-            "August 24 and 25": "11am to 7pm",
-            "August 26": "5pm to 10pm",
-            "August 27": "5pm to 12am",
-            "August 28": "5pm to 12am"
-          },
-          {
-            "facility": "Outdoor Aquatic Center",
-            "August 24 and 25": "12pm to 8pm",
-            "August 26": "5pm to 9:30pm",
-            "August 27": "5pm to 10pm",
-            "August 28": "5pm to 10pm"
+            "Hours": "10am to midnight"
           },
           {
             "facility": "Bouldering Zone",
-            "August 24 and 25": "5pm to 10pm",
-            "August 26": "5pm to 10pm",
-            "August 27": "5pm to 10pm",
-            "August 28": "5pm to 10pm"
+            "Hours": "2pm to 10pm"
           },
           {
-            "facility": "Armory",
-            "August 24 and 25": "Closed",
-            "August 26": "Closed",
-            "August 27": "5pm to 10pm",
-            "August 28": "5pm to 10pm"
+            "facility": "Natatorium",
+            "Hours": "10am to 1pm & 3pm to 10pmsauna & steam room open 10am to 10pm"
           },
           {
-            "facility": "SPH 0101 morning",
-            "August 24 and 25": "6am to 9am",
-            "August 26": "Closed",
-            "August 27": "Closed",
-            "August 28": "Closed"
+            "facility": "Outdoor Aquatic Center",
+            "Hours": "10am to 8pm"
           },
           {
-            "facility": "SPH 0101 afternoon",
-            "August 24 and 25": "11:30am to 6:30pm",
-            "August 26": "Closed",
-            "August 27": "5pm to 10pm",
-            "August 28": "5pm to 10pm"
+            "facility": "Reckord Armory",
+            "Hours": "3pm to midnight"
           },
           {
-            "facility": "Severn morning",
-            "August 24 and 25": "11am to 1:30pm",
-            "August 26": "11am to 1:30pm",
-            "August 27": "11am to 1:30pm",
-            "August 28": "11am to 1:30pm"
-          },
-          {
-            "facility": "Severn afternoon",
-            "August 24 and 25": "2pm to 6pm",
-            "August 26": "2pm to 6pm",
-            "August 27": "2pm to 6pm",
-            "August 28": "2pm to 6pm"
+            "facility": "Ritchie Coliseum",
+            "Hours": "10am to midnight"
           }
         ]
       }
@@ -223,7 +176,7 @@
   "dining_halls": {
     "source": "UMD Dining Halls",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
-    "last_updated": "2026-09-01T17:30:57.988776",
+    "last_updated": "2026-09-05T06:33:13.545166",
     "week_of": "8/31 - 9/13",
     "venues": [
       {
@@ -390,7 +343,7 @@
   "cafes": {
     "source": "UMD Cafes",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
-    "last_updated": "2026-09-01T17:30:58.382229",
+    "last_updated": "2026-09-05T06:33:14.069882",
     "week_of": "8/31 - 9/6",
     "venues": [
       {
@@ -566,7 +519,7 @@
   "stamp": {
     "source": "UMD Stamp Dining",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=57096019",
-    "last_updated": "2026-09-01T17:30:58.778311",
+    "last_updated": "2026-09-05T06:33:14.591537",
     "week_of": "8/31 - 9/6",
     "venues": [
       {
