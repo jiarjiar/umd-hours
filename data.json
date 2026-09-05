@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-05T06:33:12.204804",
-  "generated_at_readable": "2026-09-05 06:33:12 ",
+  "generated_at": "2026-09-05T16:25:21.016034",
+  "generated_at_readable": "2026-09-05 16:25:21 ",
   "week_dates": [
     {
       "date": "2026-08-31",
@@ -33,7 +33,7 @@
   ],
   "natatorium": {
     "source": "https://recwell.umd.edu/facility-alerts",
-    "last_updated": "2026-09-05T06:33:12.776619",
+    "last_updated": "2026-09-05T16:25:21.313068",
     "alerts": [
       "RecWell facilities have modified hours of operation on Monday, September 7, due to the Labor Day holiday. All facilities not listed below are closed."
     ],
@@ -176,7 +176,7 @@
   "dining_halls": {
     "source": "UMD Dining Halls",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
-    "last_updated": "2026-09-05T06:33:13.545166",
+    "last_updated": "2026-09-05T16:25:22.221898",
     "week_of": "8/31 - 9/13",
     "venues": [
       {
@@ -343,7 +343,7 @@
   "cafes": {
     "source": "UMD Cafes",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
-    "last_updated": "2026-09-05T06:33:14.069882",
+    "last_updated": "2026-09-05T16:25:22.934053",
     "week_of": "8/31 - 9/6",
     "venues": [
       {
@@ -519,7 +519,7 @@
   "stamp": {
     "source": "UMD Stamp Dining",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=57096019",
-    "last_updated": "2026-09-05T06:33:14.591537",
+    "last_updated": "2026-09-05T16:25:23.625057",
     "week_of": "8/31 - 9/6",
     "venues": [
       {
