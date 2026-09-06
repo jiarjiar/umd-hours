@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-06T16:36:43.584840",
-  "generated_at_readable": "2026-09-06 16:36:43 ",
+  "generated_at": "2026-09-06T18:00:46.179930",
+  "generated_at_readable": "2026-09-06 18:00:46 ",
   "week_dates": [
     {
       "date": "2026-08-31",
@@ -33,7 +33,7 @@
   ],
   "natatorium": {
     "source": "https://recwell.umd.edu/facility-alerts",
-    "last_updated": "2026-09-06T16:36:43.837395",
+    "last_updated": "2026-09-06T18:00:46.461486",
     "alerts": [
       "RecWell facilities have modified hours of operation on Monday, September 7, due to the Labor Day holiday. All facilities not listed below are closed."
     ],
@@ -54,7 +54,7 @@
           },
           {
             "facility": "Natatorium",
-            "Hours": "10am to 1pm & 3pm to 10pmsauna & steam room open 10am to 10pm"
+            "Hours": "10am to 1pm & 3pm to 10pm"
           },
           {
             "facility": "Outdoor Aquatic Center",
@@ -125,8 +125,8 @@
         "date": "2026-09-07",
         "day": "Mon",
         "week_number": 2,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
+        "natatorium": "10am to 1pm & 3pm to 10pm",
+        "outdoor_aquatic": "10am to 8pm"
       },
       {
         "date": "2026-09-08",
@@ -171,12 +171,13 @@
         "outdoor_aquatic": "10am-8pm"
       }
     ],
-    "regular_hours_note": "常规时间 Regular: Natatorium 6am-8pm · Outdoor Aquatic Center 10am-8pm"
+    "regular_hours_note": "常规时间 Regular: Natatorium 6am-8pm · Outdoor Aquatic Center 10am-8pm",
+    "expired_alerts": []
   },
   "dining_halls": {
     "source": "UMD Dining Halls",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
-    "last_updated": "2026-09-06T16:36:44.403717",
+    "last_updated": "2026-09-06T18:00:46.917829",
     "week_of": "8/31 - 9/13",
     "venues": [
       {
@@ -343,7 +344,7 @@
   "cafes": {
     "source": "UMD Cafes",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
-    "last_updated": "2026-09-06T16:36:44.856938",
+    "last_updated": "2026-09-06T18:00:47.284670",
     "week_of": "8/31 - 9/6",
     "venues": [
       {
@@ -519,7 +520,7 @@
   "stamp": {
     "source": "UMD Stamp Dining",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=57096019",
-    "last_updated": "2026-09-06T16:36:45.270352",
+    "last_updated": "2026-09-06T18:00:47.628507",
     "week_of": "8/31 - 9/6",
     "venues": [
       {
