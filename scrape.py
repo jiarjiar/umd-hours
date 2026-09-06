@@ -77,6 +77,21 @@ def parse_special_date(s: str) -> date | None:
     return None
 
 
+def alert_end_date(text: str) -> date | None:
+    """Extract the latest 'Month Day' mentioned in an alert → its end date.
+    E.g. 'closed Monday, August 17 through Saturday, August 22' → Aug 22."""
+    found = []
+    for m in re.finditer(rf"({'|'.join(MONTH_MAP)})\s+(\d{{1,2}})", text, re.I):
+        month = MONTH_MAP.get(m.group(1).lower().rstrip(","))
+        if not month:
+            continue
+        try:
+            found.append(date(date.today().year, month, int(m.group(2))))
+        except ValueError:
+            continue
+    return max(found) if found else None
+
+
 # 手动覆盖：RecWell 只发纯文字公告、页面无表格数据时使用。
 # 日期滚出 14 天窗口后自动失效，无需清理。
 # key: date → (natatorium, outdoor_aquatic)
@@ -111,6 +126,10 @@ def scrape_natatorium() -> dict:
         if "Natatorium" in item.get_text(strip=True):
             nat_item = item
             break
+    if not nat_item and items:
+        # 假日单公告模式（如 "Hours of Operation - Labor Day 9/7"）没有独立 Natatorium item：
+        # 退回第一个公告继续解析，避免整个 provider 失败。
+        nat_item = items[0]
     if not nat_item:
         result["error"] = "Natatorium accordion item not found"
         return result
@@ -137,23 +156,47 @@ def scrape_natatorium() -> dict:
     reg_hours_nat = "6am-8pm"
     reg_hours_oac = "10am-8pm"
 
+    # 假日公告日期：从公告文本提取（如 "on Monday, September 7" → 9/7），
+    # 用于把 "Facility | Hours" 格式的假日表映射到具体日期。
+    announce_dates = set()
+    for a in result["alerts"]:
+        d = alert_end_date(a)
+        if d:
+            announce_dates.add(d)
+
     for table in tables:
         rows = table.find_all("tr")
         if not rows:
             continue
         headers = [th.get_text(strip=True) for th in rows[0].find_all("th")]
         table_data = []
+        # 假日表：表头为 Facility | Hours（而非日期）→ 时间应用到公告日期
+        is_facility_hours = len(headers) >= 2 and headers[0].lower() == "facility" and "hour" in headers[1].lower()
         for row in rows[1:]:
             cells = row.find_all("td")
             if not cells:
                 continue
+            # 剥离斜体副注（如 "sauna & steam room open 10am to 10pm"），只保留主时段
+            for cell in cells:
+                for tag in cell.find_all(["em", "strong", "i"]):
+                    tag.decompose()
             entry = {"facility": cells[0].get_text(strip=True)}
             for i, cell in enumerate(cells[1:], start=1):
                 if i < len(headers):
                     entry[headers[i]] = cell.get_text(strip=True)
             table_data.append(entry)
 
-            # Build lookup: for each special date → hours
+            if is_facility_hours:
+                fac = entry["facility"]
+                hours_val = entry.get(headers[1], "Closed") if len(headers) > 1 else "Closed"
+                for ad in announce_dates:
+                    if "Natatorium" in fac and "Outdoor" not in fac:
+                        nat_hours_lookup.setdefault(ad, {})["natatorium"] = hours_val
+                    elif "Outdoor" in fac:
+                        nat_hours_lookup.setdefault(ad, {})["outdoor"] = hours_val
+                continue
+
+            # 日期表头格式（如 "July 9"）：每个日期列建 lookup
             for i, h in enumerate(headers[1:], start=1):
                 d = parse_special_date(h)
                 if d:
@@ -186,6 +229,20 @@ def scrape_natatorium() -> dict:
 
     result["weekly_hours"] = weekly
     result["regular_hours_note"] = f"常规时间 Regular: Natatorium {reg_hours_nat} · Outdoor Aquatic Center {reg_hours_oac}"
+
+    # 过期公告分拣：结束日期已过去的 → expired_alerts（前端灰显折叠），不再当红横幅。
+    # 无日期的配套公告（如“OAC 延长开放”）跟随批次：带日期的公告全部过期时一并过期。
+    ends = {a: alert_end_date(a) for a in result["alerts"]}
+    dated_ends = [e for e in ends.values() if e]
+    all_expired = bool(dated_ends) and all(e < date.today() for e in dated_ends)
+    active, expired = [], []
+    for a, end in ends.items():
+        if (end and end < date.today()) or (not end and all_expired):
+            expired.append(a)
+        else:
+            active.append(a)
+    result["alerts"] = active
+    result["expired_alerts"] = expired
     return result
 
 
@@ -294,10 +351,14 @@ def main():
         json.dump(output, f, indent=2, ensure_ascii=False)
 
     print(f"✅ Saved to {out_path}")
-    print(f"   Natatorium: weekly_hours with {len(output['natatorium'].get('weekly_hours',[]))} days")
-    print(f"   Dining Halls: {len(output['dining_halls'].get('venues',[]))} venues")
-    print(f"   Cafes: {len(output['cafes'].get('venues',[]))} venues")
-    print(f"   Stamp: {len(output['stamp'].get('venues',[]))} venues")
+    # 容错：某 provider 走 error 分支（weekly_hours=None）时不能因此让整个 workflow 失败
+    nat = output.get("natatorium") or {}
+    nat_days = len(nat.get("weekly_hours") or [])
+    nat_err = f" ⚠️ {nat.get('error')}" if nat.get("error") else ""
+    print(f"   Natatorium: weekly_hours with {nat_days} days{nat_err}")
+    print(f"   Dining Halls: {len((output.get('dining_halls') or {}).get('venues') or [])} venues")
+    print(f"   Cafes: {len((output.get('cafes') or {}).get('venues') or [])} venues")
+    print(f"   Stamp: {len((output.get('stamp') or {}).get('venues') or [])} venues")
 
 
 if __name__ == "__main__":

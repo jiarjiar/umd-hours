@@ -146,6 +146,31 @@ body {
   font-size: 0.9rem;
 }
 
+/* ─── Expired alerts (foldable, grey) ─── */
+.expired-alerts {
+  background: #f1f1f1;
+  border: 1px dashed #bbb;
+  border-radius: 8px;
+  padding: 8px 14px;
+  margin-bottom: 12px;
+  font-size: 0.8rem;
+  color: #777;
+}
+.expired-alerts summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #888;
+}
+.expired-alert-item {
+  padding: 4px 0 0 8px;
+}
+
+/* ─── Past rows in Natatorium table ─── */
+.hours-table tr.past td {
+  color: #aaa;
+}
+.hours-table tr.past .date-sub { color: #bbb; }
+
 /* ─── Tables ─── */
 .table-wrapper {
   overflow-x: auto;
