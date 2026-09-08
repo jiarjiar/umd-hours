@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-07T18:31:06.483791",
-  "generated_at_readable": "2026-09-07 18:31:06 ",
+  "generated_at": "2026-09-08T06:47:01.363680",
+  "generated_at_readable": "2026-09-08 06:47:01 ",
   "week_dates": [
     {
       "date": "2026-09-07",
@@ -33,10 +33,8 @@
   ],
   "natatorium": {
     "source": "https://recwell.umd.edu/facility-alerts",
-    "last_updated": "2026-09-07T18:31:07.514546",
-    "alerts": [
-      "RecWell facilities have modified hours of operation on Monday, September 7, due to the Labor Day holiday. All facilities not listed below are closed."
-    ],
+    "last_updated": "2026-09-08T06:47:01.634573",
+    "alerts": [],
     "tables": [
       {
         "headers": [
@@ -172,12 +170,14 @@
       }
     ],
     "regular_hours_note": "常规时间 Regular: Natatorium 6am-8pm · Outdoor Aquatic Center 10am-8pm",
-    "expired_alerts": []
+    "expired_alerts": [
+      "RecWell facilities have modified hours of operation on Monday, September 7, due to the Labor Day holiday. All facilities not listed below are closed."
+    ]
   },
   "dining_halls": {
     "source": "UMD Dining Halls",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
-    "last_updated": "2026-09-07T18:31:08.526371",
+    "last_updated": "2026-09-08T06:47:02.531907",
     "week_of": "9/7 - 9/20",
     "venues": [
       {
@@ -344,7 +344,7 @@
   "cafes": {
     "source": "UMD Cafes",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
-    "last_updated": "2026-09-07T18:31:09.382913",
+    "last_updated": "2026-09-08T06:47:03.294345",
     "week_of": "9/7 - 9/13",
     "venues": [
       {
@@ -520,7 +520,7 @@
   "stamp": {
     "source": "UMD Stamp Dining",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=57096019",
-    "last_updated": "2026-09-07T18:31:10.195875",
+    "last_updated": "2026-09-08T06:47:04.047354",
     "week_of": "9/7 - 9/13",
     "venues": [
       {
