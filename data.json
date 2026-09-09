@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-08T17:41:08.665512",
-  "generated_at_readable": "2026-09-08 17:41:08 ",
+  "generated_at": "2026-09-09T06:55:50.872303",
+  "generated_at_readable": "2026-09-09 06:55:50 ",
   "week_dates": [
     {
       "date": "2026-09-07",
@@ -33,7 +33,7 @@
   ],
   "natatorium": {
     "source": "https://recwell.umd.edu/facility-alerts",
-    "last_updated": "2026-09-08T17:41:08.925271",
+    "last_updated": "2026-09-09T06:55:51.469586",
     "alerts": [],
     "tables": [
       {
@@ -177,7 +177,7 @@
   "dining_halls": {
     "source": "UMD Dining Halls",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
-    "last_updated": "2026-09-08T17:41:09.841616",
+    "last_updated": "2026-09-09T06:55:54.351392",
     "week_of": "9/7 - 9/20",
     "venues": [
       {
@@ -294,48 +294,48 @@
             "Tue 9/8": "8am-10:30am",
             "Wed 9/9": "8am-10:30am",
             "Thu 9/10": "8am-10:30am",
-            "Fri 9/11": "TBD",
-            "Sat 9/12": "TBD",
-            "Sun 9/13": "TBD",
-            "Mon 9/14": "TBD",
-            "Tue 9/15": "TBD",
-            "Wed 9/16": "TBD",
-            "Thu 9/17": "TBD",
-            "Fri 9/18": "TBD",
-            "Sat 9/19": "TBD",
-            "Sun 9/20": "TBD"
+            "Fri 9/11": "8am-10:30am",
+            "Sat 9/12": "8am-10:30am",
+            "Sun 9/13": "8am-10:30am",
+            "Mon 9/14": "8am-10:30am",
+            "Tue 9/15": "8am-10:30am",
+            "Wed 9/16": "8am-10:30am",
+            "Thu 9/17": "8am-10:30am",
+            "Fri 9/18": "8am-10:30am",
+            "Sat 9/19": "8am-10:30am",
+            "Sun 9/20": "8am-10:30am"
           },
           "Lunch": {
             "Mon 9/7": "10:30am-4pm",
             "Tue 9/8": "10:30am-4pm",
             "Wed 9/9": "10:30am-4pm",
             "Thu 9/10": "10:30am-4pm",
-            "Fri 9/11": "TBD",
-            "Sat 9/12": "TBD",
-            "Sun 9/13": "TBD",
-            "Mon 9/14": "TBD",
-            "Tue 9/15": "TBD",
-            "Wed 9/16": "TBD",
-            "Thu 9/17": "TBD",
-            "Fri 9/18": "TBD",
-            "Sat 9/19": "TBD",
-            "Sun 9/20": "TBD"
+            "Fri 9/11": "10:30am-4pm",
+            "Sat 9/12": "10:30am-4pm",
+            "Sun 9/13": "10:30am-4pm",
+            "Mon 9/14": "10:30am-4pm",
+            "Tue 9/15": "10:30am-4pm",
+            "Wed 9/16": "10:30am-4pm",
+            "Thu 9/17": "10:30am-4pm",
+            "Fri 9/18": "10:30am-4pm",
+            "Sat 9/19": "10:30am-4pm",
+            "Sun 9/20": "10:30am-4pm"
           },
           "Dinner": {
-            "Mon 9/7": "4pm-9pm",
+            "Mon 9/7": "4pm-10pm",
             "Tue 9/8": "4pm-10pm",
             "Wed 9/9": "4pm-10pm",
             "Thu 9/10": "4pm-10pm",
-            "Fri 9/11": "TBD",
-            "Sat 9/12": "TBD",
-            "Sun 9/13": "TBD",
-            "Mon 9/14": "TBD",
-            "Tue 9/15": "TBD",
-            "Wed 9/16": "TBD",
-            "Thu 9/17": "TBD",
-            "Fri 9/18": "TBD",
-            "Sat 9/19": "TBD",
-            "Sun 9/20": "TBD"
+            "Fri 9/11": "4pm-7pm",
+            "Sat 9/12": "4pm-7pm",
+            "Sun 9/13": "4pm-7pm",
+            "Mon 9/14": "4pm-10pm",
+            "Tue 9/15": "4pm-10pm",
+            "Wed 9/16": "4pm-10pm",
+            "Thu 9/17": "4pm-10pm",
+            "Fri 9/18": "4pm-7pm",
+            "Sat 9/19": "4pm-7pm",
+            "Sun 9/20": "4pm-7pm"
           }
         }
       }
@@ -344,7 +344,7 @@
   "cafes": {
     "source": "UMD Cafes",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
-    "last_updated": "2026-09-08T17:41:10.557822",
+    "last_updated": "2026-09-09T06:55:56.683286",
     "week_of": "9/7 - 9/13",
     "venues": [
       {
@@ -520,7 +520,7 @@
   "stamp": {
     "source": "UMD Stamp Dining",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=57096019",
-    "last_updated": "2026-09-08T17:41:11.218731",
+    "last_updated": "2026-09-09T06:55:57.345298",
     "week_of": "9/7 - 9/13",
     "venues": [
       {
