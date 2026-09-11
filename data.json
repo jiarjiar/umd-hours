@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-11T06:52:42.619820",
-  "generated_at_readable": "2026-09-11 06:52:42 ",
+  "generated_at": "2026-09-11T17:26:24.583500",
+  "generated_at_readable": "2026-09-11 17:26:24 ",
   "week_dates": [
     {
       "date": "2026-09-07",
@@ -33,151 +33,16 @@
   ],
   "natatorium": {
     "source": "https://recwell.umd.edu/facility-alerts",
-    "last_updated": "2026-09-11T06:52:43.029415",
+    "last_updated": "2026-09-11T17:26:24.758279",
     "alerts": [],
-    "tables": [
-      {
-        "headers": [
-          "Facility",
-          "Hours"
-        ],
-        "rows": [
-          {
-            "facility": "Eppley Recreation Center",
-            "Hours": "10am to midnight"
-          },
-          {
-            "facility": "Bouldering Zone",
-            "Hours": "2pm to 10pm"
-          },
-          {
-            "facility": "Natatorium",
-            "Hours": "10am to 1pm & 3pm to 10pm"
-          },
-          {
-            "facility": "Outdoor Aquatic Center",
-            "Hours": "10am to 8pm"
-          },
-          {
-            "facility": "Reckord Armory",
-            "Hours": "3pm to midnight"
-          },
-          {
-            "facility": "Ritchie Coliseum",
-            "Hours": "10am to midnight"
-          }
-        ]
-      }
-    ],
-    "weekly_hours": [
-      {
-        "date": "2026-09-07",
-        "day": "Mon",
-        "week_number": 1,
-        "natatorium": "10am to 1pm & 3pm to 10pm",
-        "outdoor_aquatic": "10am to 8pm"
-      },
-      {
-        "date": "2026-09-08",
-        "day": "Tue",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-09-09",
-        "day": "Wed",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-09-10",
-        "day": "Thu",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-09-11",
-        "day": "Fri",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-09-12",
-        "day": "Sat",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-09-13",
-        "day": "Sun",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-09-14",
-        "day": "Mon",
-        "week_number": 2,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-09-15",
-        "day": "Tue",
-        "week_number": 2,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-09-16",
-        "day": "Wed",
-        "week_number": 2,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-09-17",
-        "day": "Thu",
-        "week_number": 2,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-09-18",
-        "day": "Fri",
-        "week_number": 2,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-09-19",
-        "day": "Sat",
-        "week_number": 2,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-09-20",
-        "day": "Sun",
-        "week_number": 2,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      }
-    ],
-    "regular_hours_note": "常规时间 Regular: Natatorium 6am-8pm · Outdoor Aquatic Center 10am-8pm",
-    "expired_alerts": [
-      "RecWell facilities have modified hours of operation on Monday, September 7, due to the Labor Day holiday. All facilities not listed below are closed."
-    ]
+    "tables": [],
+    "weekly_hours": null,
+    "error": "Natatorium accordion item not found"
   },
   "dining_halls": {
     "source": "UMD Dining Halls",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
-    "last_updated": "2026-09-11T06:52:44.561182",
+    "last_updated": "2026-09-11T17:26:25.547740",
     "week_of": "9/7 - 9/20",
     "venues": [
       {
@@ -344,7 +209,7 @@
   "cafes": {
     "source": "UMD Cafes",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
-    "last_updated": "2026-09-11T06:52:45.020217",
+    "last_updated": "2026-09-11T17:26:26.113045",
     "week_of": "9/7 - 9/13",
     "venues": [
       {
@@ -520,7 +385,7 @@
   "stamp": {
     "source": "UMD Stamp Dining",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=57096019",
-    "last_updated": "2026-09-11T06:52:45.523014",
+    "last_updated": "2026-09-11T17:26:26.591481",
     "week_of": "9/7 - 9/13",
     "venues": [
       {
