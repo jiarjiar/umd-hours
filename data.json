@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-22T17:50:34.702604",
-  "generated_at_readable": "2026-09-22 17:50:34 ",
+  "generated_at": "2026-09-23T07:04:13.296636",
+  "generated_at_readable": "2026-09-23 07:04:13 ",
   "week_dates": [
     {
       "date": "2026-09-21",
@@ -33,10 +33,8 @@
   ],
   "natatorium": {
     "source": "https://recwell.umd.edu/facility-alerts",
-    "last_updated": "2026-09-22T17:50:35.148013",
-    "alerts": [
-      "Due to inclement weather, the Climbing Wall is closed Tuesday, September 22."
-    ],
+    "last_updated": "2026-09-23T07:04:13.571708",
+    "alerts": [],
     "tables": [],
     "weekly_hours": [
       {
@@ -139,12 +137,14 @@
       }
     ],
     "regular_hours_note": "常规时间 Regular: Natatorium 6am-8pm · Outdoor Aquatic Center 10am-8pm",
-    "expired_alerts": []
+    "expired_alerts": [
+      "Due to inclement weather, the Climbing Wall is closed Tuesday, September 22."
+    ]
   },
   "dining_halls": {
     "source": "UMD Dining Halls",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
-    "last_updated": "2026-09-22T17:50:37.424888",
+    "last_updated": "2026-09-23T07:04:14.099831",
     "week_of": "9/21 - 10/4",
     "venues": [
       {
@@ -311,7 +311,7 @@
   "cafes": {
     "source": "UMD Cafes",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
-    "last_updated": "2026-09-22T17:50:38.391491",
+    "last_updated": "2026-09-23T07:04:14.557588",
     "week_of": "9/21 - 9/27",
     "venues": [
       {
@@ -487,7 +487,7 @@
   "stamp": {
     "source": "UMD Stamp Dining",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=57096019",
-    "last_updated": "2026-09-22T17:50:39.278043",
+    "last_updated": "2026-09-23T07:04:14.948194",
     "week_of": "9/21 - 9/27",
     "venues": [
       {
