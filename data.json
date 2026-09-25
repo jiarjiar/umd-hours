@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-25T06:55:03.962181",
-  "generated_at_readable": "2026-09-25 06:55:03 ",
+  "generated_at": "2026-09-25T18:09:21.129278",
+  "generated_at_readable": "2026-09-25 18:09:21 ",
   "week_dates": [
     {
       "date": "2026-09-21",
@@ -33,8 +33,10 @@
   ],
   "natatorium": {
     "source": "https://recwell.umd.edu/facility-alerts",
-    "last_updated": "2026-09-25T06:55:04.288931",
-    "alerts": [],
+    "last_updated": "2026-09-25T18:09:21.293430",
+    "alerts": [
+      "Due to forecasted weather, the Outdoor Aquatic Center will be closed Saturday, September 26, through Monday, September 28."
+    ],
     "tables": [],
     "weekly_hours": [
       {
@@ -137,14 +139,12 @@
       }
     ],
     "regular_hours_note": "常规时间 Regular: Natatorium 6am-8pm · Outdoor Aquatic Center 10am-8pm",
-    "expired_alerts": [
-      "Due to forecasted weather, the Outdoor Aquatic Center will be closed Monday, September 21, through Thursday, September 24."
-    ]
+    "expired_alerts": []
   },
   "dining_halls": {
     "source": "UMD Dining Halls",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
-    "last_updated": "2026-09-25T06:55:05.023599",
+    "last_updated": "2026-09-25T18:09:21.915958",
     "week_of": "9/21 - 10/4",
     "venues": [
       {
@@ -311,7 +311,7 @@
   "cafes": {
     "source": "UMD Cafes",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
-    "last_updated": "2026-09-25T06:55:05.619385",
+    "last_updated": "2026-09-25T18:09:22.531682",
     "week_of": "9/21 - 9/27",
     "venues": [
       {
@@ -487,7 +487,7 @@
   "stamp": {
     "source": "UMD Stamp Dining",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=57096019",
-    "last_updated": "2026-09-25T06:55:06.246057",
+    "last_updated": "2026-09-25T18:09:23.146486",
     "week_of": "9/21 - 9/27",
     "venues": [
       {
