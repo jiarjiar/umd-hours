@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-25T18:09:21.129278",
-  "generated_at_readable": "2026-09-25 18:09:21 ",
+  "generated_at": "2026-09-26T06:54:59.959280",
+  "generated_at_readable": "2026-09-26 06:54:59 ",
   "week_dates": [
     {
       "date": "2026-09-21",
@@ -33,7 +33,7 @@
   ],
   "natatorium": {
     "source": "https://recwell.umd.edu/facility-alerts",
-    "last_updated": "2026-09-25T18:09:21.293430",
+    "last_updated": "2026-09-26T06:55:00.154258",
     "alerts": [
       "Due to forecasted weather, the Outdoor Aquatic Center will be closed Saturday, September 26, through Monday, September 28."
     ],
@@ -144,7 +144,7 @@
   "dining_halls": {
     "source": "UMD Dining Halls",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
-    "last_updated": "2026-09-25T18:09:21.915958",
+    "last_updated": "2026-09-26T06:55:01.373011",
     "week_of": "9/21 - 10/4",
     "venues": [
       {
@@ -311,7 +311,7 @@
   "cafes": {
     "source": "UMD Cafes",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
-    "last_updated": "2026-09-25T18:09:22.531682",
+    "last_updated": "2026-09-26T06:55:02.173073",
     "week_of": "9/21 - 9/27",
     "venues": [
       {
@@ -487,7 +487,7 @@
   "stamp": {
     "source": "UMD Stamp Dining",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=57096019",
-    "last_updated": "2026-09-25T18:09:23.146486",
+    "last_updated": "2026-09-26T06:55:02.978209",
     "week_of": "9/21 - 9/27",
     "venues": [
       {
