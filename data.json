@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-28T08:02:21.679283",
-  "generated_at_readable": "2026-09-28 08:02:21 ",
+  "generated_at": "2026-09-28T20:19:47.456795",
+  "generated_at_readable": "2026-09-28 20:19:47 ",
   "week_dates": [
     {
       "date": "2026-09-28",
@@ -33,11 +33,136 @@
   ],
   "natatorium": {
     "source": "https://recwell.umd.edu/facility-alerts",
-    "last_updated": "2026-09-28T08:02:22.099095",
+    "last_updated": "2026-09-28T20:19:47.646163",
     "alerts": [
-      "Due to forecasted weather, the Outdoor Aquatic Center will be closed Saturday, September 26, through Monday, September 28."
+      "RecWell facilities have reduced hours of operation Friday, October 9, through Tuesday, October 13. Please see below for specific facilities and hours of operation. For current hours of operation for all our facilities and spaces, please visit ourToday's Facility Hourspage."
     ],
-    "tables": [],
+    "tables": [
+      {
+        "headers": [
+          "Facility",
+          "October 9",
+          "October 10",
+          "October 11",
+          "October 12",
+          "October 13"
+        ],
+        "rows": [
+          {
+            "facility": "Eppley Recreation Center",
+            "October 9": "6am to 10pm",
+            "October 10": "8am to 10pm",
+            "October 11": "10am to 10pm",
+            "October 12": "10am to 10pm",
+            "October 13": "10am to midnight"
+          },
+          {
+            "facility": "Natatorium",
+            "October 9": "6am to 9:30pm",
+            "October 10": "8am to 9pm",
+            "October 11": "10am to 9pm",
+            "October 12": "10am to 9:30pm",
+            "October 13": "10am to 10pm"
+          },
+          {
+            "facility": "Ritchie Coliseum",
+            "October 9": "6am to 10pm",
+            "October 10": "8am to 10pm",
+            "October 11": "10am to 10pm",
+            "October 12": "10am to 10pm",
+            "October 13": "10am to midnight"
+          },
+          {
+            "facility": "Reckord Armory",
+            "October 9": "3pm to 10pm",
+            "October 10": "closed",
+            "October 11": "closed",
+            "October 12": "closed",
+            "October 13": "3pm to midnight"
+          },
+          {
+            "facility": "Outdoor Aquatic Center",
+            "October 9": "11am to 6pm",
+            "October 10": "11am to 6pm",
+            "October 11": "closed",
+            "October 12": "closed",
+            "October 13": "closed"
+          },
+          {
+            "facility": "Bouldering Zone (Eppley Recreation Center)",
+            "October 9": "2pm to 10pm",
+            "October 10": "2pm to 10pm",
+            "October 11": "2pm to 10pm",
+            "October 12": "2pm to 10pm",
+            "October 13": "2pm to 10pm"
+          },
+          {
+            "facility": "Adventure Rental Desk",
+            "October 9": "2pm to 6pm",
+            "October 10": "closed",
+            "October 11": "closed",
+            "October 12": "closed",
+            "October 13": "closed"
+          },
+          {
+            "facility": "Climbing Wall",
+            "October 9": "2pm to 6pm",
+            "October 10": "closed",
+            "October 11": "closed",
+            "October 12": "closed",
+            "October 13": "closed"
+          },
+          {
+            "facility": "Bike Shop (Cole Student Activities Building)",
+            "October 9": "12pm to 6pm",
+            "October 10": "closed",
+            "October 11": "closed",
+            "October 12": "closed",
+            "October 13": "closed"
+          },
+          {
+            "facility": "School of Public Health Fitness Center (0101)",
+            "October 9": "6am to 10pm",
+            "October 10": "closed",
+            "October 11": "closed",
+            "October 12": "closed",
+            "October 13": "10am to 10pm"
+          },
+          {
+            "facility": "School of Public Health Weight Room (0103)",
+            "October 9": "5:30pm to 10pm",
+            "October 10": "closed",
+            "October 11": "closed",
+            "October 12": "closed",
+            "October 13": "closed"
+          },
+          {
+            "facility": "School of Public Health Gym (2101) Volleyball Informal Rec",
+            "October 9": "4pm to 7pm",
+            "October 10": "closed",
+            "October 11": "closed",
+            "October 12": "closed",
+            "October 13": "closed"
+          },
+          {
+            "facility": "Terps Esports Center",
+            "October 9": "2pm to midnight",
+            "October 10": "2pm to 10pm",
+            "October 11": "2pm to 10pm",
+            "October 12": "2pm to 10pm",
+            "October 13": "2pm to midnight"
+          },
+          {
+            "facility": "Severn Building Fitness Center",
+            "October 9": "11am to 1:30pm & 2pm to 6pm",
+            "October 10": "closed",
+            "October 11": "closed",
+            "October 12": "closed",
+            "October 13": "11am to 1:30pm & 2pm to 6pm"
+          }
+        ]
+      }
+    ],
     "weekly_hours": [
       {
         "date": "2026-09-28",
@@ -120,22 +245,22 @@
         "date": "2026-10-09",
         "day": "Fri",
         "week_number": 2,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
+        "natatorium": "6am to 9:30pm",
+        "outdoor_aquatic": "11am to 1:30pm & 2pm to 6pm"
       },
       {
         "date": "2026-10-10",
         "day": "Sat",
         "week_number": 2,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
+        "natatorium": "8am to 9pm",
+        "outdoor_aquatic": "closed"
       },
       {
         "date": "2026-10-11",
         "day": "Sun",
         "week_number": 2,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
+        "natatorium": "10am to 9pm",
+        "outdoor_aquatic": "closed"
       }
     ],
     "regular_hours_note": "常规时间 Regular: Natatorium 6am-8pm · Outdoor Aquatic Center 10am-8pm",
@@ -144,7 +269,7 @@
   "dining_halls": {
     "source": "UMD Dining Halls",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
-    "last_updated": "2026-09-28T08:02:23.143708",
+    "last_updated": "2026-09-28T20:19:48.570386",
     "week_of": "9/28 - 10/11",
     "venues": [
       {
@@ -311,7 +436,7 @@
   "cafes": {
     "source": "UMD Cafes",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
-    "last_updated": "2026-09-28T08:02:23.992590",
+    "last_updated": "2026-09-28T20:19:49.439769",
     "week_of": "9/28 - 10/4",
     "venues": [
       {
@@ -487,7 +612,7 @@
   "stamp": {
     "source": "UMD Stamp Dining",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=57096019",
-    "last_updated": "2026-09-28T08:02:25.130191",
+    "last_updated": "2026-09-28T20:19:50.819317",
     "week_of": "9/28 - 10/4",
     "venues": [
       {
