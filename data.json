@@ -1,137 +1,137 @@
 {
-  "generated_at": "2026-09-27T18:00:22.262619",
-  "generated_at_readable": "2026-09-27 18:00:22 ",
+  "generated_at": "2026-09-28T08:02:21.679283",
+  "generated_at_readable": "2026-09-28 08:02:21 ",
   "week_dates": [
     {
-      "date": "2026-09-21",
+      "date": "2026-09-28",
       "day": "Mon"
     },
     {
-      "date": "2026-09-22",
+      "date": "2026-09-29",
       "day": "Tue"
     },
     {
-      "date": "2026-09-23",
+      "date": "2026-09-30",
       "day": "Wed"
     },
     {
-      "date": "2026-09-24",
+      "date": "2026-10-01",
       "day": "Thu"
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-10-02",
       "day": "Fri"
     },
     {
-      "date": "2026-09-26",
+      "date": "2026-10-03",
       "day": "Sat"
     },
     {
-      "date": "2026-09-27",
+      "date": "2026-10-04",
       "day": "Sun"
     }
   ],
   "natatorium": {
     "source": "https://recwell.umd.edu/facility-alerts",
-    "last_updated": "2026-09-27T18:00:22.567104",
+    "last_updated": "2026-09-28T08:02:22.099095",
     "alerts": [
       "Due to forecasted weather, the Outdoor Aquatic Center will be closed Saturday, September 26, through Monday, September 28."
     ],
     "tables": [],
     "weekly_hours": [
       {
-        "date": "2026-09-21",
-        "day": "Mon",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-09-22",
-        "day": "Tue",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-09-23",
-        "day": "Wed",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-09-24",
-        "day": "Thu",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-09-25",
-        "day": "Fri",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-09-26",
-        "day": "Sat",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-09-27",
-        "day": "Sun",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
         "date": "2026-09-28",
         "day": "Mon",
-        "week_number": 2,
+        "week_number": 1,
         "natatorium": "6am-8pm",
         "outdoor_aquatic": "10am-8pm"
       },
       {
         "date": "2026-09-29",
         "day": "Tue",
-        "week_number": 2,
+        "week_number": 1,
         "natatorium": "6am-8pm",
         "outdoor_aquatic": "10am-8pm"
       },
       {
         "date": "2026-09-30",
         "day": "Wed",
-        "week_number": 2,
+        "week_number": 1,
         "natatorium": "6am-8pm",
         "outdoor_aquatic": "10am-8pm"
       },
       {
         "date": "2026-10-01",
         "day": "Thu",
-        "week_number": 2,
+        "week_number": 1,
         "natatorium": "6am-8pm",
         "outdoor_aquatic": "10am-8pm"
       },
       {
         "date": "2026-10-02",
         "day": "Fri",
-        "week_number": 2,
+        "week_number": 1,
         "natatorium": "6am-8pm",
         "outdoor_aquatic": "10am-8pm"
       },
       {
         "date": "2026-10-03",
         "day": "Sat",
-        "week_number": 2,
+        "week_number": 1,
         "natatorium": "6am-8pm",
         "outdoor_aquatic": "10am-8pm"
       },
       {
         "date": "2026-10-04",
+        "day": "Sun",
+        "week_number": 1,
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-10-05",
+        "day": "Mon",
+        "week_number": 2,
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-10-06",
+        "day": "Tue",
+        "week_number": 2,
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-10-07",
+        "day": "Wed",
+        "week_number": 2,
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-10-08",
+        "day": "Thu",
+        "week_number": 2,
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-10-09",
+        "day": "Fri",
+        "week_number": 2,
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-10-10",
+        "day": "Sat",
+        "week_number": 2,
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-10-11",
         "day": "Sun",
         "week_number": 2,
         "natatorium": "6am-8pm",
@@ -144,59 +144,59 @@
   "dining_halls": {
     "source": "UMD Dining Halls",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
-    "last_updated": "2026-09-27T18:00:23.506334",
-    "week_of": "9/21 - 10/4",
+    "last_updated": "2026-09-28T08:02:23.143708",
+    "week_of": "9/28 - 10/11",
     "venues": [
       {
         "name": "Yahentamitsi",
         "schedule": {
           "Breakfast": {
-            "Mon 9/21": "7am-10:30am",
-            "Tue 9/22": "7am-10:30am",
-            "Wed 9/23": "7am-10:30am",
-            "Thu 9/24": "7am-10:30am",
-            "Fri 9/25": "7am-10:30am",
-            "Sat 9/26": "10am-10:30am",
-            "Sun 9/27": "10am-10:30am",
             "Mon 9/28": "7am-10:30am",
             "Tue 9/29": "7am-10:30am",
             "Wed 9/30": "7am-10:30am",
             "Thu 10/1": "7am-10:30am",
             "Fri 10/2": "7am-10:30am",
             "Sat 10/3": "10am-10:30am",
-            "Sun 10/4": "10am-10:30am"
+            "Sun 10/4": "10am-10:30am",
+            "Mon 10/5": "7am-10:30am",
+            "Tue 10/6": "7am-10:30am",
+            "Wed 10/7": "7am-10:30am",
+            "Thu 10/8": "7am-10:30am",
+            "Fri 10/9": "7am-10:30am",
+            "Sat 10/10": "Closed",
+            "Sun 10/11": "Closed"
           },
           "Lunch": {
-            "Mon 9/21": "10:30am-4pm",
-            "Tue 9/22": "10:30am-4pm",
-            "Wed 9/23": "10:30am-4pm",
-            "Thu 9/24": "10:30am-4pm",
-            "Fri 9/25": "10:30am-4pm",
-            "Sat 9/26": "10:30am-4pm",
-            "Sun 9/27": "10:30am-4pm",
             "Mon 9/28": "10:30am-4pm",
             "Tue 9/29": "10:30am-4pm",
             "Wed 9/30": "10:30am-4pm",
             "Thu 10/1": "10:30am-4pm",
             "Fri 10/2": "10:30am-4pm",
             "Sat 10/3": "10:30am-4pm",
-            "Sun 10/4": "10:30am-4pm"
+            "Sun 10/4": "10:30am-4pm",
+            "Mon 10/5": "10:30am-4pm",
+            "Tue 10/6": "10:30am-4pm",
+            "Wed 10/7": "10:30am-4pm",
+            "Thu 10/8": "10:30am-4pm",
+            "Fri 10/9": "10:30am-4pm",
+            "Sat 10/10": "Closed",
+            "Sun 10/11": "Closed"
           },
           "Dinner": {
-            "Mon 9/21": "4pm-9pm",
-            "Tue 9/22": "4pm-9pm",
-            "Wed 9/23": "4pm-9pm",
-            "Thu 9/24": "4pm-9pm",
-            "Fri 9/25": "4pm-9pm",
-            "Sat 9/26": "4pm-9pm",
-            "Sun 9/27": "4pm-9pm",
             "Mon 9/28": "4pm-9pm",
             "Tue 9/29": "4pm-9pm",
             "Wed 9/30": "4pm-9pm",
             "Thu 10/1": "4pm-9pm",
             "Fri 10/2": "4pm-9pm",
             "Sat 10/3": "4pm-9pm",
-            "Sun 10/4": "4pm-9pm"
+            "Sun 10/4": "4pm-9pm",
+            "Mon 10/5": "4pm-9pm",
+            "Tue 10/6": "4pm-9pm",
+            "Wed 10/7": "4pm-9pm",
+            "Thu 10/8": "4pm-9pm",
+            "Fri 10/9": "4pm-9pm",
+            "Sat 10/10": "Closed",
+            "Sun 10/11": "Closed"
           }
         }
       },
@@ -204,52 +204,52 @@
         "name": "South Campus",
         "schedule": {
           "Breakfast": {
-            "Mon 9/21": "7am-10:30am",
-            "Tue 9/22": "7am-10:30am",
-            "Wed 9/23": "7am-10:30am",
-            "Thu 9/24": "7am-10:30am",
-            "Fri 9/25": "7am-10:30am",
-            "Sat 9/26": "10am-10:30am",
-            "Sun 9/27": "10am-10:30am",
             "Mon 9/28": "7am-10:30am",
             "Tue 9/29": "7am-10:30am",
             "Wed 9/30": "7am-10:30am",
             "Thu 10/1": "7am-10:30am",
             "Fri 10/2": "7am-10:30am",
             "Sat 10/3": "10am-10:30am",
-            "Sun 10/4": "10am-10:30am"
+            "Sun 10/4": "10am-10:30am",
+            "Mon 10/5": "7am-10:30am",
+            "Tue 10/6": "7am-10:30am",
+            "Wed 10/7": "7am-10:30am",
+            "Thu 10/8": "7am-10:30am",
+            "Fri 10/9": "7am-10:30am",
+            "Sat 10/10": "10am-10:30am",
+            "Sun 10/11": "10am-10:30am"
           },
           "Lunch": {
-            "Mon 9/21": "10:30am-4pm",
-            "Tue 9/22": "10:30am-4pm",
-            "Wed 9/23": "10:30am-4pm",
-            "Thu 9/24": "10:30am-4pm",
-            "Fri 9/25": "10:30am-4pm",
-            "Sat 9/26": "10:30am-4pm",
-            "Sun 9/27": "10:30am-4pm",
             "Mon 9/28": "10:30am-4pm",
             "Tue 9/29": "10:30am-4pm",
             "Wed 9/30": "10:30am-4pm",
             "Thu 10/1": "10:30am-4pm",
             "Fri 10/2": "10:30am-4pm",
             "Sat 10/3": "10:30am-4pm",
-            "Sun 10/4": "10:30am-4pm"
+            "Sun 10/4": "10:30am-4pm",
+            "Mon 10/5": "10:30am-4pm",
+            "Tue 10/6": "10:30am-4pm",
+            "Wed 10/7": "10:30am-4pm",
+            "Thu 10/8": "10:30am-4pm",
+            "Fri 10/9": "10:30am-4pm",
+            "Sat 10/10": "10:30am-4pm",
+            "Sun 10/11": "10:30am-4pm"
           },
           "Dinner": {
-            "Mon 9/21": "4pm-9pm",
-            "Tue 9/22": "4pm-9pm",
-            "Wed 9/23": "4pm-9pm",
-            "Thu 9/24": "4pm-9pm",
-            "Fri 9/25": "4pm-9pm",
-            "Sat 9/26": "4pm-9pm",
-            "Sun 9/27": "4pm-9pm",
             "Mon 9/28": "4pm-9pm",
             "Tue 9/29": "4pm-9pm",
             "Wed 9/30": "4pm-9pm",
             "Thu 10/1": "4pm-9pm",
             "Fri 10/2": "4pm-9pm",
             "Sat 10/3": "4pm-9pm",
-            "Sun 10/4": "4pm-9pm"
+            "Sun 10/4": "4pm-9pm",
+            "Mon 10/5": "4pm-9pm",
+            "Tue 10/6": "4pm-9pm",
+            "Wed 10/7": "4pm-9pm",
+            "Thu 10/8": "4pm-9pm",
+            "Fri 10/9": "4pm-9pm",
+            "Sat 10/10": "4pm-9pm",
+            "Sun 10/11": "4pm-9pm"
           }
         }
       },
@@ -257,52 +257,52 @@
         "name": "251 North",
         "schedule": {
           "Breakfast": {
-            "Mon 9/21": "8am-10:30am",
-            "Tue 9/22": "8am-10:30am",
-            "Wed 9/23": "8am-10:30am",
-            "Thu 9/24": "8am-10:30am",
-            "Fri 9/25": "8am-10:30am",
-            "Sat 9/26": "8am-10:30am",
-            "Sun 9/27": "8am-10:30am",
             "Mon 9/28": "8am-10:30am",
             "Tue 9/29": "8am-10:30am",
             "Wed 9/30": "8am-10:30am",
             "Thu 10/1": "8am-10:30am",
             "Fri 10/2": "8am-10:30am",
             "Sat 10/3": "8am-10:30am",
-            "Sun 10/4": "8am-10:30am"
+            "Sun 10/4": "8am-10:30am",
+            "Mon 10/5": "8am-10:30am",
+            "Tue 10/6": "8am-10:30am",
+            "Wed 10/7": "8am-10:30am",
+            "Thu 10/8": "8am-10:30am",
+            "Fri 10/9": "8am-10:30am",
+            "Sat 10/10": "8am-10:30am",
+            "Sun 10/11": "8am-10:30am"
           },
           "Lunch": {
-            "Mon 9/21": "10:30am-4pm",
-            "Tue 9/22": "10:30am-4pm",
-            "Wed 9/23": "10:30am-4pm",
-            "Thu 9/24": "10:30am-4pm",
-            "Fri 9/25": "10:30am-4pm",
-            "Sat 9/26": "10:30am-4pm",
-            "Sun 9/27": "10:30am-4pm",
             "Mon 9/28": "10:30am-4pm",
             "Tue 9/29": "10:30am-4pm",
             "Wed 9/30": "10:30am-4pm",
             "Thu 10/1": "10:30am-4pm",
             "Fri 10/2": "10:30am-4pm",
             "Sat 10/3": "10:30am-4pm",
-            "Sun 10/4": "10:30am-4pm"
+            "Sun 10/4": "10:30am-4pm",
+            "Mon 10/5": "10:30am-4pm",
+            "Tue 10/6": "10:30am-4pm",
+            "Wed 10/7": "10:30am-4pm",
+            "Thu 10/8": "10:30am-4pm",
+            "Fri 10/9": "10:30am-4pm",
+            "Sat 10/10": "10:30am-4pm",
+            "Sun 10/11": "10:30am-4pm"
           },
           "Dinner": {
-            "Mon 9/21": "4pm-10pm",
-            "Tue 9/22": "4pm-10pm",
-            "Wed 9/23": "4pm-10pm",
-            "Thu 9/24": "4pm-10pm",
-            "Fri 9/25": "4pm-7pm",
-            "Sat 9/26": "4pm-7pm",
-            "Sun 9/27": "4pm-7pm",
             "Mon 9/28": "4pm-10pm",
             "Tue 9/29": "4pm-10pm",
             "Wed 9/30": "4pm-10pm",
             "Thu 10/1": "4pm-10pm",
             "Fri 10/2": "4pm-7pm",
             "Sat 10/3": "4pm-7pm",
-            "Sun 10/4": "4pm-7pm"
+            "Sun 10/4": "4pm-7pm",
+            "Mon 10/5": "4pm-10pm",
+            "Tue 10/6": "4pm-10pm",
+            "Wed 10/7": "4pm-10pm",
+            "Thu 10/8": "4pm-10pm",
+            "Fri 10/9": "4pm-7pm",
+            "Sat 10/10": "4pm-9pm",
+            "Sun 10/11": "4pm-9pm"
           }
         }
       }
@@ -311,8 +311,8 @@
   "cafes": {
     "source": "UMD Cafes",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
-    "last_updated": "2026-09-27T18:00:24.287133",
-    "week_of": "9/21 - 9/27",
+    "last_updated": "2026-09-28T08:02:23.992590",
+    "week_of": "9/28 - 10/4",
     "venues": [
       {
         "name": "Applause",
@@ -422,7 +422,7 @@
             "Thu": "8am-10pm",
             "Fri": "8am-2pm",
             "Sat": "Closed",
-            "Sun": "3pm-10pm"
+            "Sun": "Closed"
           }
         }
       },
@@ -487,8 +487,8 @@
   "stamp": {
     "source": "UMD Stamp Dining",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=57096019",
-    "last_updated": "2026-09-27T18:00:24.955505",
-    "week_of": "9/21 - 9/27",
+    "last_updated": "2026-09-28T08:02:25.130191",
+    "week_of": "9/28 - 10/4",
     "venues": [
       {
         "name": "Chick-fil-A",
@@ -527,7 +527,7 @@
             "Wed": "12pm-8:30pm",
             "Thu": "12pm-8:30pm",
             "Fri": "12pm-8:30pm",
-            "Sat": "11am-7pm",
+            "Sat": "12pm-7pm",
             "Sun": "12pm-4:30pm"
           }
         }
@@ -541,7 +541,7 @@
             "Wed": "8:30am-7:30pm",
             "Thu": "8:30am-7:30pm",
             "Fri": "8:30am-7:30pm",
-            "Sat": "11am-4pm",
+            "Sat": "11:30am-4pm",
             "Sun": "11am-7pm"
           }
         }
@@ -555,7 +555,7 @@
             "Wed": "11am-7pm",
             "Thu": "11am-7pm",
             "Fri": "11am-7pm",
-            "Sat": "11am-3:30pm",
+            "Sat": "Closed",
             "Sun": "Closed"
           }
         }
@@ -583,7 +583,7 @@
             "Wed": "11am-7pm",
             "Thu": "11am-7pm",
             "Fri": "11am-7pm",
-            "Sat": "11am-3:30pm",
+            "Sat": "Closed",
             "Sun": "Closed"
           }
         }
