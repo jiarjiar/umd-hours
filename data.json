@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-29T19:01:05.926048",
-  "generated_at_readable": "2026-09-29 19:01:05 ",
+  "generated_at": "2026-09-30T07:46:12.015403",
+  "generated_at_readable": "2026-09-30 07:46:12 ",
   "week_dates": [
     {
       "date": "2026-09-28",
@@ -33,7 +33,7 @@
   ],
   "natatorium": {
     "source": "https://recwell.umd.edu/facility-alerts",
-    "last_updated": "2026-09-29T19:01:06.188069",
+    "last_updated": "2026-09-30T07:46:12.210101",
     "alerts": [
       "RecWell facilities have reduced hours of operation Friday, October 9, through Tuesday, October 13. Please see below for specific facilities and hours of operation. Regular semester hours of operation resume on Wednesday, October 14.",
       "For current hours of operation for all our facilities and spaces, please visit ourToday's Facility Hourspage."
@@ -270,7 +270,7 @@
   "dining_halls": {
     "source": "UMD Dining Halls",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
-    "last_updated": "2026-09-29T19:01:07.088255",
+    "last_updated": "2026-09-30T07:46:13.078296",
     "week_of": "9/28 - 10/11",
     "venues": [
       {
@@ -437,7 +437,7 @@
   "cafes": {
     "source": "UMD Cafes",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
-    "last_updated": "2026-09-29T19:01:07.832652",
+    "last_updated": "2026-09-30T07:46:13.887530",
     "week_of": "9/28 - 10/4",
     "venues": [
       {
@@ -613,7 +613,7 @@
   "stamp": {
     "source": "UMD Stamp Dining",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=57096019",
-    "last_updated": "2026-09-29T19:01:08.593470",
+    "last_updated": "2026-09-30T07:46:14.615918",
     "week_of": "9/28 - 10/4",
     "venues": [
       {
