@@ -342,7 +342,7 @@ def main():
 
     print("🔄 Fetching Stamp hours...")
     try:
-        output["stamp"] = scrape_sheet(STAMP_SHEET_URL, "UMD Stamp Dining")
+        output["stamp"] = scrape_sheet(STAMP_SHEET_URL, "UMD Stamp Dining", two_weeks=True)
     except Exception as e:
         output["stamp"] = {"error": f"Stamp scrape failed: {e}", "venues": []}
 

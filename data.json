@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-11T18:32:52.969284",
-  "generated_at_readable": "2026-10-11 18:32:52 ",
+  "generated_at": "2026-10-11T17:00:46.381879",
+  "generated_at_readable": "2026-10-11 17:00:46 ",
   "week_dates": [
     {
       "date": "2026-10-05",
@@ -33,7 +33,7 @@
   ],
   "natatorium": {
     "source": "https://recwell.umd.edu/facility-alerts",
-    "last_updated": "2026-10-11T18:32:53.144089",
+    "last_updated": "2026-10-11T17:00:46.578280",
     "alerts": [
       "RecWell facilities have reduced hours of operation Friday, October 9, through Tuesday, October 13. Please see below for specific facilities and hours of operation. Regular semester hours of operation resume on Wednesday, October 14.",
       "For current hours of operation for all our facilities and spaces, please visit ourToday's Facility Hourspage."
@@ -270,7 +270,7 @@
   "dining_halls": {
     "source": "UMD Dining Halls",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
-    "last_updated": "2026-10-11T18:32:54.618739",
+    "last_updated": "2026-10-11T17:00:47.426721",
     "week_of": "10/5 - 10/18",
     "venues": [
       {
@@ -437,7 +437,7 @@
   "cafes": {
     "source": "UMD Cafes",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
-    "last_updated": "2026-10-11T18:32:55.186397",
+    "last_updated": "2026-10-11T17:00:48.126319",
     "week_of": "10/5 - 10/11",
     "venues": [
       {
@@ -613,20 +613,27 @@
   "stamp": {
     "source": "UMD Stamp Dining",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=57096019",
-    "last_updated": "2026-10-11T18:32:55.697144",
-    "week_of": "10/5 - 10/11",
+    "last_updated": "2026-10-11T17:00:48.765964",
+    "week_of": "10/5 - 10/18",
     "venues": [
       {
         "name": "Chick-fil-A",
         "schedule": {
           "hours": {
-            "Mon": "8:30am-8:30pm",
-            "Tue": "8:30am-8:30pm",
-            "Wed": "8:30am-8:30pm",
-            "Thu": "8:30am-8:30pm",
-            "Fri": "8:30am-8:30pm",
-            "Sat": "8:30am-8:30pm",
-            "Sun": "Closed"
+            "Mon 10/5": "8:30am-8:30pm",
+            "Tue 10/6": "8:30am-8:30pm",
+            "Wed 10/7": "8:30am-8:30pm",
+            "Thu 10/8": "8:30am-8:30pm",
+            "Fri 10/9": "8:30am-8:30pm",
+            "Sat 10/10": "8:30am-8:30pm",
+            "Sun 10/11": "Closed",
+            "Mon 10/12": "Closed",
+            "Tue 10/13": "8:30am-6pm",
+            "Wed 10/14": "8:30am-8:30pm",
+            "Thu 10/15": "8:30am-8:30pm",
+            "Fri 10/16": "8:30am-8:30pm",
+            "Sat 10/17": "8:30am-8:30pm",
+            "Sun 10/18": "Closed"
           }
         }
       },
@@ -634,13 +641,20 @@
         "name": "The Coffee Bar",
         "schedule": {
           "hours": {
-            "Mon": "8am-5pm",
-            "Tue": "8am-5pm",
-            "Wed": "8am-5pm",
-            "Thu": "8am-5pm",
-            "Fri": "8am-5pm",
-            "Sat": "Closed",
-            "Sun": "Closed"
+            "Mon 10/5": "8am-5pm",
+            "Tue 10/6": "8am-5pm",
+            "Wed 10/7": "8am-5pm",
+            "Thu 10/8": "8am-5pm",
+            "Fri 10/9": "8am-5pm",
+            "Sat 10/10": "Closed",
+            "Sun 10/11": "Closed",
+            "Mon 10/12": "Closed",
+            "Tue 10/13": "8am-3pm",
+            "Wed 10/14": "8am-5pm",
+            "Thu 10/15": "8am-5pm",
+            "Fri 10/16": "8am-5pm",
+            "Sat 10/17": "9am-4pm",
+            "Sun 10/18": "Closed"
           }
         }
       },
@@ -648,13 +662,20 @@
         "name": "Maryland Dairy",
         "schedule": {
           "hours": {
-            "Mon": "12pm-8:30pm",
-            "Tue": "12pm-8:30pm",
-            "Wed": "12pm-8:30pm",
-            "Thu": "12pm-8:30pm",
-            "Fri": "12pm-8:30pm",
-            "Sat": "12pm-7pm",
-            "Sun": "Closed"
+            "Mon 10/5": "12pm-8:30pm",
+            "Tue 10/6": "12pm-8:30pm",
+            "Wed 10/7": "12pm-8:30pm",
+            "Thu 10/8": "12pm-8:30pm",
+            "Fri 10/9": "12pm-8:30pm",
+            "Sat 10/10": "12pm-7pm",
+            "Sun 10/11": "Closed",
+            "Mon 10/12": "Closed",
+            "Tue 10/13": "12pm-5pm",
+            "Wed 10/14": "12pm-8:30pm",
+            "Thu 10/15": "12pm-8:30pm",
+            "Fri 10/16": "12pm-8:30pm",
+            "Sat 10/17": "11am-7pm",
+            "Sun 10/18": "12pm-4:30pm"
           }
         }
       },
@@ -662,13 +683,20 @@
         "name": "Panera Bread",
         "schedule": {
           "hours": {
-            "Mon": "8:30am-7:30pm",
-            "Tue": "8:30am-7:30pm",
-            "Wed": "8:30am-7:30pm",
-            "Thu": "8:30am-7:30pm",
-            "Fri": "8:30am-7:30pm",
-            "Sat": "Closed",
-            "Sun": "11am-4pm"
+            "Mon 10/5": "8:30am-7:30pm",
+            "Tue 10/6": "8:30am-7:30pm",
+            "Wed 10/7": "8:30am-7:30pm",
+            "Thu 10/8": "8:30am-7:30pm",
+            "Fri 10/9": "8:30am-7:30pm",
+            "Sat 10/10": "Closed",
+            "Sun 10/11": "11am-4pm",
+            "Mon 10/12": "Closed",
+            "Tue 10/13": "11am-4pm",
+            "Wed 10/14": "8:30am-7:30pm",
+            "Thu 10/15": "8:30am-7:30pm",
+            "Fri 10/16": "8:30am-7:30pm",
+            "Sat 10/17": "11am-4pm",
+            "Sun 10/18": "11am-7pm"
           }
         }
       },
@@ -676,13 +704,20 @@
         "name": "Subway",
         "schedule": {
           "hours": {
-            "Mon": "11am-7pm",
-            "Tue": "11am-7pm",
-            "Wed": "11am-7pm",
-            "Thu": "11am-7pm",
-            "Fri": "11am-7pm",
-            "Sat": "Closed",
-            "Sun": "Closed"
+            "Mon 10/5": "11am-7pm",
+            "Tue 10/6": "11am-7pm",
+            "Wed 10/7": "11am-7pm",
+            "Thu 10/8": "11am-7pm",
+            "Fri 10/9": "11am-7pm",
+            "Sat 10/10": "Closed",
+            "Sun 10/11": "Closed",
+            "Mon 10/12": "Closed",
+            "Tue 10/13": "Closed",
+            "Wed 10/14": "11am-7pm",
+            "Thu 10/15": "11am-7pm",
+            "Fri 10/16": "11am-7pm",
+            "Sat 10/17": "11am-3pm",
+            "Sun 10/18": "Closed"
           }
         }
       },
@@ -690,13 +725,20 @@
         "name": "Qdoba",
         "schedule": {
           "hours": {
-            "Mon": "11am-8pm",
-            "Tue": "11am-8pm",
-            "Wed": "11am-8pm",
-            "Thu": "11am-8pm",
-            "Fri": "11am-8pm",
-            "Sat": "11am-4pm",
-            "Sun": "Closed"
+            "Mon 10/5": "11am-8pm",
+            "Tue 10/6": "11am-8pm",
+            "Wed 10/7": "11am-8pm",
+            "Thu 10/8": "11am-8pm",
+            "Fri 10/9": "11am-8pm",
+            "Sat 10/10": "11am-4pm",
+            "Sun 10/11": "Closed",
+            "Mon 10/12": "Closed",
+            "Tue 10/13": "11am-4pm",
+            "Wed 10/14": "11am-8pm",
+            "Thu 10/15": "11am-8pm",
+            "Fri 10/16": "11am-8pm",
+            "Sat 10/17": "11am-7pm",
+            "Sun 10/18": "Closed"
           }
         }
       },
@@ -704,13 +746,20 @@
         "name": "Union Pizza",
         "schedule": {
           "hours": {
-            "Mon": "11am-7pm",
-            "Tue": "11am-7pm",
-            "Wed": "11am-7pm",
-            "Thu": "11am-7pm",
-            "Fri": "11am-7pm",
-            "Sat": "Closed",
-            "Sun": "Closed"
+            "Mon 10/5": "11am-7pm",
+            "Tue 10/6": "11am-7pm",
+            "Wed 10/7": "11am-7pm",
+            "Thu 10/8": "11am-7pm",
+            "Fri 10/9": "11am-7pm",
+            "Sat 10/10": "Closed",
+            "Sun 10/11": "Closed",
+            "Mon 10/12": "Closed",
+            "Tue 10/13": "Closed",
+            "Wed 10/14": "11am-7pm",
+            "Thu 10/15": "11am-7pm",
+            "Fri 10/16": "11am-7pm",
+            "Sat 10/17": "11am-3pm",
+            "Sun 10/18": "Closed"
           }
         }
       }

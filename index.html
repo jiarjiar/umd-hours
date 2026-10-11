@@ -285,17 +285,64 @@ function renderCafes(cf) {
   el.innerHTML = html;
 }
 
-// ─── Stamp ───
+// ─── Stamp: two-week view ───
 function renderStamp(st) {
   const el = document.getElementById('stamp-content');
   if (!st) { el.innerHTML = ''; return; }
   el.innerHTML = `<div class="card"><h2>🏛️ Stamp 学生中心 · Stamp Dining</h2>
-    <div class="week-label">📅 ${st.week_of || ''}</div>
-    ${st.venues?.map(v => `
-      <div class="venue"><h3>${v.name}</h3>
-        ${renderSchedule({ '营业 Hours': v.schedule?.hours || v.schedule?.[''] || v.schedule })}
-      </div>`).join('')}
+    <div class="week-label">📅 两周营业时间 · ${st.week_of || ''}（14 天）</div>
+    ${st.venues?.map(v => renderStampVenue(v)).join('')}
+  </div>`;
+}
+
+function renderStampVenue(v) {
+  const sched = v.schedule?.hours || v.schedule?.[''] || v.schedule || {};
+  const keys = Object.keys(sched).sort((a, b) => dayKeySort(a) - dayKeySort(b));
+  if (!keys.length) return `<div class="venue dining-venue"><h3>${v.name}</h3><p class="muted">暂无数据</p></div>`;
+
+  const now = new Date();
+  const todayVal = (now.getMonth() + 1) * 100 + now.getDate();
+  const dateVal = k => { const m = k.match(/(\d{1,2})\/(\d{1,2})/); return m ? +m[1] * 100 + +m[2] : 0; };
+
+  const week1 = keys.slice(0, 7);
+  const week2 = keys.slice(7, 14);
+
+  const weekTable = (ks, label) => {
+    if (!ks.length) return '';
+    const rows = ks.map(k => {
+      const [dayEn, dateStr] = k.split(' ');
+      const val = sched[k];
+      const closed = !val || val.toLowerCase() === 'closed';
+      const hasDate = !!dateStr;
+      const isToday = hasDate && dateVal(k) === todayVal;
+      const isPast = hasDate && dateVal(k) < todayVal;
+      const cls = [isToday ? 'today' : '', isPast ? 'past' : ''].join(' ');
+      // 过去的日期不标红绿，只灰显原始值
+      const cellCls = isPast ? '' : (closed ? 'td-closed' : 'td-open');
+      const cellTxt = isPast ? (closed ? 'Closed' : val) : (closed ? '❌ 关闭' : '✅ ' + val);
+      return `<tr class="${cls}">
+        <td class="facility-name">${DAY_CN[dayEn] || dayEn} <span class="date-sub">${dateStr || ''}${isToday ? ' · 今天' : ''}</span></td>
+        <td class="${cellCls}">${cellTxt}</td>
+      </tr>`;
+    }).join('');
+    const start = ks[0]?.split(' ')[1] || '';
+    const end = ks[ks.length - 1]?.split(' ')[1] || '';
+    const range = (start && end) ? ` · ${start} ~ ${end}` : '';
+    return `<div class="week-block">
+      <div class="week-label">${label}${range}</div>
+      <div class="table-wrapper"><table class="hours-table dining-table">
+        <thead><tr><th>日期 Day</th><th>🕐 营业时间 Hours</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table></div>
     </div>`;
+  };
+
+  return `<div class="venue dining-venue"><h3>${v.name}</h3>
+    <div class="two-week">
+      ${weekTable(week1, '📅 本周 This Week')}
+      ${weekTable(week2, '📅 下周 Next Week')}
+    </div>
+  </div>`;
 }
 
 // ─── Shared schedule renderer ───
