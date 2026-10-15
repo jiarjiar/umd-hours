@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-14T18:14:15.687815",
-  "generated_at_readable": "2026-10-14 18:14:15 ",
+  "generated_at": "2026-10-15T06:47:27.964473",
+  "generated_at_readable": "2026-10-15 06:47:27 ",
   "week_dates": [
     {
       "date": "2026-10-12",
@@ -33,11 +33,8 @@
   ],
   "natatorium": {
     "source": "https://recwell.umd.edu/facility-alerts",
-    "last_updated": "2026-10-14T18:14:15.917157",
-    "alerts": [
-      "RecWell facilities have reduced hours of operation Friday, October 9, through Tuesday, October 13. Please see below for specific facilities and hours of operation. Regular semester hours of operation resume on Wednesday, October 14.",
-      "For current hours of operation for all our facilities and spaces, please visit ourToday's Facility Hourspage."
-    ],
+    "last_updated": "2026-10-15T06:47:28.162434",
+    "alerts": [],
     "tables": [
       {
         "headers": [
@@ -265,12 +262,15 @@
       }
     ],
     "regular_hours_note": "常规时间 Regular: Natatorium 6am-8pm · Outdoor Aquatic Center 10am-8pm",
-    "expired_alerts": []
+    "expired_alerts": [
+      "RecWell facilities have reduced hours of operation Friday, October 9, through Tuesday, October 13. Please see below for specific facilities and hours of operation. Regular semester hours of operation resume on Wednesday, October 14.",
+      "For current hours of operation for all our facilities and spaces, please visit ourToday's Facility Hourspage."
+    ]
   },
   "dining_halls": {
     "source": "UMD Dining Halls",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
-    "last_updated": "2026-10-14T18:14:16.598452",
+    "last_updated": "2026-10-15T06:47:28.795382",
     "week_of": "10/12 - 10/25",
     "venues": [
       {
@@ -437,7 +437,7 @@
   "cafes": {
     "source": "UMD Cafes",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
-    "last_updated": "2026-10-14T18:14:17.462953",
+    "last_updated": "2026-10-15T06:47:29.348019",
     "week_of": "10/12 - 10/18",
     "venues": [
       {
@@ -613,7 +613,7 @@
   "stamp": {
     "source": "UMD Stamp Dining",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=57096019",
-    "last_updated": "2026-10-14T18:14:18.162255",
+    "last_updated": "2026-10-15T06:47:29.793399",
     "week_of": "10/12 - 10/25",
     "venues": [
       {
