@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-20T06:55:58.706207",
-  "generated_at_readable": "2026-10-20 06:55:58 ",
+  "generated_at": "2026-10-20T18:12:34.779873",
+  "generated_at_readable": "2026-10-20 18:12:34 ",
   "week_dates": [
     {
       "date": "2026-10-19",
@@ -33,134 +33,9 @@
   ],
   "natatorium": {
     "source": "https://recwell.umd.edu/facility-alerts",
-    "last_updated": "2026-10-20T06:55:59.082018",
+    "last_updated": "2026-10-20T18:12:34.993205",
     "alerts": [],
-    "tables": [
-      {
-        "headers": [
-          "Facility",
-          "October 9",
-          "October 10",
-          "October 11",
-          "October 12",
-          "October 13"
-        ],
-        "rows": [
-          {
-            "facility": "Eppley Recreation Center",
-            "October 9": "6am to 10pm",
-            "October 10": "8am to 10pm",
-            "October 11": "10am to 10pm",
-            "October 12": "10am to 10pm",
-            "October 13": "10am to midnight"
-          },
-          {
-            "facility": "Natatorium",
-            "October 9": "6am to 9:30pm",
-            "October 10": "8am to 9pm",
-            "October 11": "10am to 9pm",
-            "October 12": "10am to 9:30pm",
-            "October 13": "10am to 10pm"
-          },
-          {
-            "facility": "Ritchie Coliseum",
-            "October 9": "6am to 10pm",
-            "October 10": "8am to 10pm",
-            "October 11": "10am to 10pm",
-            "October 12": "10am to 10pm",
-            "October 13": "10am to midnight"
-          },
-          {
-            "facility": "Reckord Armory",
-            "October 9": "3pm to 10pm",
-            "October 10": "closed",
-            "October 11": "closed",
-            "October 12": "closed",
-            "October 13": "3pm to midnight"
-          },
-          {
-            "facility": "Outdoor Aquatic Center",
-            "October 9": "11am to 6pm",
-            "October 10": "11am to 6pm",
-            "October 11": "closed",
-            "October 12": "closed",
-            "October 13": "closed"
-          },
-          {
-            "facility": "Bouldering Zone (Eppley Recreation Center)",
-            "October 9": "2pm to 10pm",
-            "October 10": "2pm to 10pm",
-            "October 11": "2pm to 10pm",
-            "October 12": "2pm to 10pm",
-            "October 13": "2pm to 10pm"
-          },
-          {
-            "facility": "Adventure Rental Desk",
-            "October 9": "2pm to 6pm",
-            "October 10": "closed",
-            "October 11": "closed",
-            "October 12": "closed",
-            "October 13": "closed"
-          },
-          {
-            "facility": "Climbing Wall",
-            "October 9": "2pm to 6pm",
-            "October 10": "closed",
-            "October 11": "closed",
-            "October 12": "closed",
-            "October 13": "closed"
-          },
-          {
-            "facility": "Bike Shop (Cole Student Activities Building)",
-            "October 9": "12pm to 6pm",
-            "October 10": "closed",
-            "October 11": "closed",
-            "October 12": "closed",
-            "October 13": "closed"
-          },
-          {
-            "facility": "School of Public Health Fitness Center (0101)",
-            "October 9": "6am to 10pm",
-            "October 10": "closed",
-            "October 11": "closed",
-            "October 12": "closed",
-            "October 13": "10am to 10pm"
-          },
-          {
-            "facility": "School of Public Health Weight Room (0103)",
-            "October 9": "5:30pm to 10pm",
-            "October 10": "closed",
-            "October 11": "closed",
-            "October 12": "closed",
-            "October 13": "closed"
-          },
-          {
-            "facility": "School of Public Health Gym (2101) Volleyball Informal Rec",
-            "October 9": "4pm to 7pm",
-            "October 10": "closed",
-            "October 11": "closed",
-            "October 12": "closed",
-            "October 13": "closed"
-          },
-          {
-            "facility": "Terps Esports Center",
-            "October 9": "2pm to 10pm",
-            "October 10": "2pm to 10pm",
-            "October 11": "2pm to 10pm",
-            "October 12": "2pm to 10pm",
-            "October 13": "2pm to midnight"
-          },
-          {
-            "facility": "Severn Building Fitness Center",
-            "October 9": "11am to 1:30pm & 2pm to 6pm",
-            "October 10": "closed",
-            "October 11": "closed",
-            "October 12": "closed",
-            "October 13": "11am to 1:30pm & 2pm to 6pm"
-          }
-        ]
-      }
-    ],
+    "tables": [],
     "weekly_hours": [
       {
         "date": "2026-10-19",
@@ -262,15 +137,12 @@
       }
     ],
     "regular_hours_note": "常规时间 Regular: Natatorium 6am-8pm · Outdoor Aquatic Center 10am-8pm",
-    "expired_alerts": [
-      "RecWell facilities have reduced hours of operation Friday, October 9, through Tuesday, October 13. Please see below for specific facilities and hours of operation. Regular semester hours of operation resume on Wednesday, October 14.",
-      "For current hours of operation for all our facilities and spaces, please visit ourToday's Facility Hourspage."
-    ]
+    "expired_alerts": []
   },
   "dining_halls": {
     "source": "UMD Dining Halls",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
-    "last_updated": "2026-10-20T06:56:00.137921",
+    "last_updated": "2026-10-20T18:12:36.034836",
     "week_of": "10/19 - 11/1",
     "venues": [
       {
@@ -437,7 +309,7 @@
   "cafes": {
     "source": "UMD Cafes",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
-    "last_updated": "2026-10-20T06:56:00.797323",
+    "last_updated": "2026-10-20T18:12:36.887627",
     "week_of": "10/19 - 10/25",
     "venues": [
       {
@@ -613,7 +485,7 @@
   "stamp": {
     "source": "UMD Stamp Dining",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=57096019",
-    "last_updated": "2026-10-20T06:56:01.464360",
+    "last_updated": "2026-10-20T18:12:37.676581",
     "week_of": "10/19 - 11/1",
     "venues": [
       {
