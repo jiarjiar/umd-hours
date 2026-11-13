@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T08:56:04.078996",
-  "generated_at_readable": "2026-11-13 08:56:04 ",
+  "generated_at": "2026-11-13T20:42:46.894392",
+  "generated_at_readable": "2026-11-13 20:42:46 ",
   "week_dates": [
     {
       "date": "2026-11-09",
@@ -33,116 +33,16 @@
   ],
   "natatorium": {
     "source": "https://recwell.umd.edu/facility-alerts",
-    "last_updated": "2026-11-13T08:56:04.209029",
+    "last_updated": "2026-11-13T20:42:47.091466",
     "alerts": [],
     "tables": [],
-    "weekly_hours": [
-      {
-        "date": "2026-11-09",
-        "day": "Mon",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-11-10",
-        "day": "Tue",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-11-11",
-        "day": "Wed",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-11-12",
-        "day": "Thu",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-11-13",
-        "day": "Fri",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-11-14",
-        "day": "Sat",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-11-15",
-        "day": "Sun",
-        "week_number": 1,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-11-16",
-        "day": "Mon",
-        "week_number": 2,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-11-17",
-        "day": "Tue",
-        "week_number": 2,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-11-18",
-        "day": "Wed",
-        "week_number": 2,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-11-19",
-        "day": "Thu",
-        "week_number": 2,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-11-20",
-        "day": "Fri",
-        "week_number": 2,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-11-21",
-        "day": "Sat",
-        "week_number": 2,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      },
-      {
-        "date": "2026-11-22",
-        "day": "Sun",
-        "week_number": 2,
-        "natatorium": "6am-8pm",
-        "outdoor_aquatic": "10am-8pm"
-      }
-    ],
-    "regular_hours_note": "常规时间 Regular: Natatorium 6am-8pm · Outdoor Aquatic Center 10am-8pm",
-    "expired_alerts": []
+    "weekly_hours": null,
+    "error": "Natatorium accordion item not found"
   },
   "dining_halls": {
     "source": "UMD Dining Halls",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
-    "last_updated": "2026-11-13T08:56:05.398536",
+    "last_updated": "2026-11-13T20:42:47.917845",
     "week_of": "11/9 - 11/22",
     "venues": [
       {
@@ -309,7 +209,7 @@
   "cafes": {
     "source": "UMD Cafes",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
-    "last_updated": "2026-11-13T08:56:06.041571",
+    "last_updated": "2026-11-13T20:42:48.661094",
     "week_of": "11/9 - 11/15",
     "venues": [
       {
@@ -485,7 +385,7 @@
   "stamp": {
     "source": "UMD Stamp Dining",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=57096019",
-    "last_updated": "2026-11-13T08:56:06.773399",
+    "last_updated": "2026-11-13T20:42:49.432419",
     "week_of": "11/9 - 11/22",
     "venues": [
       {
