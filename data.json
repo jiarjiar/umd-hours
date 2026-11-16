@@ -1,39 +1,39 @@
 {
-  "generated_at": "2026-11-15T19:30:20.652941",
-  "generated_at_readable": "2026-11-15 19:30:20 ",
+  "generated_at": "2026-11-16T08:50:04.156562",
+  "generated_at_readable": "2026-11-16 08:50:04 ",
   "week_dates": [
     {
-      "date": "2026-11-09",
+      "date": "2026-11-16",
       "day": "Mon"
     },
     {
-      "date": "2026-11-10",
+      "date": "2026-11-17",
       "day": "Tue"
     },
     {
-      "date": "2026-11-11",
+      "date": "2026-11-18",
       "day": "Wed"
     },
     {
-      "date": "2026-11-12",
+      "date": "2026-11-19",
       "day": "Thu"
     },
     {
-      "date": "2026-11-13",
+      "date": "2026-11-20",
       "day": "Fri"
     },
     {
-      "date": "2026-11-14",
+      "date": "2026-11-21",
       "day": "Sat"
     },
     {
-      "date": "2026-11-15",
+      "date": "2026-11-22",
       "day": "Sun"
     }
   ],
   "natatorium": {
     "source": "https://recwell.umd.edu/facility-alerts",
-    "last_updated": "2026-11-15T19:30:20.826414",
+    "last_updated": "2026-11-16T08:50:04.407537",
     "alerts": [],
     "tables": [],
     "weekly_hours": null,
@@ -42,59 +42,59 @@
   "dining_halls": {
     "source": "UMD Dining Halls",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
-    "last_updated": "2026-11-15T19:30:21.465298",
-    "week_of": "11/9 - 11/22",
+    "last_updated": "2026-11-16T08:50:05.498668",
+    "week_of": "11/16 - 11/29",
     "venues": [
       {
         "name": "Yahentamitsi",
         "schedule": {
           "Breakfast": {
-            "Mon 11/9": "7am-10:30am",
-            "Tue 11/10": "7am-10:30am",
-            "Wed 11/11": "7am-10:30am",
-            "Thu 11/12": "7am-10:30am",
-            "Fri 11/13": "7am-10:30am",
-            "Sat 11/14": "10am-10:30am",
-            "Sun 11/15": "10am-10:30am",
             "Mon 11/16": "7am-10:30am",
             "Tue 11/17": "7am-10:30am",
             "Wed 11/18": "7am-10:30am",
             "Thu 11/19": "7am-10:30am",
             "Fri 11/20": "7am-10:30am",
             "Sat 11/21": "10am-10:30am",
-            "Sun 11/22": "10am-10:30am"
+            "Sun 11/22": "10am-10:30am",
+            "Mon 11/23": "7am-10:30am",
+            "Tue 11/24": "7am-10:30am",
+            "Wed 11/25": "Closed",
+            "Thu 11/26": "Closed",
+            "Fri 11/27": "Closed",
+            "Sat 11/28": "Closed",
+            "Sun 11/29": "Closed"
           },
           "Lunch": {
-            "Mon 11/9": "10:30am-4pm",
-            "Tue 11/10": "10:30am-4pm",
-            "Wed 11/11": "10:30am-4pm",
-            "Thu 11/12": "10:30am-4pm",
-            "Fri 11/13": "10:30am-4pm",
-            "Sat 11/14": "10:30am-4pm",
-            "Sun 11/15": "10:30am-4pm",
             "Mon 11/16": "10:30am-4pm",
             "Tue 11/17": "10:30am-4pm",
             "Wed 11/18": "10:30am-4pm",
             "Thu 11/19": "10:30am-4pm",
             "Fri 11/20": "10:30am-4pm",
             "Sat 11/21": "10:30am-4pm",
-            "Sun 11/22": "10:30am-4pm"
+            "Sun 11/22": "10:30am-4pm",
+            "Mon 11/23": "10:30am-4pm",
+            "Tue 11/24": "10:30am-3pm",
+            "Wed 11/25": "Closed",
+            "Thu 11/26": "Closed",
+            "Fri 11/27": "Closed",
+            "Sat 11/28": "Closed",
+            "Sun 11/29": "Closed"
           },
           "Dinner": {
-            "Mon 11/9": "4pm-9pm",
-            "Tue 11/10": "4pm-9pm",
-            "Wed 11/11": "4pm-9pm",
-            "Thu 11/12": "4pm-9pm",
-            "Fri 11/13": "4pm-9pm",
-            "Sat 11/14": "4pm-9pm",
-            "Sun 11/15": "4pm-9pm",
             "Mon 11/16": "4pm-9pm",
             "Tue 11/17": "4pm-9pm",
             "Wed 11/18": "4pm-9pm",
             "Thu 11/19": "4pm-9pm",
             "Fri 11/20": "4pm-9pm",
             "Sat 11/21": "4pm-9pm",
-            "Sun 11/22": "4pm-9pm"
+            "Sun 11/22": "4pm-9pm",
+            "Mon 11/23": "4pm-9pm",
+            "Tue 11/24": "Closed",
+            "Wed 11/25": "Closed",
+            "Thu 11/26": "Closed",
+            "Fri 11/27": "Closed",
+            "Sat 11/28": "Closed",
+            "Sun 11/29": "4pm-9pm"
           }
         }
       },
@@ -102,52 +102,52 @@
         "name": "South Campus",
         "schedule": {
           "Breakfast": {
-            "Mon 11/9": "7am-10:30am",
-            "Tue 11/10": "7am-10:30am",
-            "Wed 11/11": "7am-10:30am",
-            "Thu 11/12": "7am-10:30am",
-            "Fri 11/13": "7am-10:30am",
-            "Sat 11/14": "10am-10:30am",
-            "Sun 11/15": "10am-10:30am",
             "Mon 11/16": "7am-10:30am",
             "Tue 11/17": "7am-10:30am",
             "Wed 11/18": "7am-10:30am",
             "Thu 11/19": "7am-10:30am",
             "Fri 11/20": "7am-10:30am",
             "Sat 11/21": "10am-10:30am",
-            "Sun 11/22": "10am-10:30am"
+            "Sun 11/22": "10am-10:30am",
+            "Mon 11/23": "7am-10:30am",
+            "Tue 11/24": "7am-10:30am",
+            "Wed 11/25": "Closed",
+            "Thu 11/26": "Closed",
+            "Fri 11/27": "Closed",
+            "Sat 11/28": "Closed",
+            "Sun 11/29": "Closed"
           },
           "Lunch": {
-            "Mon 11/9": "10:30am-4pm",
-            "Tue 11/10": "10:30am-4pm",
-            "Wed 11/11": "10:30am-4pm",
-            "Thu 11/12": "10:30am-4pm",
-            "Fri 11/13": "10:30am-4pm",
-            "Sat 11/14": "10:30am-4pm",
-            "Sun 11/15": "10:30am-4pm",
             "Mon 11/16": "10:30am-4pm",
             "Tue 11/17": "10:30am-4pm",
             "Wed 11/18": "10:30am-4pm",
             "Thu 11/19": "10:30am-4pm",
             "Fri 11/20": "10:30am-4pm",
             "Sat 11/21": "10:30am-4pm",
-            "Sun 11/22": "10:30am-4pm"
+            "Sun 11/22": "10:30am-4pm",
+            "Mon 11/23": "10:30am-4pm",
+            "Tue 11/24": "10:30am-3pm",
+            "Wed 11/25": "Closed",
+            "Thu 11/26": "Closed",
+            "Fri 11/27": "Closed",
+            "Sat 11/28": "Closed",
+            "Sun 11/29": "Closed"
           },
           "Dinner": {
-            "Mon 11/9": "4pm-9pm",
-            "Tue 11/10": "4pm-9pm",
-            "Wed 11/11": "4pm-9pm",
-            "Thu 11/12": "4pm-9pm",
-            "Fri 11/13": "4pm-9pm",
-            "Sat 11/14": "4pm-9pm",
-            "Sun 11/15": "4pm-9pm",
             "Mon 11/16": "4pm-9pm",
             "Tue 11/17": "4pm-9pm",
             "Wed 11/18": "4pm-9pm",
             "Thu 11/19": "4pm-9pm",
             "Fri 11/20": "4pm-9pm",
             "Sat 11/21": "4pm-9pm",
-            "Sun 11/22": "4pm-9pm"
+            "Sun 11/22": "4pm-9pm",
+            "Mon 11/23": "4pm-9pm",
+            "Tue 11/24": "Closed",
+            "Wed 11/25": "Closed",
+            "Thu 11/26": "Closed",
+            "Fri 11/27": "Closed",
+            "Sat 11/28": "Closed",
+            "Sun 11/29": "4pm-9pm"
           }
         }
       },
@@ -155,52 +155,52 @@
         "name": "251 North",
         "schedule": {
           "Breakfast": {
-            "Mon 11/9": "8am-10:30am",
-            "Tue 11/10": "8am-10:30am",
-            "Wed 11/11": "8am-10:30am",
-            "Thu 11/12": "8am-10:30am",
-            "Fri 11/13": "8am-10:30am",
-            "Sat 11/14": "8am-10:30am",
-            "Sun 11/15": "8am-10:30am",
             "Mon 11/16": "8am-10:30am",
             "Tue 11/17": "8am-10:30am",
             "Wed 11/18": "8am-10:30am",
             "Thu 11/19": "8am-10:30am",
             "Fri 11/20": "8am-10:30am",
             "Sat 11/21": "8am-10:30am",
-            "Sun 11/22": "8am-10:30am"
+            "Sun 11/22": "8am-10:30am",
+            "Mon 11/23": "8am-10:30am",
+            "Tue 11/24": "Closed",
+            "Wed 11/25": "Closed",
+            "Thu 11/26": "Closed",
+            "Fri 11/27": "Closed",
+            "Sat 11/28": "Closed",
+            "Sun 11/29": "Closed"
           },
           "Lunch": {
-            "Mon 11/9": "10:30am-4pm",
-            "Tue 11/10": "10:30am-4pm",
-            "Wed 11/11": "10:30am-4pm",
-            "Thu 11/12": "10:30am-4pm",
-            "Fri 11/13": "10:30am-4pm",
-            "Sat 11/14": "10:30am-4pm",
-            "Sun 11/15": "10:30am-4pm",
             "Mon 11/16": "10:30am-4pm",
             "Tue 11/17": "10:30am-4pm",
             "Wed 11/18": "10:30am-4pm",
             "Thu 11/19": "10:30am-4pm",
             "Fri 11/20": "10:30am-4pm",
             "Sat 11/21": "10:30am-4pm",
-            "Sun 11/22": "10:30am-4pm"
+            "Sun 11/22": "10:30am-4pm",
+            "Mon 11/23": "10:30am-4pm",
+            "Tue 11/24": "Closed",
+            "Wed 11/25": "Closed",
+            "Thu 11/26": "Closed",
+            "Fri 11/27": "Closed",
+            "Sat 11/28": "Closed",
+            "Sun 11/29": "Closed"
           },
           "Dinner": {
-            "Mon 11/9": "4pm-10pm",
-            "Tue 11/10": "4pm-10pm",
-            "Wed 11/11": "4pm-10pm",
-            "Thu 11/12": "4pm-10pm",
-            "Fri 11/13": "4pm-7pm",
-            "Sat 11/14": "4pm-7pm",
-            "Sun 11/15": "4pm-7pm",
             "Mon 11/16": "4pm-10pm",
             "Tue 11/17": "4pm-10pm",
             "Wed 11/18": "4pm-10pm",
             "Thu 11/19": "4pm-10pm",
             "Fri 11/20": "4pm-7pm",
             "Sat 11/21": "4pm-7pm",
-            "Sun 11/22": "4pm-7pm"
+            "Sun 11/22": "4pm-7pm",
+            "Mon 11/23": "4pm-10pm",
+            "Tue 11/24": "Closed",
+            "Wed 11/25": "Closed",
+            "Thu 11/26": "Closed",
+            "Fri 11/27": "Closed",
+            "Sat 11/28": "Closed",
+            "Sun 11/29": "4pm-9pm"
           }
         }
       }
@@ -209,8 +209,8 @@
   "cafes": {
     "source": "UMD Cafes",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
-    "last_updated": "2026-11-15T19:30:22.029728",
-    "week_of": "11/9 - 11/15",
+    "last_updated": "2026-11-16T08:50:06.006709",
+    "week_of": "11/16 - 11/22",
     "venues": [
       {
         "name": "Applause",
@@ -385,27 +385,27 @@
   "stamp": {
     "source": "UMD Stamp Dining",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=57096019",
-    "last_updated": "2026-11-15T19:30:22.637469",
-    "week_of": "11/9 - 11/22",
+    "last_updated": "2026-11-16T08:50:06.581076",
+    "week_of": "11/16 - 11/29",
     "venues": [
       {
         "name": "Chick-fil-A",
         "schedule": {
           "hours": {
-            "Mon 11/9": "8:30am-8:30pm",
-            "Tue 11/10": "8:30am-8:30pm",
-            "Wed 11/11": "8:30am-8:30pm",
-            "Thu 11/12": "8:30am-8:30pm",
-            "Fri 11/13": "8:30am-8:30pm",
-            "Sat 11/14": "8:30am-8:30pm",
-            "Sun 11/15": "Closed",
             "Mon 11/16": "8:30am-8:30pm",
             "Tue 11/17": "8:30am-8:30pm",
             "Wed 11/18": "8:30am-8:30pm",
             "Thu 11/19": "8:30am-8:30pm",
             "Fri 11/20": "8:30am-8:30pm",
             "Sat 11/21": "8:30am-8:30pm",
-            "Sun 11/22": "Closed"
+            "Sun 11/22": "Closed",
+            "Mon 11/23": "8:30am-8:30pm",
+            "Tue 11/24": "8:30am-8:30pm",
+            "Wed 11/25": "8:30am-3:30pm",
+            "Thu 11/26": "Closed",
+            "Fri 11/27": "Closed",
+            "Sat 11/28": "TBD",
+            "Sun 11/29": "Closed"
           }
         }
       },
@@ -413,20 +413,20 @@
         "name": "The Coffee Bar",
         "schedule": {
           "hours": {
-            "Mon 11/9": "8am-5pm",
-            "Tue 11/10": "8am-5pm",
-            "Wed 11/11": "8am-5pm",
-            "Thu 11/12": "8am-5pm",
-            "Fri 11/13": "8am-5pm",
-            "Sat 11/14": "9am-4pm",
-            "Sun 11/15": "Closed",
             "Mon 11/16": "8am-5pm",
             "Tue 11/17": "8am-5pm",
             "Wed 11/18": "8am-5pm",
             "Thu 11/19": "8am-5pm",
             "Fri 11/20": "8am-5pm",
             "Sat 11/21": "9am-4pm",
-            "Sun 11/22": "Closed"
+            "Sun 11/22": "Closed",
+            "Mon 11/23": "8am-5pm",
+            "Tue 11/24": "8am-3pm",
+            "Wed 11/25": "8am-3pm",
+            "Thu 11/26": "Closed",
+            "Fri 11/27": "Closed",
+            "Sat 11/28": "TBD",
+            "Sun 11/29": "Closed"
           }
         }
       },
@@ -434,20 +434,20 @@
         "name": "Maryland Dairy",
         "schedule": {
           "hours": {
-            "Mon 11/9": "12pm-6:30pm",
-            "Tue 11/10": "12pm-6:30pm",
-            "Wed 11/11": "12pm-6:30pm",
-            "Thu 11/12": "12pm-6:30pm",
-            "Fri 11/13": "12pm-6:30pm",
-            "Sat 11/14": "12pm-5pm",
-            "Sun 11/15": "12pm-4:30pm",
             "Mon 11/16": "12pm-6:30pm",
             "Tue 11/17": "12pm-6:30pm",
             "Wed 11/18": "12pm-6:30pm",
             "Thu 11/19": "12pm-6:30pm",
             "Fri 11/20": "12pm-6:30pm",
             "Sat 11/21": "12pm-5pm",
-            "Sun 11/22": "12pm-4:30pm"
+            "Sun 11/22": "12pm-4:30pm",
+            "Mon 11/23": "12pm-6:30pm",
+            "Tue 11/24": "Closed",
+            "Wed 11/25": "Closed",
+            "Thu 11/26": "Closed",
+            "Fri 11/27": "Closed",
+            "Sat 11/28": "TBD",
+            "Sun 11/29": "Closed"
           }
         }
       },
@@ -455,20 +455,20 @@
         "name": "Panera Bread",
         "schedule": {
           "hours": {
-            "Mon 11/9": "8:30am-7:30pm",
-            "Tue 11/10": "8:30am-7:30pm",
-            "Wed 11/11": "8:30am-7:30pm",
-            "Thu 11/12": "8:30am-7:30pm",
-            "Fri 11/13": "8:30am-7:30pm",
-            "Sat 11/14": "11:30am-4pm",
-            "Sun 11/15": "11am-7pm",
             "Mon 11/16": "8:30am-7:30pm",
             "Tue 11/17": "8:30am-7:30pm",
             "Wed 11/18": "8:30am-7:30pm",
             "Thu 11/19": "8:30am-7:30pm",
             "Fri 11/20": "8:30am-7:30pm",
             "Sat 11/21": "11:30am-4pm",
-            "Sun 11/22": "11am-7pm"
+            "Sun 11/22": "11am-7pm",
+            "Mon 11/23": "8:30am-7:30pm",
+            "Tue 11/24": "8:30am-4pm",
+            "Wed 11/25": "Closed",
+            "Thu 11/26": "Closed",
+            "Fri 11/27": "Closed",
+            "Sat 11/28": "Closed",
+            "Sun 11/29": "11am-7pm"
           }
         }
       },
@@ -476,20 +476,20 @@
         "name": "Subway",
         "schedule": {
           "hours": {
-            "Mon 11/9": "11am-7pm",
-            "Tue 11/10": "11am-7pm",
-            "Wed 11/11": "11am-7pm",
-            "Thu 11/12": "11am-7pm",
-            "Fri 11/13": "11am-7pm",
-            "Sat 11/14": "Closed",
-            "Sun 11/15": "Closed",
             "Mon 11/16": "11am-7pm",
             "Tue 11/17": "11am-7pm",
             "Wed 11/18": "11am-7pm",
             "Thu 11/19": "11am-7pm",
             "Fri 11/20": "11am-7pm",
             "Sat 11/21": "Closed",
-            "Sun 11/22": "Closed"
+            "Sun 11/22": "Closed",
+            "Mon 11/23": "11am-4pm",
+            "Tue 11/24": "Closed",
+            "Wed 11/25": "Closed",
+            "Thu 11/26": "Closed",
+            "Fri 11/27": "Closed",
+            "Sat 11/28": "Closed",
+            "Sun 11/29": "Closed"
           }
         }
       },
@@ -497,20 +497,20 @@
         "name": "Qdoba",
         "schedule": {
           "hours": {
-            "Mon 11/9": "11am-8pm",
-            "Tue 11/10": "11am-8pm",
-            "Wed 11/11": "11am-8pm",
-            "Thu 11/12": "11am-8pm",
-            "Fri 11/13": "11am-8pm",
-            "Sat 11/14": "11am-7pm",
-            "Sun 11/15": "Closed",
             "Mon 11/16": "11am-8pm",
             "Tue 11/17": "11am-8pm",
             "Wed 11/18": "11am-8pm",
             "Thu 11/19": "11am-8pm",
             "Fri 11/20": "11am-8pm",
             "Sat 11/21": "11am-7pm",
-            "Sun 11/22": "Closed"
+            "Sun 11/22": "Closed",
+            "Mon 11/23": "11am-8pm",
+            "Tue 11/24": "11am-7pm",
+            "Wed 11/25": "Closed",
+            "Thu 11/26": "Closed",
+            "Fri 11/27": "Closed",
+            "Sat 11/28": "TBD",
+            "Sun 11/29": "Closed"
           }
         }
       },
@@ -518,20 +518,20 @@
         "name": "Union Pizza",
         "schedule": {
           "hours": {
-            "Mon 11/9": "11am-7pm",
-            "Tue 11/10": "11am-7pm",
-            "Wed 11/11": "11am-7pm",
-            "Thu 11/12": "11am-7pm",
-            "Fri 11/13": "11am-7pm",
-            "Sat 11/14": "Closed",
-            "Sun 11/15": "Closed",
             "Mon 11/16": "11am-7pm",
             "Tue 11/17": "11am-7pm",
             "Wed 11/18": "11am-7pm",
             "Thu 11/19": "11am-7pm",
             "Fri 11/20": "11am-7pm",
             "Sat 11/21": "Closed",
-            "Sun 11/22": "Closed"
+            "Sun 11/22": "Closed",
+            "Mon 11/23": "11am-4pm",
+            "Tue 11/24": "Closed",
+            "Wed 11/25": "Closed",
+            "Thu 11/26": "Closed",
+            "Fri 11/27": "Closed",
+            "Sat 11/28": "Closed",
+            "Sun 11/29": "Closed"
           }
         }
       }
