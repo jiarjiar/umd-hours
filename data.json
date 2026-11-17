@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-17T09:56:37.310733",
-  "generated_at_readable": "2026-11-17 09:56:37 ",
+  "generated_at": "2026-11-17T21:58:06.553806",
+  "generated_at_readable": "2026-11-17 21:58:06 ",
   "week_dates": [
     {
       "date": "2026-11-16",
@@ -33,16 +33,264 @@
   ],
   "natatorium": {
     "source": "https://recwell.umd.edu/facility-alerts",
-    "last_updated": "2026-11-17T09:56:37.684085",
+    "last_updated": "2026-11-17T21:58:06.809441",
     "alerts": [],
-    "tables": [],
-    "weekly_hours": null,
-    "error": "Natatorium accordion item not found"
+    "tables": [
+      {
+        "headers": [
+          "Facility",
+          "November 22",
+          "November 23",
+          "November 24",
+          "November 25",
+          "November 26",
+          "November 27",
+          "November 28",
+          "November 29"
+        ],
+        "rows": [
+          {
+            "facility": "Eppley Recreation Center (ERC)",
+            "November 22": "10a-10p",
+            "November 23": "6a-10p",
+            "November 24": "6a-7p",
+            "November 25": "closed",
+            "November 26": "closed",
+            "November 27": "closed",
+            "November 28": "closed",
+            "November 29": "10a-12a"
+          },
+          {
+            "facility": "Natatorium (ERC)",
+            "November 22": "10a-9p",
+            "November 23": "6a-9p",
+            "November 24": "6a-6:30p",
+            "November 25": "closed",
+            "November 26": "closed",
+            "November 27": "closed",
+            "November 28": "closed",
+            "November 29": "10a-9p"
+          },
+          {
+            "facility": "Bouldering Zone (ERC)",
+            "November 22": "2p-10p",
+            "November 23": "2p-10p",
+            "November 24": "2p-7p",
+            "November 25": "closed",
+            "November 26": "closed",
+            "November 27": "closed",
+            "November 28": "closed",
+            "November 29": "2p-10p"
+          },
+          {
+            "facility": "Adventure Program Rental Desk (ERC)",
+            "November 22": "closed",
+            "November 23": "4p-6p",
+            "November 24": "4p-6p",
+            "November 25": "closed",
+            "November 26": "closed",
+            "November 27": "closed",
+            "November 28": "closed",
+            "November 29": "closed"
+          },
+          {
+            "facility": "Bike Shop (Cole Student Activities Building)",
+            "November 22": "closed",
+            "November 23": "12p-6p",
+            "November 24": "12p-6p",
+            "November 25": "closed",
+            "November 26": "closed",
+            "November 27": "closed",
+            "November 28": "closed",
+            "November 29": "closed"
+          },
+          {
+            "facility": "Reckord Armory",
+            "November 22": "closed",
+            "November 23": "closed",
+            "November 24": "closed",
+            "November 25": "closed",
+            "November 26": "closed",
+            "November 27": "closed",
+            "November 28": "closed",
+            "November 29": "closed"
+          },
+          {
+            "facility": "Ritchie Coliseum",
+            "November 22": "10a-8p",
+            "November 23": "6a-7p",
+            "November 24": "closed",
+            "November 25": "closed",
+            "November 26": "closed",
+            "November 27": "closed",
+            "November 28": "closed",
+            "November 29": "closed"
+          },
+          {
+            "facility": "School of Public Health Fitness Center",
+            "November 22": "closed",
+            "November 23": "6a-7p",
+            "November 24": "closed",
+            "November 25": "closed",
+            "November 26": "closed",
+            "November 27": "closed",
+            "November 28": "closed",
+            "November 29": "closed"
+          },
+          {
+            "facility": "School of Public Health Weight Room",
+            "November 22": "closed",
+            "November 23": "closed",
+            "November 24": "closed",
+            "November 25": "closed",
+            "November 26": "closed",
+            "November 27": "closed",
+            "November 28": "closed",
+            "November 29": "closed"
+          },
+          {
+            "facility": "School of Public Health Gym (Volleyball Open Rec)",
+            "November 22": "closed",
+            "November 23": "closed",
+            "November 24": "closed",
+            "November 25": "closed",
+            "November 26": "closed",
+            "November 27": "closed",
+            "November 28": "closed",
+            "November 29": "closed"
+          },
+          {
+            "facility": "Severn Building Fitness Center",
+            "November 22": "closed",
+            "November 23": "11a-1:30p & 2p-6p",
+            "November 24": "11a-1:30p & 2p-6p",
+            "November 25": "closed",
+            "November 26": "closed",
+            "November 27": "closed",
+            "November 28": "closed",
+            "November 29": "closed"
+          },
+          {
+            "facility": "Terps Esports Center",
+            "November 22": "2p-10p",
+            "November 23": "2p-10p",
+            "November 24": "2p-7p",
+            "November 25": "closed",
+            "November 26": "closed",
+            "November 27": "closed",
+            "November 28": "closed",
+            "November 29": "2p-12a"
+          }
+        ]
+      }
+    ],
+    "weekly_hours": [
+      {
+        "date": "2026-11-16",
+        "day": "Mon",
+        "week_number": 1,
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-11-17",
+        "day": "Tue",
+        "week_number": 1,
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-11-18",
+        "day": "Wed",
+        "week_number": 1,
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-11-19",
+        "day": "Thu",
+        "week_number": 1,
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-11-20",
+        "day": "Fri",
+        "week_number": 1,
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-11-21",
+        "day": "Sat",
+        "week_number": 1,
+        "natatorium": "6am-8pm",
+        "outdoor_aquatic": "10am-8pm"
+      },
+      {
+        "date": "2026-11-22",
+        "day": "Sun",
+        "week_number": 1,
+        "natatorium": "10a-9p",
+        "outdoor_aquatic": "2p-10p"
+      },
+      {
+        "date": "2026-11-23",
+        "day": "Mon",
+        "week_number": 2,
+        "natatorium": "6a-9p",
+        "outdoor_aquatic": "2p-10p"
+      },
+      {
+        "date": "2026-11-24",
+        "day": "Tue",
+        "week_number": 2,
+        "natatorium": "6a-6:30p",
+        "outdoor_aquatic": "2p-7p"
+      },
+      {
+        "date": "2026-11-25",
+        "day": "Wed",
+        "week_number": 2,
+        "natatorium": "closed",
+        "outdoor_aquatic": "closed"
+      },
+      {
+        "date": "2026-11-26",
+        "day": "Thu",
+        "week_number": 2,
+        "natatorium": "closed",
+        "outdoor_aquatic": "closed"
+      },
+      {
+        "date": "2026-11-27",
+        "day": "Fri",
+        "week_number": 2,
+        "natatorium": "closed",
+        "outdoor_aquatic": "closed"
+      },
+      {
+        "date": "2026-11-28",
+        "day": "Sat",
+        "week_number": 2,
+        "natatorium": "closed",
+        "outdoor_aquatic": "closed"
+      },
+      {
+        "date": "2026-11-29",
+        "day": "Sun",
+        "week_number": 2,
+        "natatorium": "10a-9p",
+        "outdoor_aquatic": "2p-12a"
+      }
+    ],
+    "regular_hours_note": "常规时间 Regular: Natatorium 6am-8pm · Outdoor Aquatic Center 10am-8pm",
+    "expired_alerts": []
   },
   "dining_halls": {
     "source": "UMD Dining Halls",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=479022338",
-    "last_updated": "2026-11-17T09:56:38.762866",
+    "last_updated": "2026-11-17T21:58:07.474113",
     "week_of": "11/16 - 11/29",
     "venues": [
       {
@@ -209,7 +457,7 @@
   "cafes": {
     "source": "UMD Cafes",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=2021515491",
-    "last_updated": "2026-11-17T09:56:39.605182",
+    "last_updated": "2026-11-17T21:58:08.159508",
     "week_of": "11/16 - 11/22",
     "venues": [
       {
@@ -385,7 +633,7 @@
   "stamp": {
     "source": "UMD Stamp Dining",
     "url": "https://docs.google.com/spreadsheets/d/1vdWskGO2-aJfKLSW8-3zMaj_nx4SBJHF3OvMEy4-ZNo/gviz/tq?gid=57096019",
-    "last_updated": "2026-11-17T09:56:40.300187",
+    "last_updated": "2026-11-17T21:58:08.852566",
     "week_of": "11/16 - 11/29",
     "venues": [
       {
@@ -401,10 +649,10 @@
             "Sun 11/22": "Closed",
             "Mon 11/23": "8:30am-8:30pm",
             "Tue 11/24": "8:30am-8:30pm",
-            "Wed 11/25": "8:30am-3:30pm",
+            "Wed 11/25": "Closed",
             "Thu 11/26": "Closed",
             "Fri 11/27": "Closed",
-            "Sat 11/28": "TBD",
+            "Sat 11/28": "12:30pm-7:30pm",
             "Sun 11/29": "Closed"
           }
         }
@@ -422,10 +670,10 @@
             "Sun 11/22": "Closed",
             "Mon 11/23": "8am-5pm",
             "Tue 11/24": "8am-3pm",
-            "Wed 11/25": "8am-3pm",
+            "Wed 11/25": "Closed",
             "Thu 11/26": "Closed",
             "Fri 11/27": "Closed",
-            "Sat 11/28": "TBD",
+            "Sat 11/28": "12:30pm-4pm",
             "Sun 11/29": "Closed"
           }
         }
@@ -446,7 +694,7 @@
             "Wed 11/25": "Closed",
             "Thu 11/26": "Closed",
             "Fri 11/27": "Closed",
-            "Sat 11/28": "TBD",
+            "Sat 11/28": "12:30pm-6:30pm",
             "Sun 11/29": "Closed"
           }
         }
@@ -509,7 +757,7 @@
             "Wed 11/25": "Closed",
             "Thu 11/26": "Closed",
             "Fri 11/27": "Closed",
-            "Sat 11/28": "TBD",
+            "Sat 11/28": "12:30pm-7:30pm",
             "Sun 11/29": "Closed"
           }
         }
